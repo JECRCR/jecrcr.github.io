@@ -43,44 +43,6 @@ renApp.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
             templateUrl: 'assets/partials/partial-explore.html'
         })
         // Routes from explore
-        .state('coupons', {
-            url: '/ebay',
-            title: 'Free Ebay Coupons',
-            templateUrl: 'assets/partials/partial-ebay.html',
-            controller: function($scope,$state){
-              $(document).ready(function(){
-               $("body").on('submit','.ebay-form',function(e){
-                   e.preventDefault();
-                   var name = $('.ebay-form input[name=name]').val();
-                   var email = $('.ebay-form input[name=email]').val();
-                   $.post('ebay-register.php',{name: name, email: email},function(data){
-                       $("#restricted").html('<h4>'+data+'</h4>');
-                   });
-               });
-              });
-              function fbLike() {
-                var res = "<div>"+
-                "<form class='ebay-form contact-form' id='contact-form' on>"+
-                  "<input type='text' name='name' placeholder='Enter name' />"+
-                  "<input type='text' name='email' placeholder='Enter email' />"+
-                 "<input type='submit' value='Submit' />"
-                "</form></div>";
-                $("#restricted").html(res);
-              }
-              window.fbAsyncInit = function() {
-                FB.init({ status : true, cookie : true, xfbml  : true });
-                FB.Event.subscribe('edge.create', function(response) { fbLike(); });
-              };
-
-              (function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                js.src = "//connect.facebook.net/en_US/all.js";
-                fjs.parentNode.insertBefore(js, fjs);
-              }(document, 'script', 'facebook-jssdk'));
-            }
-        })
         .state('about', {
             url: '/about',
             title: 'About Us',
@@ -101,7 +63,7 @@ renApp.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
                     '1': [{n:'Akshara Parnami',m:'aksharaparnami1995@gmail.com',img:'akshara.jpg',p:'+91-8824301223'},
                           {n:'Anish Jain',m:'anishjain99@gmail.com',img:'anish.jpg',p:'+91-9782606370'}],
                     '2': [{n: 'Lokesh Devnani',m:'contact@lokeshd.com',img:'lokesh.jpg',p:'+91-8946936804',site:'www.lokeshd.com'},
-                          {'n': 'Udit Vasu',m:'uditvasu.cse17@jecrc.ac.in',img:'udit.jpg',p:'+91-9928599390',site: 'www.uditvasu.net'}
+                          {'n': 'Udit Vasu',m:'uditvasu.cse17@jecrc.ac.in',img:'udit.jpg',p:'',site: 'www.uditvasu.net'}
                         ],
                     '3': [{n: 'Rajdeep Gautam', m: 'i@rajdeepgautam.com',img:'rajdeep.jpg',site:'www.rajdeepgautam.com'},
                           {n: 'Raghav Pareek', m: 'designflames@gmail.com',img:'raghav.jpg'}
@@ -172,12 +134,6 @@ renApp.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
                     //$scope.navOpen();
                     ($rootScope.currentCategory==0) ? $state.go('explore') : ($state.go('events'));
                 }
-                var loaded= function(){
-                    if (sessionStorage.token) {
-                        $scope.isLoggedIn = true;
-                    }
-                };
-                $scope.$on('$viewContentLoaded', loaded);
             }
         })
         /* Event Routes */
@@ -270,9 +226,6 @@ renApp.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
                     $state.go('events.splash');
                 };
                 $scope.id = $stateParams.id;
-                if (sessionStorage.token) {
-                    $scope.loggedIn = 1;
-                }
             }
         })
         .state('events.endeavour.eventId',{
@@ -287,9 +240,6 @@ renApp.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
                     $state.go('events.endeavour');
                 };
                 $scope.id = $stateParams.id;
-                if (sessionStorage.token) {
-                    $scope.loggedIn = 1;
-                }
             }
         })
         .state('events.quanta.eventId',{
@@ -304,9 +254,6 @@ renApp.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
                     $state.go('events.quanta');
                 };
                 $scope.id = $stateParams.id;
-                if (sessionStorage.token) {
-                    $scope.loggedIn = 1;
-                }
             }
         })
         .state('events.alumni.eventId',{
@@ -321,9 +268,6 @@ renApp.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
                     $state.go('events.alumni');
                 };
                 $scope.id = $stateParams.id;
-                if (sessionStorage.token) {
-                    $scope.loggedIn = 1;
-                }
             }
         })
         ;
