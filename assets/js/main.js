@@ -15,7 +15,7 @@ function prefetchImages(sources,path){
     }
 };
 renApp.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
-    $locationProvider.html5Mode(true);
+    //$locationProvider.html5Mode(true);
     $urlRouterProvider.otherwise('/welcome');
 
     $stateProvider
