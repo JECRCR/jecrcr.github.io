@@ -1,65 +1,610 @@
-<html ng-app="renApp" lang='en'>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<meta name="viewport" content="width=device-width, initial-scale=0.8, minimum-scale=0.8, maximum-scale=0.8">
+            <link rel="stylesheet" type="text/css" href="component.css" />
+      <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="animation.css">
 
-<head>
-    <title>JECRC Renaissance 2016</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+ <script>
+var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+if(isFirefox)
+{alert("Please update Firefox or switch to Google chrome.");}
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+alert("Mobile view comming soon.");
+}
+</script>
 
-    <!-- Meta Tags -->
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport'/>
-    <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
-    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
-    <meta content='Jaipur, fest, tech, cultural' name='keywords'/>
-    <meta content='index, follow' name='robots'/>
-    <meta content='1 days' name='revisit-after'/>
-    <meta content='all' name='robots'/>
-    <meta content='all' name='googlebot'/>
-    <meta name="google-site-verification" content="IV2NsbcfZx__ZJv1feRvrsZ3e7mFfZkW8DAWtCW8Ez0" />
-    <meta content='Renaissance is a Techno-Cultural fest which provides a versatile platform for all the students to learn and explore the various dimensions of their personality.' name='description'/>
-    <!-- og Tags -->
-    <meta content='http://www.jecrcrenaissance.in/' property='og:url'/>
-    <meta content='Renaissance 16' property='og:site_name'/>
-    <meta content='website' property='og:type'/>
-    <meta property="og:image" content="http://www.jecrcrenaissance.in/assets/img/site/cover-pic.png"/>
-    <meta property="og:image:type" content="image/png"/>
-    <meta property="og:image:width" content="860"/>
-    <meta property="og:image:height" content="320"/>
-    <!-- Site -->
-    <link rel="image_src" type="image/jpeg" href="http://www.jecrcrenaissance.in/assets/img/site/logo.png" />
-    <link href='assets/img/site/favicon.ico' rel='icon' type='image/x-icon'/>
+<style>
+ .fadelogo1{
+ width:300px;
+ height:250px;
+ position:fixed;
+ top:-350px;
+ left:-900px;
+}
+ .fadelogo2{
+ position:fixed;
+ top:-350px;
+ left:350px;
+ width:500px;
+ height:125px;
+}
+.fadelogo3{
+ position:fixed;
+ top:-250px;
+ left:420px;
+ width:350px;
+ height:85px;
+}
+ .size_ribbon{
+ width:500px;
+ height:250px;
+ display:none;
+ margin-top:125%;
+ margin-left:-1.5%;
+}
+ @media only screen and (max-width:1340px){
+ .size_ribbon{
+ width:500px;
+ height:250px;
+ display:none;
+ margin-top:110%;
+ margin-left:-1.5%;
+}
+.fadelogo1{
+ width:300px;
+ height:250px;
+ position:fixed;
+ top:-350px;
+ left:-700px;
+}
+ .fadelogo2{
+ position:fixed;
+ top:-350px;
+ left:250px;
+ width:400px;
+ height:125px;
+}
+.fadelogo3{
+ position:fixed;
+ top:-270px;
+ left:300px;
+ width:300px;
+ height:65px;
+}
+}
+</style>
+	</head>
 
-    <meta content='en_US' property='og:locale'/>
-    <meta content='en_GB' property='og:locale:alternate'/>
-    <meta content='id_IN' property='og:locale:alternate'/>
+	<body>
+		<div class="plane_container">
+			<div class="plane" id="plane"></div>
+		</div>
+		<div class="hot_balloon_container">
+			<div class="hot_balloon" id="hot_balloon" ></div>
+		</div>
+		<div class="jumbotron">
+	   <img src="vectors ren 17/ribbon-01.png" id="ribbon" class="size_ribbon"/>
+	  </div>
+		<h1 class=" main-icons animated pulse"  id="splash" >Splash</h1>
+		<h1 class=" main-icons animated pulse"  id="about" >About</h1>
+		<h1 class=" main-icons animated pulse"  id="team" >Team</h1>
+		<h1 class=" main-icons animated pulse"  id="gallery" >Gallery</h1>
+		<h1 class=" main-icons animated pulse"  id="sponsors" >Sponsors</h1>
+		<h1 class=" main-icons animated pulse"  id="support" >Support</h1>
+		<h1 class=" main-icons animated pulse"  id="endeavour" >Endeavour</h1>
+		<h1 class=" main-icons animated pulse"  id="quanta" >Quanta</h1>
+		<h1 class=" main-icons animated pulse"  id="zarurat" >Zarurat</h1>
+		<h1 class=" main-icons animated pulse"  id="alumni" >Alumni</h1>
+		<h1 class=" main-icons animated pulse"  id="itnerary"   >Itnerary</h1>
+		<h1 class=" main-icons animated pulse"  id="tedx"   >Tedx JECRC</h1>
+		<h1 class=" main-icons animated pulse"  id="fb"    >Facebook</h1>
+		<h1 class=" main-icons animated pulse"  id="insta"   >Instagram</h1>
+		<h1 class=" main-icons animated pulse"  id="twitter"   >Twitter</h1>
+		<h1 class=" main-icons animated pulse"  id="youtube"   >Youtube</h1>
+  <div class="jumbotron">
 
-    <!-- <base href="/"></base> -->
-
-    <link href='assets/css/bootstrap.min.css' rel='stylesheet' />
-    <link href='assets/css/style.min.css' rel='stylesheet' />
-
-    <link href='https://fonts.googleapis.com/css?family=Satisfy|Roboto:400,300,700' rel='stylesheet' type='text/css'/>
-
-    <script src="assets/js/angular.min.js" type='text/javascript'></script>
-    <script src="assets/js/angular-animate.min.js" type='text/javascript'></script>
-    <script src="assets/js/angular-ui-router.min.js" type='text/javascript'></script>
-    <script src="assets/js/main.js" type='text/javascript'></script>
-</head>
-
-<body ng-controller="mainController">
-    <div class="page {{ ngclass }}" ui-view></div>
-
-  
+	  <img src="vectors ren 17/final poster ren 17-03.png" class="log"  id="logoim">
+ </div>
+		<div class="jumbotron">
+	  <img class=" logoi" src="vectors ren 17/final poster ren 17-13.png" id="logoi">
+ </div>
 
 
-    <script src='assets/js/jquery-1.11.2.min.js' type='text/javascript'></script>
-    <script src='assets/js/bootstrap.min.js' type='text/javascript'></script>
-    <script src='assets/js/script.js' type='text/javascript'></script>
-    <script src='assets/js/simple-lightbox.min.js' type='text/javascript'></script>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-40024831-9', 'auto');
-    </script>
+	<div class="jumbotron">
+	  <img class="fadelogo1" src="vectors ren 17/final poster ren 17-07.png" id="maze20">
+ </div>
+
+	<div class="jumbotron">
+	  <img class="fadelogo2" src="vectors ren 17/final poster ren 17-03.png" id="maze21">
+ </div>
+
+	<div class="jumbotron">
+	  <img class="fadelogo3" src="vectors ren 17/final poster ren 17-13.png" id="maze22">
+ </div>
+
+
+  <div class="jumbotron">
+   <img src="bub.png" id="maze" width="750px" height="650px" class="animated zoomIn bub"   />
+  </div>
+
+  <div class="jumbotron">
+   <img src="vec.png" id="maze2" width="750px" height="650px"  class="animated rotateIn vec" />
+
+  </div>
+
+
+		   <div class="jumbotron">
+		    <img src="vectors ren 17/final poster ren 17-05.png" id="prize" class="animated infinite pulse prize" style="-webkit-animation-duration: 2s;
+					-moz-animation-duration: 2s;
+					-ms-animation-duration: 2s;
+				-webkit-animation-delay: 1s;"  />
+		   </div>
+
+			 <div class="jumbotron">
+			 <img src="vectors ren 17/final poster ren 17-12.png" id="prize1" class="animated infinite pulse prize1" style="-webkit-animation-duration: 2s;
+				 -moz-animation-duration: 2s;
+				 -ms-animation-duration: 2s;
+			 -webkit-animation-delay: 1s;"  />
+			</div>
+
+			<div class="jumbotron">
+			<img src="vectors ren 17/final poster ren 17-14.png" id="time" class="animated infinite pulse time"  />
+		 </div>
+
+		 <div class="jumbotron">
+		 <img src="vectors ren 17/final poster ren 17-07.png" id="jecrc" class="jecrc"  />
+		</div>
+
+	   <div class="jumbotron">
+	    <img src="vectors ren 17/final poster ren 17-04.png" id="explore" class="animated pulse explore" style="-webkit-animation-duration: 2s;
+				-moz-animation-duration: 2s;
+				-ms-animation-duration: 2s;
+			-webkit-animation-delay: 1s;"  />
+	   </div>
+
+<!--
+<div class="jumbotron">
+	<div class="hi-icon-wrap hi-icon-effect-4 hi-icon-effect-4b" >
+ <a href="#" class="hi-icon hi-icon-archive" id="maze3" >
+   <img src="vectors ren 17/final poster ren 17-17.png" id="maze3"  class="icon1 mico" onclick="toggleit"/></a>
+  </div>
+</div>
+-->
+
+<!--
+<div class="jumbotron">
+	 <a id='a' href='event/index.html#/events/zarurat'>
+ <img src="vectors ren 17/final poster ren 17-17.png" id="maze3"  class=" icon1 mico" />
+ </a>
+ </div>
+-->
+
+    <div class="jumbotron">
+			<a id='a' href='end.html'>
+   <img src="vectors ren 17/final poster ren 17-34.png" id="maze4" class=" icon2 mico"   />
+</a>
+
+  </div>
+  <div class="jumbotron">
+		<a id='a' href='coming.html'>
+   <img src="vectors ren 17/final poster ren 17-31.png" id="maze5" class=" icon3 mico"  />
+</a>
+
+  </div>
+  <div class="jumbotron">
+		<a href="coming.html">
+   <img src="vectors ren 17/final poster ren 17-21.png" id="maze6" class=" icon4 mico"  />
+    </a>
+  </div>
+
+   <div class="jumbotron">
+		 <a href="event/index.html#/gallery">
+   <img src="vectors ren 17/final poster ren 17-36.png" id="maze7"  class="icon5 mico"   />
+ </a>
+  </div>
+
+  <div class="jumbotron">
+		<a href="event/index.html#/about">
+   <img src="vectors ren 17/final poster ren 17-25.png" id="maze8" class=" icon6 mico"   />
+ </a>
+  </div>
+
+  <div class="jumbotron">
+		<a href="event/index.html#/support">
+   <img src="vectors ren 17/final poster ren 17-20.png" id="maze9"  class=" icon7 mico"  />
+ </a>
+  </div>
+
+  <div class="jumbotron">
+		<a href="event/index.html#/events/zarurat">
+   <img src="vectors ren 17/final poster ren 17-17.png" id="maze10"  class="icon8 mico"   />
+ </a>
+  </div>
+
+  <div class="jumbotron">
+		<a href="event/index.html#/team">
+   <img src="vectors ren 17/team-02.png" id="maze11"  class="icon9 mico"   />
+     </a>
+  </div>
+
+  <div class="jumbotron">
+		<a href="">
+   <img src="vectors ren 17/sponsor-02.png" id="maze12"  class="icon10 mico"   />
+ </a>
+  </div>
+
+  <div class="jumbotron">
+		<a href="https://www.facebook.com/jecrcrenaissance/">
+   <img src="vectors ren 17/social media-05.png" id="maze13"  class="icon11 mico"   />
+ </a>
+  </div>
+
+  <div class="jumbotron">
+		<a href="https://www.instagram.com/jecrcrenaissance/">
+   <img src="vectors ren 17/social media-06.png" id="maze14"  class="icon12 mico"   />
+ </a>
+  </div>
+
+  <div class="jumbotron">
+			<a href="https://www.youtube.com/playlist?list=PLysWb02uCSoP0aw_qkXlW1eqaZocn8Sml">
+   <img src="vectors ren 17/social media-07.png" id="maze15"  class="icon13 mico"   />
+ </a>
+  </div>
+
+  <div class="jumbotron">
+			<a href="https://twitter.com/renjecrc">
+   <img src="vectors ren 17/social media-04.png" id="maze16"  class="icon14 mico"   />
+ </a>
+  </div>
+
+
+  <div class="jumbotron">
+			<a href="">
+   <img src="vectors ren 17/itinerary-01.png" id="maze17"  class="icon15 mico"   />
+ </a>
+  </div>
+
+
+  <div class="jumbotron">
+			<a href="coming.html">
+   <img src="vectors ren 17/ted-27.png" id="maze18"  class="icon16 mico"   />
+ </a>
+  </div>
+
+
+  <div class="jumbotron">
+			<a href="event/index.html#/events/alumni">
+   <img src="vectors ren 17/alumni-01.png" id="maze19"  class="icon17 mico"   />
+ </a>
+  </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+function toggleit()
+{
+$("#maze").toggle();
+$("#maze2").toggle();
+$("#maze3").toggle();
+$("#maze4").toggle();
+$("#maze5").toggle();
+$("#maze6").toggle();
+$("#maze7").toggle();
+$("#maze8").toggle();
+$("#maze9").toggle();
+$("#maze10").toggle();
+$("#maze11").toggle();
+$("#maze12").toggle();
+$("#maze13").toggle();
+$("#maze14").toggle();
+$("#maze15").toggle();
+$("#maze16").toggle();
+$("#maze17").toggle();
+$("#maze18").toggle();
+$("#maze19").toggle();
+$("#maze20").toggle();
+$("#maze21").toggle();
+$("#maze22").toggle();
+}
+toggleit();
+$("#maze").click(function(){
+	$("#logoi").fadeTo(200,1);
+	$("#explore").fadeTo(200,1);
+//	$("#prize").fadeTo(200,1);
+	$("#jecrc").fadeTo(200,1);
+//	$("#time").fadeTo(200,1);
+//		$("#prize1").fadeTo(200,1);
+	$("#logoim").fadeTo(200,1);
+toggleit();
+    });
+		$(".mico").click(function(){
+			$("#logoi").fadeTo(200,1);
+				$("#explore").fadeTo(200,1);
+		//		$("#prize").fadeTo(200,1);
+		//			$("#prize1").fadeTo(200,1);
+				$("#jecrc").fadeTo(200,1);
+	//				$("#time").fadeTo(200,1);
+			$("#logoim").fadeTo(200,1);
+		toggleit();
+		    });
+		$("#maze2").click(function(){
+			$("#logoi").fadeTo(200,1);
+				$("#explore").fadeTo(200,1);
+	//			$("#prize").fadeTo(200,1);
+		//			$("#prize1").fadeTo(200,1);
+			$("#jecrc").fadeTo(200,1);
+				//	$("#time").fadeTo(200,1);
+			$("#logoim").fadeTo(200,1);
+       toggleit();
+		    });
+				$("#maze3").hover(function(){
+					      $("#ribbon").show();
+							 $("#zarurat").show();
+						 },function(){
+							       $("#ribbon").hide();
+									 $("#zarurat").hide();
+									 }
+					 );
+					 $("#maze4").hover(function(){
+						      $("#ribbon").show();
+									$("#endeavour").show();
+								},function(){
+									     $("#ribbon").hide();
+											$("#endeavour").hide();
+											}
+							);
+							$("#maze5").hover(function(){
+								  	$("#ribbon").show();
+										 $("#quanta").show();
+									 },function(){
+										  $("#ribbon").hide();
+												 $("#quanta").hide();
+												 }
+								 );
+								 $("#maze6").hover(function(){
+									 	$("#ribbon").show();
+												$("#splash").show();
+											},function(){
+														$("#splash").hide();
+														$("#ribbon").hide();
+														}
+										);
+										$("#maze7").hover(function(){
+											 $("#ribbon").show();
+													 $("#gallery").show();
+												 },function(){
+															 $("#gallery").hide();
+															 $("#ribbon").hide();
+															 }
+											 );
+											 $("#maze8").hover(function(){
+												 $("#ribbon").show();
+															$("#about").show();
+														},function(){
+																	$("#about").hide();
+																	$("#ribbon").hide();
+																	}
+													);
+													$("#maze9").hover(function(){
+														 $("#ribbon").show();
+																 $("#support").show();
+															 },function(){
+																		 $("#support").hide();
+																		 $("#ribbon").hide();
+																		 }
+														 );
+														 $("#maze10").hover(function(){
+															 	$("#ribbon").show();
+																		$("#zarurat").show();
+																	},function(){
+																				$("#zarurat").hide();
+																				$("#ribbon").hide();
+																				}
+																);
+																$("#maze11").hover(function(){
+																	    $("#ribbon").show();
+																		$("#team").show();
+																	},function(){
+																				$("#team").hide();
+																				$("#ribbon").hide();
+																				}
+																);
+																$("#maze12").hover(function(){
+																	    $("#ribbon").show();
+																		$("#sponsors").show();
+																	},function(){
+																				$("#sponsors").hide();
+																				$("#ribbon").hide();
+																				}
+																);
+																$("#maze13").hover(function(){
+																	    $("#ribbon").show();
+																		$("#fb").show();
+																	},function(){
+																				$("#fb").hide();
+																				$("#ribbon").hide();
+																				}
+																);
+																$("#maze14").hover(function(){
+																	    $("#ribbon").show();
+																		$("#insta").show();
+																	},function(){
+																				$("#insta").hide();
+																				$("#ribbon").hide();
+																				}
+																);
+																$("#maze15").hover(function(){
+																	    $("#ribbon").show();
+																		$("#youtube").show();
+																	},function(){
+																				$("#youtube").hide();
+																				$("#ribbon").hide();
+																				}
+																);
+																$("#maze16").hover(function(){
+																	  $("#ribbon").show();
+																		$("#twitter").show();
+																	},function(){
+																				$("#twitter").hide();
+																				$("#ribbon").hide();
+																				}
+																);
+																$("#maze17").hover(function(){
+																	  $("#ribbon").show();
+																		$("#itnerary").show();
+																	},function(){
+																				$("#itnerary").hide();
+																				$("#ribbon").hide();
+																				}
+																);
+																$("#maze18").hover(function(){
+																	  $("#ribbon").show();
+																		$("#tedx").show();
+																	},function(){
+																				$("#tedx").hide();
+																				$("#ribbon").hide();
+																				}
+																);
+																$("#maze19").hover(function(){
+																	  $("#ribbon").show();
+																		$("#alumni").show();
+																	},function(){
+																				$("#alumni").hide();
+																				$("#ribbon").hide();
+																				}
+																);
+</script>
+  <script src="js/renderers/Projector.js"></script>
+<script src="build/three.js"></script>
+<script src='rennai/threex.domevent.js'></script>
+<script src="js/renderers/CanvasRenderer.js"></script>
+<div class="duniya">
+	<script>
+	var camera, scene, renderer;
+	var geometry, material, mesh;
+		var texture_placeholder,
+				isUserInteracting = false,
+				onMouseDownMouseX = 0, onMouseDownMouseY = 0,
+				lon = 90, onMouseDownLon = 0,
+				lat = 0, onMouseDownLat = 0,
+				phi = 0, theta = 0,
+				target = new THREE.Vector3();
+	init();
+	animate();
+	function init() {
+	//initiating renderers earlier
+	renderer = new THREE.WebGLRenderer({ alpha: true });
+	renderer.setSize(window.innerWidth, window.innerHeight);
+	document.body.appendChild(renderer.domElement);
+	//initiating
+	    camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 10000);
+	    camera.position.z = 1000;
+	    scene = new THREE.Scene();
+	    geometry = new THREE.SphereGeometry( 200,200,200);
+			var texture = THREE.ImageUtils.loadTexture( 'duniya-01.jpg' );
+					texture.anisotropy = renderer.getMaxAnisotropy();
+					var material = new THREE.MeshBasicMaterial( { map: texture } );
+	    mesh3 = new THREE.Mesh(geometry, material);
+	    var domEvents	= new THREEx.DomEvents(camera, renderer.domElement);
+	//event
+	        mesh3.position.set(0,0,0);
+	  	domEvents.addEventListener(mesh3, 'mouseover', function(event){
+				$("body").css({cursor: 'pointer'})
+				console.log('you clicked on mesh 2', mesh)
+	  	}, false);
+			domEvents.addEventListener(mesh3, 'mouseout', function(event){
+				$("body").css({cursor: 'move'})
+				console.log('you clicked on mesh 2', mesh)
+	  	}, false);
+			domEvents.addEventListener(mesh3, 'click', function(event){
+				$("#logoi").fadeTo(1000,0);
+				$("#logoim").fadeTo(1000,0);
+				$("#explore").fadeTo(1000,0);
+				// $("#prize").fadeTo(1000,0);
+				// $("#prize1").fadeTo(1000,0);
+				$("#jecrc").fadeTo(1000,0);
+				// $("#time").fadeTo(1000,0);
+				$("#maze2").toggle();
+				$("#maze").toggle();
+				$("#maze3").toggle();
+				$("#maze4").toggle();
+				$("#maze5").toggle();
+				$("#maze6").toggle();
+				$("#maze7").toggle();
+				$("#maze8").toggle();
+				$("#maze9").toggle();
+				$("#maze10").toggle();
+				$("#maze11").toggle();
+				$("#maze12").toggle();
+				$("#maze13").toggle();
+				$("#maze14").toggle();
+				$("#maze15").toggle();
+				$("#maze16").toggle();
+				$("#maze17").toggle();
+				$("#maze18").toggle();
+				$("#maze19").toggle();
+				$("#maze20").toggle();
+				$("#maze21").toggle();
+				$("#maze22").toggle();
+				console.log('you clicked on mesh 2', mesh)
+			}, false);
+	//about
+	   scene.add(mesh3);
+		 /*
+	       mesh2 = new THREE.Mesh(geometry, material2);
+	   mesh2.position.set(-3,0.25,200.5);
+	   domEvents.addEventListener(mesh2, 'click', function(event){
+	     console.log('you clicked on mesh 2', mesh)
+	   }, false);
+	   scene.add(mesh2);
+		 //category 3 TODO  add other event type
+		 mesh4 = new THREE.Mesh(geometry, material);
+	mesh4.position.set(-400,10.2,-50.5);
+	domEvents.addEventListener(mesh4, 'click', function(event){
+	 console.log('you clicked on mesh 3', mesh)
+	}, false);
+	scene.add(mesh4);
+	//category 4 TODO  add other event type
+	mesh5 = new THREE.Mesh(geometry, material2);
+	mesh5.position.set(-3,0.25,-200.5);
+	domEvents.addEventListener(mesh5, 'click', function(event){
+	console.log('you clicked on mesh 4', mesh)
+	}, false);
+	scene.add(mesh5);
+	*/
+	//	document.addEventListener( 'mousedown', onDocumentMouseDown, false );
+		//			document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+		//			document.addEventListener( 'mouseup', onDocumentMouseUp, false );
+		//			document.addEventListener( 'wheel', onDocumentMouseWheel, false );
+					//document.addEventListener( 'touchstart', onDocumentTouchStart, false );
+					//document.addEventListener( 'touchmove', onDocumentTouchMove, false );
+					//
+					window.addEventListener( 'resize', onWindowResize, false );
+	}
+				function onWindowResize() {
+					camera.aspect = window.innerWidth / window.innerHeight;
+					camera.updateProjectionMatrix();
+					renderer.setSize( window.innerWidth, window.innerHeight );
+				}
+	function animate() {
+	    requestAnimationFrame(animate);
+	  //  mesh3.rotation.x += 0.01;  planets rotates along y axis....
+	    mesh3.rotation.y += 0.02;
+	    renderer.render(scene, camera);
+	//	update();
+	}
+	</script>
+</div>
+
+    <script src="js/jquery-1.11.2.min.js"></script>
+
+    <noscript>
+        <h1 class="no-script">We're sorry but our site <strong>requires</strong> JavaScript.</h1>
+    </noscript>
+
 </body>
 </html>
