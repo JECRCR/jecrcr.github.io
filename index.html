@@ -506,22 +506,31 @@ toggleit();
 	renderer.setSize(window.innerWidth, window.innerHeight);
 	document.body.appendChild(renderer.domElement);
 	//initiating
-	    camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 10000);
+	      camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 10000);
 	    camera.position.z = 1000;
+
 	    scene = new THREE.Scene();
+
 	    geometry = new THREE.SphereGeometry( 200,200,200);
 			var texture = THREE.ImageUtils.loadTexture( 'duniya-01.jpg' );
 					texture.anisotropy = renderer.getMaxAnisotropy();
 					var material = new THREE.MeshBasicMaterial( { map: texture } );
+
+
+
 	    mesh3 = new THREE.Mesh(geometry, material);
 	    var domEvents	= new THREEx.DomEvents(camera, renderer.domElement);
 	//event
 	        mesh3.position.set(0,0,0);
 	  	domEvents.addEventListener(mesh3, 'mouseover', function(event){
+
 				$("body").css({cursor: 'pointer'})
+       animate2();
 				console.log('you clicked on mesh 2', mesh)
 	  	}, false);
+
 			domEvents.addEventListener(mesh3, 'mouseout', function(event){
+        animate();
 				$("body").css({cursor: 'move'})
 				console.log('you clicked on mesh 2', mesh)
 	  	}, false);
@@ -529,6 +538,8 @@ toggleit();
 				$("#logoi").fadeTo(1000,0);
 				$("#logoim").fadeTo(1000,0);
 				$("#explore").fadeTo(1000,0);
+
+
 				// $("#prize").fadeTo(1000,0);
 				// $("#prize1").fadeTo(1000,0);
 				$("#jecrc").fadeTo(1000,0);
@@ -555,53 +566,90 @@ toggleit();
 				$("#maze20").toggle();
 				$("#maze21").toggle();
 				$("#maze22").toggle();
+
 				console.log('you clicked on mesh 2', mesh)
 			}, false);
+
 	//about
 	   scene.add(mesh3);
+
 		 /*
 	       mesh2 = new THREE.Mesh(geometry, material2);
 	   mesh2.position.set(-3,0.25,200.5);
 	   domEvents.addEventListener(mesh2, 'click', function(event){
 	     console.log('you clicked on mesh 2', mesh)
 	   }, false);
+
 	   scene.add(mesh2);
+
 		 //category 3 TODO  add other event type
 		 mesh4 = new THREE.Mesh(geometry, material);
 	mesh4.position.set(-400,10.2,-50.5);
 	domEvents.addEventListener(mesh4, 'click', function(event){
 	 console.log('you clicked on mesh 3', mesh)
 	}, false);
+
 	scene.add(mesh4);
+
 	//category 4 TODO  add other event type
 	mesh5 = new THREE.Mesh(geometry, material2);
 	mesh5.position.set(-3,0.25,-200.5);
 	domEvents.addEventListener(mesh5, 'click', function(event){
 	console.log('you clicked on mesh 4', mesh)
 	}, false);
+
 	scene.add(mesh5);
 	*/
+
+
 	//	document.addEventListener( 'mousedown', onDocumentMouseDown, false );
 		//			document.addEventListener( 'mousemove', onDocumentMouseMove, false );
 		//			document.addEventListener( 'mouseup', onDocumentMouseUp, false );
 		//			document.addEventListener( 'wheel', onDocumentMouseWheel, false );
+
 					//document.addEventListener( 'touchstart', onDocumentTouchStart, false );
 					//document.addEventListener( 'touchmove', onDocumentTouchMove, false );
+
 					//
+
 					window.addEventListener( 'resize', onWindowResize, false );
+
+
 	}
+
 				function onWindowResize() {
+
 					camera.aspect = window.innerWidth / window.innerHeight;
 					camera.updateProjectionMatrix();
+
 					renderer.setSize( window.innerWidth, window.innerHeight );
+
 				}
+
 	function animate() {
+
 	    requestAnimationFrame(animate);
+
 	  //  mesh3.rotation.x += 0.01;  planets rotates along y axis....
 	    mesh3.rotation.y += 0.02;
+
 	    renderer.render(scene, camera);
 	//	update();
+
 	}
+	function animate2()
+	 {
+
+			requestAnimationFrame(animate2);
+
+		//  mesh3.rotation.x += 0.01;  planets rotates along y axis....
+			mesh3.rotation.y -= 0.02;
+
+			renderer.render(scene, camera);
+	//	update();
+
+	}
+
 	</script>
 </div>
 
