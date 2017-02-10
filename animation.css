@@ -163,36 +163,56 @@ to {bottom: 100%;}
 
 @keyframes plane {
 
-from {top: 85%;
+0% {top: 85%;
 
   left:100%;
-
 }
 
-to {left: 70%;
-
-  top: -10%;
-
+35%
+{
+  top: 27%;
+  left:70%;
 }
+
+70%
+{
+  top:20%;
+  left:33%;
+}
+
+    100%
+    {
+      top:0%;
+      left:20%;
+    }
 
 }
 
 @-webkit-keyframes  plane {
+  0% {top: 85%;
 
-  from {top: 30%;
-
-    left:0%;
-
+    left:100%;
   }
 
-  to {left: 30%;
-
-    top: -10%;
-
+  35%
+  {
+    top: 27%;
+    left:70%;
   }
 
-}
+  70%
+  {
+    top:20%;
+    left:33%;
+  }
 
+      100%
+      {
+        top:0%;
+        left:20%;
+      }
+
+  }
 @keyframes hot_balloon {
 from {right: 100%;}
 to {right: -10%;}
