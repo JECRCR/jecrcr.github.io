@@ -1,0 +1,12 @@
+/*! http://responsiveslides.com v1.54 by @viljamis */
+/* line 3, ../sass/responsiveslides.scss */
+.rslides { position: absolute; list-style: none; overflow: hidden; width: 100%; height: 100%; padding: 0; margin: 0; top: 0; left: 0; z-index: -1; }
+
+/* line 16, ../sass/responsiveslides.scss */
+.rslides li { overflow: hidden; position: relative; width: 100%; height: 100%; left: 0; top: 0; }
+
+/* line 27, ../sass/responsiveslides.scss */
+.rslides li:first-child { position: relative; display: block; float: left; }
+
+/* line 33, ../sass/responsiveslides.scss */
+.rslides img { display: block; /* float: left; */ /* border: 0; */ /* vertical-align: middle; */ position: absolute; top: 0; left: 0; }

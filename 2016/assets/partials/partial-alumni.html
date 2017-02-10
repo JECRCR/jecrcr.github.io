@@ -1,0 +1,37 @@
+<div class="main-tabs">
+    <ul class="nav nav-tabs" role="tablist" >
+        <li role="presentation" class="active"><a data-target="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">About</a></li>
+        <li role="presentation"><a data-target="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Events</a></li>
+        <li role="presentation"><a data-target="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Contact</a></li>
+    </ul>
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade active in" id="tab1">
+            <div class="row">
+                <div>
+                    <p>Time and memories hold a very special relation, both grow in exact opposite directions. It always easy to drift away from people. But one who matters should always be held close.</p>
+                    <p>This time in Renaissance we have taken this initiative to recollect, share and make memories to create a strong alumni base with our alumni who have brought laurels to the foundation. Our alumni are the custodians of our heritage and off-course are the actual Heroes of the Renaissance.</p>
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="tab2">
+            <div class="row">
+                <div class="event-icon {{event.class}}" ng-repeat="event in events" >
+                    <img ng-click="openDetails(event.title)" ng-src="assets/img/logo/events/{{ event.thumbnail }}" alt="{{ event.name }}" />
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="tab3">
+            <div class="row">
+                <div>
+                    <p>For your queries regarding alumni events contact</p>
+                    <p>Anurag Mishra : 7728028818, 9982682451 <br/>
+                        Abhimanyu Kumar : 7221071046
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="fade-effect" ui-view></div>

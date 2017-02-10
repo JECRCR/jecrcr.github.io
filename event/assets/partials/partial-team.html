@@ -1,0 +1,44 @@
+<main class='horizontal-bars'>
+    <div class='bar bar-full'>
+        <div class='inner-bar'>
+            <div>
+                <h2>Our Team</h2>
+                <h3>Meet team renaissance</h3>
+            </div>
+        </div>
+        <div class='event-content'>
+            <div class="main-tabs">
+                <ul class="nav nav-tabs" role="tablist" >
+                    <li role="presentation" class="active"><a data-target="#tab0" aria-controls="tab0" role="tab" data-toggle="tab">Chief Coordinator</a></li>
+                    <li role="presentation"><a data-target="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Sponsorship</a></li>
+                    <li role="presentation"><a data-target="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Website</a></li>
+                    <li role="presentation"><a data-target="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Design</a></li>
+                    <li role="presentation"><a data-target="#tab4" aria-controls="tab4" role="tab" data-toggle="tab">Social Media</a></li>
+                    <li role="presentation"><a data-target="#tab5" aria-controls="tab5" role="tab" data-toggle="tab">Accomodation</a></li>
+                    <li role="presentation"><a data-target="#tab6" aria-controls="tab6" role="tab" data-toggle="tab">TEDx</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade text-center" ng-class="{'active in': $first}" id="tab{{$index}}" ng-repeat="members in memberCategories">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-4 member-container" ng-repeat="member in members">
+                                  <img src="assets/img/team/{{member.img}}" alt="{{ member.n }}" class="img-responsive" />
+                                    <h4>{{ member.n }}</h4>
+                                    <a href="mailto:{{ member.m }}"><img class="svg-img" src="assets/img/site/mail.svg" alt="mail"></a>
+                                    <a ng-hide="member.site == null" target="_blank" class="team-site" href="http://{{member.site}}"><img class="svg-img" src="assets/img/site/web.svg" alt="website"></a>
+                                    <em>{{ member.p }}</em>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<div class="navigation">
+  <a href="javascript:history.back()">
+  <div class="menu-icon" ><div class="menu-bars"></div></div>
+</a>
+    <div class="clearfix"></div>
+</div>

@@ -1,0 +1,109 @@
+/* Morph Shape */
+/* line 3, ../sass/components.scss */
+.morph-shape { position: fixed; width: 100%; height: 100%; top: 0; left: 0; }
+
+/* line 11, ../sass/components.scss */
+.morph-shape svg { position: absolute; margin: 0; pointer-events: none; }
+
+/* Stack */
+/* line 18, ../sass/components.scss */
+.stack { opacity: 0; width: 100vw; height: 100%; display: table; table-layout: fixed; text-align: center; -webkit-transition: opacity .3s ease-in-out; transition: opacity .3s ease-in-out; }
+/* line 29, ../sass/components.scss */
+.stack .stack-content { position: relative; /*overflow: hidden;*/ display: table-cell; padding: 31px 0 20px 0; vertical-align: middle; margin: 0 auto; }
+
+/* line 44, ../sass/components.scss */
+.stack.open { opacity: 1; }
+
+/* line 49, ../sass/components.scss */
+.stack ul { padding: 0; list-style: none; }
+
+/* line 54, ../sass/components.scss */
+ul.stack__images { position: relative; width: 250px; -webkit-perspective-origin: 223% 264%; -webkit-perspective: 1500px; perspective: 1500px; -webkit-perspective-origin: 223% 264%; perspective-origin: 223% 264%; float: left; margin-left: calc(50% - 125px); z-index: 2; }
+/* line 66, ../sass/components.scss */
+ul.stack__images > li { position: absolute; opacity: 0; -webkit-user-select: none; -moz-user-select: none; -o-user-select: none; -ms-user-select: none; user-select: none; }
+/* line 76, ../sass/components.scss */
+ul.stack__images > li:first-child { position: relative; }
+
+/* line 83, ../sass/components.scss */
+.stack__titles.nano { /*height: 100%;*/ }
+/* line 89, ../sass/components.scss */
+.stack__titles > li { position: absolute; top: 0; left: 0; opacity: 0; }
+
+/* line 97, ../sass/components.scss */
+.stack__images li { width: 100%; top: 0; z-index: 1; -webkit-transform: translate3d(0, 0, -180px); transform: translate3d(0, 0, -180px); -webkit-transform-style: preserve-3d; transform-style: preserve-3d; overflow: hidden; background: url("http://nujsoutlawed.in/img/app-bg.svg") 100% 100% no-repeat; }
+
+/* line 112, ../sass/components.scss */
+.stack__images li img { display: block; max-width: 100%; pointer-events: none; }
+
+/* line 118, ../sass/components.scss */
+.stack__images li:hover { cursor: pointer; }
+
+/* line 122, ../sass/components.scss */
+.stack__images li:active { cursor: -webkit-grabbing; cursor: grabbing; }
+
+/* line 127, ../sass/components.scss */
+.stack__images li.animate { -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+
+/* line 132, ../sass/components.scss */
+.stack__images li.move-back { -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.47, 1); /* older webkit */ -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.47, 1.515); transition-timing-function: cubic-bezier(0.175, 0.885, 0.47, 1.515); }
+
+/* line 138, ../sass/components.scss */
+.stack__next { border: none; background: none; display: block; padding: 0; overflow: hidden; width: 36px; height: 36px; margin: 10px auto 0; font-size: 30px; position: relative; cursor: pointer; color: #067ba7; }
+
+/* line 153, ../sass/components.scss */
+.demo-2 .stack__next { color: #189824; }
+
+/* line 157, ../sass/components.scss */
+.stack__next:hover { color: #fff; }
+
+/* line 161, ../sass/components.scss */
+.stack__next:focus { outline: none; }
+
+/* line 165, ../sass/components.scss */
+.stack__next span { position: absolute; top: 200%; }
+
+/* line 170, ../sass/components.scss */
+ul.stack__titles { width: 38%; max-width: 410px; position: absolute; left: 50%; margin-left: 90px; z-index: 0; }
+/* line 178, ../sass/components.scss */
+ul.stack__titles.nano { height: calc(100% - 110px); }
+
+/* line 185, ../sass/components.scss */
+.stack__titles blockquote { margin: 0; text-align: center; font-size: 1.4em; }
+
+/* line 191, ../sass/components.scss */
+.stack__titles blockquote footer { font-size: 50%; padding-bottom: 1em; font-family: 'Montserrat', Arial, sans-serif; }
+
+/* line 197, ../sass/components.scss */
+.stack__titles li { height: 0; top: 47px; left: 50px; pointer-events: none; -webkit-transition: opacity 0.45s ease; transition: opacity 0.45s ease; padding: 47px 10px 0 50px; overflow: hidden; }
+
+/* line 208, ../sass/components.scss */
+.stack__titles li.current { height: auto; /*  top: 0; left: 0; */ position: relative; opacity: 1; pointer-events: auto; }
+
+/* Animations */
+/* line 218, ../sass/components.scss */
+.morph-shape svg { fill: #01AEF0; -webkit-transition: fill 0.1s ease-out; transition: fill 0.1s ease-out; }
+
+/* line 224, ../sass/components.scss */
+.navigate-next .morph-shape svg { fill: #01a0dc; -webkit-transition-duration: 0.45s; transition-duration: 0.45s; }
+
+/* line 230, ../sass/components.scss */
+.container { -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.6, 0, 0.5, 1); transition: transform 0.1s cubic-bezier(0.6, 0, 0.5, 1); }
+
+/* line 235, ../sass/components.scss */
+.demo-1.navigate-next .container { -webkit-transition-duration: 0.45s; transition-duration: 0.45s; -webkit-transform: translate3d(0, 0, -600px); transform: translate3d(0, 0, -600px); }
+
+/* line 242, ../sass/components.scss */
+.demo-2.navigate-next .container { -webkit-transition-duration: 0.45s; transition-duration: 0.45s; -webkit-transform: rotate3d(-0.5, 0, 1, -6deg) translate3d(0, 0, -600px); transform: rotate3d(-0.5, 0, 1, -6deg) translate3d(0, 0, -600px); }
+
+/* line 249, ../sass/components.scss */
+.demo-2 .morph-shape svg { fill: #A2CD72; }
+
+/* line 253, ../sass/components.scss */
+.demo-2.navigate-next .morph-shape svg { fill: #95C264; }
+
+@media screen and (max-width: 1170px) { /* line 259, ../sass/components.scss */
+  ul.stack__titles { width: 38%; left: 47%; } }
+@media screen and (max-width: 991px) { /* line 266, ../sass/components.scss */
+  ul.stack__images { margin-left: calc(4%); }
+  /* line 271, ../sass/components.scss */
+  ul.stack__titles { left: 17%; width: 440px; } }

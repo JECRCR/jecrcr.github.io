@@ -1,0 +1,147 @@
+body,html {
+  margin: 0px !important;
+  padding: 0px !important;
+  overflow-y: none;
+}
+
+/*Background Image URl*/
+
+body {
+
+
+  background: url('https://media.giphy.com/media/TZf4ZyXb0lXXi/giphy.gif');
+  background-size: cover;
+}
+
+.main_body{
+  height: 100%;
+  overflow: hidden;
+}
+.ren_bottom_container{
+  position: absolute;
+  bottom: 20px;
+}
+@font-face {
+    font-family: handycheera;
+    src: url(../fonts/handy_cheera.woff);
+}
+
+
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -3820px 0;}
+}
+
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -3820px 0;}
+}
+
+a {
+  text-decoration: none !important;
+}
+.top_bar{
+  /*
+  background: #00E676;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  */
+  padding: 06px 20px;
+  height: 120px;
+
+}
+.back_icon{
+  float: left;
+  font-size: 30px;
+  color: #fff;
+  width: 69px;
+  margin-left: 30px;
+  margin-top: 35px;
+  padding-top: 05px;
+}
+.top_text{
+  font-size: 29px;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+  margin-left: -10px;
+}
+
+.image-container{
+  border: 2px solid #fff;
+  padding: 0px !important;
+  min-height: 240px;
+  transition: all .2s ease-in-out;
+}
+.image-container:hover{
+  background-size: 110%;
+  cursor: pointer;
+  zoom: 1.1;
+  transform: scale(1.1);
+  z-index: 10;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.no_padding{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.container{
+  width: 80%;
+  margin: 0 10% !important;
+}
+.gallery_images{
+  margin: 40px 0 40px 0;
+}
+.popup{
+  display: none;
+  position: fixed;
+  z-index: 100;
+  background: rgba(47, 40, 56, 0.6);
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0
+}
+.hover_image{
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-width: 90% !important;
+
+}
+#close_popup{
+  color: white;
+  font-size: 25px;
+  top: 25px;
+  right: 30px;
+  position: absolute;
+}
+.top_text{
+  text-align: center;
+}
+
+.fa-next{
+
+}
+.prev{
+  color: white;
+  font-size: 30px;
+  top: 48%;
+  left: 40px;
+  position: absolute;
+  cursor: pointer;
+}
+.next{
+  color: white;
+  font-size: 30px;
+  top: 48%;
+  right: 40px;
+  position: absolute;
+  cursor: pointer;
+}

@@ -1,0 +1,714 @@
+<!-- Font Awsome Icon-->
+  <link href='assets/css/index.css' rel='stylesheet' />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<div class="container-fluid">
+      <div class="row">
+        <div class="center-block">
+          <div class="sponsors">
+            <div class="center_container_box">
+              <div class="college_logo"></div>
+              <div class="middle_text">&</div>
+              <div class="event_brand_partner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="center-block">
+          <div class="present_text">
+            <span>Presents</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="center-block">
+            <div class="renaissance_logo"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="center-block">
+
+
+     <!--
+     <div class="jumbotron">
+       <div class="hi-icon-wrap hi-icon-effect-4 hi-icon-effect-4b" >
+      <a href="#" class="hi-icon hi-icon-archive" id="maze3" >
+        <img src="vectors ren 17/final poster ren 17-17.png" id="maze3"  class="icon1 mico" onclick="toggleit"/></a>
+       </div>
+     </div>
+     -->
+
+     <div class="jumbotron">
+      <img src="vectors ren 17/final poster ren 17-17.png" id="maze3"  class=" icon1 mico" />
+      </div>
+         <div class="jumbotron">
+        <img src="vectors ren 17/final poster ren 17-34.png" id="maze4" class=" icon2 mico"   />
+
+       </div>
+       <div class="jumbotron">
+        <img src="vectors ren 17/final poster ren 17-31.png" id="maze5" class=" icon3 mico"  />
+
+       </div>
+       <div class="jumbotron">
+        <img src="vectors ren 17/final poster ren 17-21.png" id="maze6" class=" icon4 mico"  />
+
+       </div>
+
+        <div class="jumbotron">
+        <img src="vectors ren 17/final poster ren 17-36.png" id="maze7"  class="icon5 mico"   />
+
+       </div>
+
+       <div class="jumbotron">
+        <img src="vectors ren 17/final poster ren 17-25.png" id="maze8" class=" icon6 mico"   />
+
+       </div>
+
+       <div class="jumbotron">
+        <img src="vectors ren 17/final poster ren 17-20.png" id="maze9"  class=" icon7 mico"  />
+
+       </div>
+
+       <div class="jumbotron">
+        <img src="vectors ren 17/final poster ren 17-35.png" id="maze10"  class="icon8 mico"   />
+
+       </div>
+
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+     <script>
+
+     function toggleit()
+     {
+     $("#maze").toggle();
+     $("#maze2").toggle();
+     $("#maze3").toggle();
+     $("#maze4").toggle();
+     $("#maze5").toggle();
+     $("#maze6").toggle();
+     $("#maze7").toggle();
+     $("#maze8").toggle();
+     $("#maze9").toggle();
+     $("#maze10").toggle();
+     }
+     toggleit();
+     $("#maze").click(function(){
+       $("#logoi").fadeTo(200,1);
+       $("#explore").fadeTo(200,1);
+       $("#prize").fadeTo(200,1);
+         $("#prize1").fadeTo(200,1);
+       $("#logoim").fadeTo(200,1);
+     toggleit();
+         });
+         $(".mico").click(function(){
+           $("#logoi").fadeTo(200,1);
+             $("#explore").fadeTo(200,1);
+             $("#prize").fadeTo(200,1);
+               $("#prize1").fadeTo(200,1);
+           $("#logoim").fadeTo(200,1);
+         toggleit();
+             });
+
+
+         $("#maze2").click(function(){
+           $("#logoi").fadeTo(200,1);
+             $("#explore").fadeTo(200,1);
+             $("#prize").fadeTo(200,1);
+               $("#prize1").fadeTo(200,1);
+           $("#logoim").fadeTo(200,1);
+            toggleit();
+             });
+
+             $("#maze3").hover(function(){
+                    $("#splash").show();
+                  },function(){
+                        $("#splash").hide();
+                        }
+                );
+
+                $("#maze4").hover(function(){
+                       $("#about").show();
+                     },function(){
+                           $("#about").hide();
+                           }
+                   );
+
+                   $("#maze5").hover(function(){
+                          $("#team").show();
+                        },function(){
+                              $("#team").hide();
+                              }
+                      );
+
+                      $("#maze6").hover(function(){
+                             $("#gallery").show();
+                           },function(){
+                                 $("#gallery").hide();
+                                 }
+                         );
+
+                         $("#maze7").hover(function(){
+                                $("#support").show();
+                              },function(){
+                                    $("#support").hide();
+                                    }
+                            );
+
+                            $("#maze8").hover(function(){
+                                   $("#endeavour").show();
+                                 },function(){
+                                       $("#endeavour").hide();
+                                       }
+                               );
+
+                               $("#maze9").hover(function(){
+                                      $("#quanta").show();
+                                    },function(){
+                                          $("#quanta").hide();
+                                          }
+                                  );
+
+                                  $("#maze10").hover(function(){
+                                         $("#zarurat").show();
+                                       },function(){
+                                             $("#zarurat").hide();
+                                             }
+                                     );
+     </script>
+       <script src="js/renderers/Projector.js"></script>
+     <script src="build/three.js"></script>
+     <script src='rennai/threex.domevent.js'></script>
+     <script src="js/renderers/CanvasRenderer.js"></script>
+     <div class="duniya">
+       <script>
+
+
+       var camera, scene, renderer;
+       var geometry, material, mesh;
+         var texture_placeholder,
+             isUserInteracting = false,
+             onMouseDownMouseX = 0, onMouseDownMouseY = 0,
+             lon = 90, onMouseDownLon = 0,
+             lat = 0, onMouseDownLat = 0,
+             phi = 0, theta = 0,
+             target = new THREE.Vector3();
+
+       init();
+       animate();
+
+       function init() {
+
+       //initiating renderers earlier
+       renderer = new THREE.WebGLRenderer({ alpha: true });
+       renderer.setSize(window.innerWidth, window.innerHeight);
+       document.body.appendChild(renderer.domElement);
+       //initiating
+
+           camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 10000);
+           camera.position.z = 1000;
+
+           scene = new THREE.Scene();
+
+           geometry = new THREE.SphereGeometry( 250,250,250);
+           var texture = THREE.ImageUtils.loadTexture( 'duniya-01.jpg' );
+               texture.anisotropy = renderer.getMaxAnisotropy();
+               var material = new THREE.MeshBasicMaterial( { map: texture } );
+
+
+
+           mesh3 = new THREE.Mesh(geometry, material);
+           var domEvents	= new THREEx.DomEvents(camera, renderer.domElement);
+       //event
+               mesh3.position.set(0,0,0);
+           domEvents.addEventListener(mesh3, 'mouseover', function(event){
+
+             $("body").css({cursor: 'pointer'})
+
+             console.log('you clicked on mesh 2', mesh)
+           }, false);
+
+           domEvents.addEventListener(mesh3, 'mouseout', function(event){
+
+             $("body").css({cursor: 'move'})
+             console.log('you clicked on mesh 2', mesh)
+           }, false);
+           domEvents.addEventListener(mesh3, 'click', function(event){
+             $("#logoi").fadeTo(1000,0.1);
+             $("#logoim").fadeTo(1000,0.1);
+               $("#explore").fadeTo(1000,0.1);
+               $("#prize").fadeTo(1000,0.1);
+                 $("#prize1").fadeTo(1000,0.1);
+             $("#maze2").toggle();
+             $("#maze").toggle();
+             $("#maze3").toggle();
+             $("#maze4").toggle();
+             $("#maze5").toggle();
+             $("#maze6").toggle();
+             $("#maze7").toggle();
+             $("#maze8").toggle();
+             $("#maze9").toggle();
+             $("#maze10").toggle();
+
+             console.log('you clicked on mesh 2', mesh)
+           }, false);
+
+       //about
+          scene.add(mesh3);
+
+          /*
+              mesh2 = new THREE.Mesh(geometry, material2);
+          mesh2.position.set(-3,0.25,200.5);
+          domEvents.addEventListener(mesh2, 'click', function(event){
+            console.log('you clicked on mesh 2', mesh)
+          }, false);
+
+          scene.add(mesh2);
+
+          //category 3 TODO  add other event type
+          mesh4 = new THREE.Mesh(geometry, material);
+       mesh4.position.set(-400,10.2,-50.5);
+       domEvents.addEventListener(mesh4, 'click', function(event){
+        console.log('you clicked on mesh 3', mesh)
+       }, false);
+
+       scene.add(mesh4);
+
+       //category 4 TODO  add other event type
+       mesh5 = new THREE.Mesh(geometry, material2);
+       mesh5.position.set(-3,0.25,-200.5);
+       domEvents.addEventListener(mesh5, 'click', function(event){
+       console.log('you clicked on mesh 4', mesh)
+       }, false);
+
+       scene.add(mesh5);
+       */
+
+
+       //	document.addEventListener( 'mousedown', onDocumentMouseDown, false );
+         //			document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+         //			document.addEventListener( 'mouseup', onDocumentMouseUp, false );
+         //			document.addEventListener( 'wheel', onDocumentMouseWheel, false );
+
+               //document.addEventListener( 'touchstart', onDocumentTouchStart, false );
+               //document.addEventListener( 'touchmove', onDocumentTouchMove, false );
+
+               //
+
+               window.addEventListener( 'resize', onWindowResize, false );
+
+
+       }
+
+             function onWindowResize() {
+
+               camera.aspect = window.innerWidth / window.innerHeight;
+               camera.updateProjectionMatrix();
+
+               renderer.setSize( window.innerWidth, window.innerHeight );
+
+             }
+
+       function animate() {
+
+           requestAnimationFrame(animate);
+
+         //  mesh3.rotation.x += 0.01;  planets rotates along y axis....
+           mesh3.rotation.y += 0.02;
+
+           renderer.render(scene, camera);
+       //	update();
+
+       }
+
+       </script>
+     </div>
+     <h1 class=" main-icons animated tada"  id="splash" style="display:none">Splash</h1>
+     <h1 class=" main-icons animated tada"  id="about" style="display:none">About</h1>
+     <h1 class=" main-icons animated tada"  id="team" style="display:none">Team</h1>
+     <h1 class=" main-icons animated tada"  id="gallery" style="display:none;left:46%;">Gallery</h1>
+     <h1 class=" main-icons animated tada"  id="sponsors" style="display:none;left:45%;">sponsors</h1>
+     <h1 class=" main-icons animated tada"  id="support" style="display:none;left:46.5%;">support</h1>
+     <h1 class=" main-icons animated tada"  id="endeavour" style="display:none;left:45%;">Endeavour</h1>
+     <h1 class=" main-icons animated tada"  id="quanta" style="display:none;left:46%;">Quanta</h1>
+     <h1 class=" main-icons animated tada"  id="zarurat" style="display:none;left:46%;">Zarurat</h1>
+     <h1 class=" main-icons animated tada"  id="alumni" style="display:none;left:46%;">Alumni</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="center-block">
+          <div class="renaissance_tagline">
+            <span>National Level Techno Cultural Fest</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="center-block">
+          <div class="renaissance_date">
+            <span>8<sup>th</sup> - 11<sup>th</sup> March 2017</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="center-block" class="explore-button"  class="explore-button" ui-sref="explore" href="#/home">
+          <div class="rotating_ren_earth">
+            <div class="menu_ren_play_button"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="center-block">
+          <div class="arrow">
+            <center>
+            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+          </center>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="center-block">
+          <div class="floating_banner"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid ren_bottom_container col">
+      <div class="row">
+      <div class="prize_bar col-lg-6">
+
+        <div class="prize_icon"></div>
+        <div class="prize_text">
+
+          <div class="prize_title">
+              Prizes Worth
+          </div>
+          <div class="prize_amount">
+            <center style="margin-top: -19px;"><span style="font-size:50px";>8</span> Lacs</center>
+          </div>
+
+        </div>
+      </div>
+      <div class="ren_social_buttons col-lg-6" style="float:right;">
+
+        <div class="ren_author_button ren_share_circle">
+          <i class="fa fa-gear" aria-hidden="true"></i>
+        </div>
+        <a href="https://twitter.com/renjecrc" target="_blank">
+          <div class="ren_twitter_button ren_share_circle">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/jecrcrenaissance/" target="_blank">
+          <div class="ren_instagram_button ren_share_circle">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </div>
+        </a>
+        <a href="https://www.facebook.com/jecrcrenaissance/" target="_blank">
+          <div class="ren_facebook_button ren_share_circle">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </div>
+      </a>
+
+      </div>
+    </div>
+    </div>
+
+    <div class="container-fluid ren_mobile_container col">
+      <div class="row">
+      <div class="prize_bar center-block">
+
+        <div class="prize_icon"></div>
+        <div class="prize_text">
+
+          <div class="prize_title">
+              Prizes Worth
+          </div>
+          <div class="prize_amount">
+            <center style="margin-top: -19px;"><span style="font-size:50px";>8</span> Lacs</center>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="ren_social_buttons center-block" >
+
+        <div class="ren_author_button ren_share_circle">
+          <i class="fa fa-gear" aria-hidden="true"></i>
+        </div>
+        <a href="https://twitter.com/renjecrc" target="_blank">
+          <div class="ren_twitter_button ren_share_circle">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/jecrcrenaissance/" target="_blank">
+          <div class="ren_instagram_button ren_share_circle">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </div>
+        </a>
+        <a href="https://www.facebook.com/jecrcrenaissance/" target="_blank">
+          <div class="ren_facebook_button ren_share_circle">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </div>
+      </a>
+      </div>
+    </div>
+    </div>
+    <link rel="stylesheet" type="text/css" href="component.css" />
+  <style>
+
+
+.jumbotron {
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%,-50%);
+border: 1px ;
+}
+
+
+.icon1{
+margin-left:-10%;
+margin-top:385%;
+width:70px;
+height:70px;
+
+
+}
+
+
+
+.icon2{
+
+margin-left:-240%;
+margin-top:-300%;
+width:70px;
+height:70px;
+}
+
+.icon3{
+
+margin-left:210%;
+margin-top:-110%;
+width:70px;
+height:70px;
+}
+
+.icon4{
+
+margin-left:255%;
+margin-top:-325%;
+width:70px;
+height:70px;
+}
+
+.icon5{
+
+margin-left:-330%;
+margin-top:-145%;
+width:70px;
+height:70px;
+}
+
+
+.icon6{
+
+margin-left:233%;
+margin-top:-200%;
+width:70px;
+height:70px;
+}
+
+
+.icon7{
+
+margin-left:240%;
+margin-top:525%;
+width:70px;
+height:70px;
+}
+
+
+.icon8{
+
+margin-left:133%;
+margin-top:500%;
+width:70px;
+height:70px;
+}
+
+.bub{
+margin-top:3%;
+}
+
+.vec{
+margin-top:3%;
+}
+
+
+
+@media only screen and (max-width:600px){
+
+.bub{
+width:300px;
+height:200px;
+
+}
+
+.vec{
+width:300px;
+height:200px;
+
+}
+
+
+.icon1{
+margin-left:-8%;
+margin-top:140%;
+width:70px;
+height:70px;
+
+
+}
+}
+
+
+@media only screen  and (max-height:400px){
+
+.bub{
+width:300px;
+height:200px;
+
+}
+
+.vec{
+width:300px;
+height:200px;
+
+}
+
+.icon1{
+margin-left:-8%;
+margin-top:280%;
+width:70px;
+height:70px;
+
+
+}
+
+
+
+}
+
+    body {
+
+      background-color: rgb(200,200,200);
+
+      margin: 0px;
+      overflow: hidden;
+      cursor:move;
+    }
+    @font-face
+    {
+    font-family: handycheera;
+    src: url(fonts/handy_cheera.woff);
+    }
+    #info
+    {
+      position: absolute;
+      top: 0px; width: 100%;
+      color: #ffffff;
+      padding: 5px;
+      font-family:Monospace;
+      font-size:13px;
+      font-weight: bold;
+      text-align:center;
+    }
+
+    a {
+      color: #ffffff;
+    }
+    .log
+    {	width:600px;
+      height:130px;
+      margin-left:10px;
+      margin-top:-300px;
+
+
+
+    }
+    .logoi
+    {	width:450px;
+      height:70px;
+      margin-left:10px;
+      margin-top:-210px;
+
+    }
+
+    #hedding
+    {
+    background: rgba(0,0,0,0.2);
+    text-align: center;
+    color:#fff;
+    font: 95px/1 "Impact";
+    text-transform: uppercase;
+    display: block;
+    text-shadow:#253e45 -1px 1px 0,
+    #253e45 -2px 2px 0,
+    #d45848 -3px 3px 0,
+    #d45848 -4px 4px 0;
+    margin: 5% auto 5%;
+    }
+
+    .main-icons
+          { font-family: handycheera;
+            position: absolute;
+            top: 45%;
+            left:47%;
+            transform: translate(-50%,-50%);
+            border: 1px ;
+            text-shadow:
+            0.025em 0.025em 0.025em rgba(0, 0, 0, 2),
+            0 0 0.5em rgba(255, 255, 255, 0.3);
+            color: white;
+         }
+
+    .mico:hover
+      {
+
+        transform: rotate(360deg);
+        transition: all 0.3s ease-in-out 0s;
+      }
+
+      .explore{
+        position:fixed;
+        left:-250px;
+        top:120px;
+width:500px;
+height:150px;
+
+      }
+
+
+              .prize{
+                position:fixed;
+                left:-650px;
+                top:70px;
+      width:200px;
+      height:200px;
+              }
+              .prize1{
+                position:fixed;
+                left:-530px;
+                top:100px;
+      width:200px;
+      height:150px;
+              }
+  .jumbotron{
+    background-color: rgba(255,255,255,0) !important;
+  }
+  </style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">

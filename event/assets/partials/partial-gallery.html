@@ -1,0 +1,63 @@
+<link rel="stylesheet" href="assets/css/simplelightbox.min.css" />
+<main class='horizontal-bars'>
+    <div class='bar bar-full'>
+        <div class='inner-bar'>
+            <div>
+                <h2>GALLERY</h2>
+                <h3>Take a glimpse at few of the renaissance moments</h3>
+            </div>
+        </div>
+        <div class='event-content container' style="margin-top: 5em; margin-bottom: 5em; top: auto; ">
+            <div class="gallery" style="margin-left:3vw;">
+                <a ng-repeat="image in images" my-post-repeat-directive="" href="assets/img/gallery/{{image}}" ng-class="{'big' : $index % 6 >=4 }" ><img src="assets/img/gallery/{{image}}" alt=""/></a>
+            </div>
+        </div>
+    </div>
+</main>
+<div class="navigation">
+  <a href="javascript:history.back()">
+  <div class="menu-icon" ><div class="menu-bars"></div></div>
+</a>
+    <div class="clearfix"></div>
+</div>
+<style>
+    .gallery{
+        padding-bottom: 3em;
+    }
+    .container .gallery a img {
+        float: left;
+        width: 20%;
+        width: 20vw;
+        height: 12vw;
+        border: 2px solid #fff;
+        -webkit-transition: -webkit-transform .15s ease;
+        -moz-transition: -moz-transform .15s ease;
+        -o-transition: -o-transform .15s ease;
+        -ms-transition: -ms-transform .15s ease;
+        transition: transform .15s ease;
+        position: relative;
+    }
+    /* line 46, ../sass/demo.scss */
+    .container .gallery a:hover img {
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        z-index: 5;
+    }
+    /* line 57, ../sass/demo.scss */
+    .container .gallery a.big img {
+        width: 40%;
+        width: 40vw;
+        height: 24vw;
+    }
+
+    .align-center {
+        text-align: center;
+    }
+    .sl-overlay{
+        background: #000;
+    }
+
+</style>

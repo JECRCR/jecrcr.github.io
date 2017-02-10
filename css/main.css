@@ -1,0 +1,4398 @@
+/*
+* Custom
+*/
+/* GENESIS Bootstrap Sass Theme Author: Mestafor Version: 0.0.1
+*/
+/* LAYOUTS - Page layout styles */
+/*
+[Layout]
+
+* body + Backgrounds / _background.scss + Preloader / _preload.scss + Navigation / _mainMenu.scss + Content / _page.scss + Section / .main_block  + Section / .about-app + Section / OWL CAROUSEL + Google map API / .map + Informatio about APP / .info-about-app + Fotorama / _fotoramaLayout.scss + devises width / _devWidth.scss + max devise width 991 + max devise width 767 + Scroll / _scrollStyler.scss
+*/
+/* line 21, ../sass/_partials/_layouts.scss */
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus,
+form input[type="button"]:focus,
+form input[type="email"]:focus {
+    outline: none;
+}
+/* line 28, ../sass/_partials/_layouts.scss */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+    z-index: 0;
+    background-color: #1f1f1f;
+}
+/* line 38, ../sass/_partials/_layouts.scss */
+
+noscript {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-color: #000;
+    z-index: 99999999;
+}
+/* line 52, ../sass/_partials/_layouts.scss */
+
+noscript h1.no-script {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    text-align: center;
+}
+/* NAVIGATION */
+/* line 2, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav {
+    position: fixed;
+    -webkit-transition: bottom 0.5s cubic-bezier(0.49, 0.79, 0.65, 1), opacity 1s 1.5s ease;
+    transition: bottom 0.5s cubic-bezier(0.49, 0.79, 0.65, 1), opacity 1s 1.5s ease;
+    opacity: 1;
+}
+/* line 10, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.invis {
+    opacity: 0;
+    -webkit-transition: opacity 0s ease;
+    transition: opacity 0s ease;
+}
+/* line 16, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed {
+    bottom: 0;
+    margin-bottom: 0;
+}
+/* line 22, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed .navbar_share-icons {
+    position: fixed;
+    top: 100%;
+    right: 0;
+    height: auto;
+    width: 100%;
+    -webkit-transform: translateY(150%);
+    -ms-transform: translateY(150%);
+    transform: translateY(150%);
+    -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.41, 0.8, 0.43, 1);
+    transition: transform 0.5s cubic-bezier(0.41, 0.8, 0.43, 1);
+}
+/* line 33, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed .navbar_share-icons > p,
+nav.collapsed .main_block_text .info .navbar_share-icons > address,
+.main_block_text .info nav.collapsed .navbar_share-icons > address {
+    width: 100%;
+    text-align: center;
+    right: auto;
+    bottom: 0;
+    padding-right: 0;
+}
+/* line 40, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed .navbar_share-icons > span {
+    width: 100%;
+    text-align: center;
+    right: auto;
+    bottom: 0;
+    padding-right: 0;
+}
+/* line 48, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed .navbar_share-icons .navbar_icons {
+    display: block;
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    right: 0;
+    height: auto;
+    white-space: normal;
+}
+/* line 58, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed .navbar_share-icons .navbar_icons > ul {
+    position: relative;
+    right: 0;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+/* line 71, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed .navbar_share-icons .navbar_icons > ul li {
+    float: none;
+    display: inline-block;
+}
+/* line 75, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed .navbar_share-icons .navbar_icons > ul li a {
+    padding: 10px 10px;
+}
+/* line 84, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed #navbar {
+    max-height: 62px;
+}
+/* line 88, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed #navbar .center-menu {
+    opacity: 0;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    position: fixed;
+    top: 150%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 100%);
+    -ms-transform: translate(-50%, 100%);
+    transform: translate(-50%, 100%);
+    -webkit-transition: top 1s cubic-bezier(0.49, 0.79, 0.65, 1);
+    transition: top 1s cubic-bezier(0.49, 0.79, 0.65, 1);
+}
+/* line 106, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed.open {
+    bottom: 100%;
+    margin-bottom: -62px;
+}
+/* line 111, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed.open .navbar_share-icons {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: -webkit-transform .5s .5s ease;
+    transition: transform .5s .5s ease;
+}
+/* line 119, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed.open .navbar_share-icons .navbar_icons > ul {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+/* line 127, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed.open .navbar_share-icons .navbar_show-icons,
+nav.collapsed.open .navbar_share-icons .fotorama--fullscreen .fotorama-info .fotorama_show-icons,
+.fotorama--fullscreen .fotorama-info nav.collapsed.open .navbar_share-icons .fotorama_show-icons {
+    display: none;
+    height: auto;
+}
+/* line 136, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed.open #navbar .center-menu {
+    position: fixed;
+    top: 50%;
+    opacity: 1;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+/* line 144, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed.open #navbar .center-menu li {
+    float: none;
+    text-align: center;
+}
+/* line 159, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed.open #navbar.small #all-pages {
+    text-align: center;
+}
+/* line 163, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed.open #navbar.small #all-pages > ul {
+    max-height: 40vh;
+    overflow: auto;
+}
+/* line 168, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed.open #navbar.small #all-pages > ul > li {
+    display: inline-block;
+}
+/* line 172, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed.open #navbar.small #all-pages > ul > li > a {
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+/* line 190, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed.open .navbar-toggle .icon-bar {
+    opacity: 0;
+}
+/* line 194, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed.open .navbar-toggle .icon-bar:first-child {
+    top: 9px;
+    opacity: 1;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/* line 201, ../sass/_partials/_layout/_mainMenu.scss */
+
+nav.collapsed.open .navbar-toggle .icon-bar:last-child {
+    top: -11px;
+    opacity: 1;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+/* line 218, ../sass/_partials/_layout/_mainMenu.scss */
+
+main {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 80px;
+    
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.35, 0.74, 0.41, 0.98);
+    transition: transform 0.8s cubic-bezier(0.35, 0.74, 0.41, 0.98);
+}
+/* line 228, ../sass/_partials/_layout/_mainMenu.scss */
+
+main.collapsedOpen {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: -webkit-transform 0.8s cubic-bezier(0, 0.47, 0, 0.98);
+    transition: transform 0.8s cubic-bezier(0, 0.47, 0, 0.98);
+}
+/* line 237, ../sass/_partials/_layout/_mainMenu.scss */
+
+.center-menu {
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+    display: table;
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.41, 0.8, 0.43, 1), opacity 0.2s cubic-bezier(0.41, 0.8, 0.43, 1);
+    transition: transform 0.2s cubic-bezier(0.41, 0.8, 0.43, 1), opacity 0.2s cubic-bezier(0.41, 0.8, 0.43, 1);
+    z-index: 2;
+}
+/* line 250, ../sass/_partials/_layout/_mainMenu.scss */
+
+.center-menu.iconOpen {
+    -webkit-transform: translate(-100%, 0);
+    -ms-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+    opacity: 0;
+}
+/* line 263, ../sass/_partials/_layout/_mainMenu.scss */
+
+.nav > li:before {
+    content: none;
+}
+/* line 268, ../sass/_partials/_layout/_mainMenu.scss */
+
+.nav > li.active > a {
+    color: #fff;
+}
+/* line 275, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar-header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+/* line 282, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_share-icons {
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+/* line 289, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_share-icons > p,
+.main_block_text .info .navbar_share-icons > address {
+    display: block \9;
+    position: absolute;
+    top: 0;
+    right: 64px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-right: 15px;
+    line-height: 0;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0;
+    margin: 0;
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transition: -webkit-transform .2s .2s ease;
+    transition: transform .2s .2s ease;
+}
+/* line 308, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_share-icons > p.open,
+.main_block_text .info .navbar_share-icons > address.open {
+    display: none \9;
+    -webkit-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+}
+/* line 318, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_share-icons > span {
+    display: inline-block;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-right: 15px;
+    line-height: 0;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0;
+    margin: 0;
+    float: left;
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transition: -webkit-transform .2s .2s ease;
+    transition: transform .2s .2s ease;
+}
+/* line 334, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_share-icons > span.open {
+    display: none \9;
+    -webkit-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+}
+/* line 347, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_share-icons a:after {
+    content: none;
+}
+/* line 353, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_icons {
+    height: 62px;
+    position: absolute;
+    /* float: left; */
+    
+    white-space: nowrap;
+    top: 0;
+    right: 68px;
+    overflow: hidden;
+}
+/* line 363, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_icons > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 62px;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: -webkit-transform .2s linear, opacity .2s ease;
+    transition: transform .2s linear, opacity .2s ease;
+    opacity: 0;
+    position: relative;
+    top: 0;
+}
+/* line 379, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_icons > ul.open {
+    display: block \9;
+    display: table;
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.13, 0.67, 0.16, 0.96), opacity 0.2s ease;
+    transition: transform 0.2s cubic-bezier(0.13, 0.67, 0.16, 0.96), opacity 0.2s ease;
+}
+/* line 391, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_icons > ul > li {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+/* line 398, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_icons > ul > li:before {
+    content: none;
+}
+/* line 402, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_icons > ul > li > a {
+    line-height: 0;
+    display: inline-block;
+    padding: 31px 11px;
+    font-size: 17px;
+}
+/* line 407, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_icons > ul > li > a .fa {
+    line-height: 0;
+}
+/* line 415, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_show-icons,
+.fotorama--fullscreen .fotorama-info .fotorama_show-icons {
+    display: inline-block;
+    height: 100%;
+    width: 50px;
+    margin: 0 16px 0 0px;
+    -webkit-transition: color .5s ease, opacity .5s ease;
+    transition: color .5s ease, opacity .5s ease;
+    font-size: 21px;
+    background: url("../img/share.svg") 50% 50% no-repeat;
+    background-size: 20px;
+    opacity: .5;
+}
+/* line 429, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_show-icons:hover,
+.fotorama--fullscreen .fotorama-info .fotorama_show-icons:hover {
+    color: #fff;
+    opacity: 1;
+}
+/* line 434, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_show-icons:focus,
+.fotorama--fullscreen .fotorama-info .fotorama_show-icons:focus {
+    outline: none;
+}
+/* line 438, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_show-icons.active,
+.fotorama--fullscreen .fotorama-info .active.fotorama_show-icons {
+    color: #fff;
+    opacity: 1;
+    outline: none;
+    -webkit-transition: none;
+    transition: none;
+}
+/* line 448, ../sass/_partials/_layout/_mainMenu.scss */
+
+.navbar_show-icons .fa,
+.fotorama--fullscreen .fotorama-info .fotorama_show-icons .fa {
+    position: absolute;
+    top: 51%;
+    left: 18px;
+}
+/* Pages */
+/* line 4, ../sass/_partials/_layout/_page.scss */
+
+.timer {
+    position: absolute;
+    top: 5.04%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 99999;
+    opacity: 1;
+    -webkit-transition: opacity 1s 1.5s ease;
+    transition: opacity 1s 1.5s ease;
+}
+/* line 17, ../sass/_partials/_layout/_page.scss */
+
+.timer.invis {
+    opacity: 0;
+    -webkit-transition: opacity 0s ease;
+    transition: opacity 0s ease;
+}
+/* SECTION main_block */
+/* line 24, ../sass/_partials/_layout/_page.scss */
+
+.main_block {
+    will-change: transform;
+    will-change: -webkit-transform;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transition: -webkit-transform 1s cubic-bezier(0.26, 0.65, 0.41, 1);
+    transition: transform 1s cubic-bezier(0.26, 0.65, 0.41, 1);
+    text-align: center;
+    padding: 101px 0 0 0;
+    z-index: 1;
+}
+/* line 42, ../sass/_partials/_layout/_page.scss */
+
+.main_block.typography {
+    text-align: left;
+}
+/* line 47, ../sass/_partials/_layout/_page.scss */
+
+.main_block.main-page {
+    padding: 140px 0 0 0;
+}
+/* line 51, ../sass/_partials/_layout/_page.scss */
+
+.main_block.main-page header > h1 {
+    letter-spacing: 16px;
+    color: #fff;
+}
+/* line 59, ../sass/_partials/_layout/_page.scss */
+
+.main_block.contacts {
+    padding: 111px 0 0 0;
+}
+/* line 64, ../sass/_partials/_layout/_page.scss */
+
+.main_block > header > h1 {
+    margin: 0 auto 21px;
+    letter-spacing: 8px;
+    color: #fff;
+    text-align: center;
+}
+/* line 73, ../sass/_partials/_layout/_page.scss */
+
+.main_block .subscribe {
+    position: relative;
+    height: 50px;
+    margin: 4px auto 0;
+    width: 204px;
+    border: 2px solid transparent;
+    will-change: width;
+    -webkit-transition: width 0.2s ease-in, border-color 0.5s cubic-bezier(0, 0.96, 0.35, 1);
+    transition: width 0.2s ease-in, border-color 0.5s cubic-bezier(0, 0.96, 0.35, 1);
+}
+/* line 84, ../sass/_partials/_layout/_page.scss */
+
+.main_block .subscribe.open {
+    width: 420px;
+    border: 1px solid #fff;
+    -webkit-transition: width 0.5s cubic-bezier(0, 0.96, 0.35, 1), border-color 0s cubic-bezier(0, 0.96, 0.35, 1);
+    transition: width 0.5s cubic-bezier(0, 0.96, 0.35, 1), border-color 0s cubic-bezier(0, 0.96, 0.35, 1);
+}
+/* line 95, ../sass/_partials/_layout/_page.scss */
+
+.main_block .subscribe button.subscribe-btn,
+.main_block .subscribe form input.subscribe-btn[type="button"],
+form .main_block .subscribe input.subscribe-btn[type="button"],
+.main_block .subscribe form input.subscribe-btn[type="email"],
+form .main_block .subscribe input.subscribe-btn[type="email"] {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 50px;
+    padding: 0;
+    margin: -2px auto 0;
+    opacity: 1;
+    background-color: transparent;
+    z-index: 1;
+    will-change: opacity;
+    text-transform: uppercase;
+    font-size: 15px;
+    -webkit-transition: opacity .2s ease, color .2s ease, border-color .2s ease;
+    transition: opacity .2s ease, color .2s ease, border-color .2s ease;
+}
+/* line 118, ../sass/_partials/_layout/_page.scss */
+
+.main_block .subscribe button.subscribe-btn:active,
+.main_block .subscribe form input.subscribe-btn[type="button"]:active,
+form .main_block .subscribe input.subscribe-btn[type="button"]:active,
+.main_block .subscribe form input.subscribe-btn[type="email"]:active,
+form .main_block .subscribe input.subscribe-btn[type="email"]:active {
+    color: #fff;
+}
+/* line 123, ../sass/_partials/_layout/_page.scss */
+
+.main_block .subscribe button.subscribe-btn.open,
+.main_block .subscribe form input.subscribe-btn.open[type="button"],
+form .main_block .subscribe input.subscribe-btn.open[type="button"],
+.main_block .subscribe form input.subscribe-btn.open[type="email"],
+form .main_block .subscribe input.subscribe-btn.open[type="email"] {
+    color: transparent;
+    opacity: 0;
+    -webkit-transition: opacity .2s ease, color .2s ease, border-color .2s ease;
+    transition: opacity .2s ease, color .2s ease, border-color .2s ease;
+    z-index: -1;
+}
+/* line 134, ../sass/_partials/_layout/_page.scss */
+
+.main_block .subscribe .subscribe-form {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*display: none;*/
+    
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    opacity: 0;
+    will-change: opacity, background-color;
+    -webkit-transition: opacity .2s ease, background-color .2s ease;
+    transition: opacity .2s ease, background-color .2s ease;
+    z-index: -1;
+}
+/* line 153, ../sass/_partials/_layout/_page.scss */
+
+.main_block .subscribe .subscribe-form input[type="email"],
+.main_block .subscribe .subscribe-form input[type="text"] {
+    width: 88.5%;
+    margin: 0;
+    height: 100%;
+    color: #fff;
+    padding: 5px 18px;
+    float: left;
+    border: none;
+    opacity: 0;
+    cursor: text;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    background-color: transparent;
+    will-change: opacity;
+}
+/* line 173, ../sass/_partials/_layout/_page.scss */
+
+.main_block .subscribe .subscribe-form input[type="submit"],
+.main_block .subscribe .subscribe-form input[type="button"] {
+    position: absolute;
+    right: 0;
+    width: 47px;
+    height: 48px;
+    border-color: #fff;
+    padding: 0;
+    margin: 0;
+    float: left;
+    border: none;
+    opacity: 0;
+    will-change: opacity;
+    background: #fff url("../img/send.svg") 50% 50% no-repeat;
+    background-size: 65%;
+    z-index: 9999;
+}
+/* line 194, ../sass/_partials/_layout/_page.scss */
+
+.main_block .subscribe .subscribe-form input[type="email"],
+.main_block .subscribe .subscribe-form input[type="text"],
+.main_block .subscribe .subscribe-form input[type="submit"] {
+    visibility: hidden;
+    -webkit-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+}
+/* line 207, ../sass/_partials/_layout/_page.scss */
+
+.main_block .subscribe .subscribe-form.open {
+    opacity: 1;
+    z-index: 2;
+}
+/* line 212, ../sass/_partials/_layout/_page.scss */
+
+.main_block .subscribe .subscribe-form.open input[type="email"],
+.main_block .subscribe .subscribe-form.open input[type="text"] {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+}
+/* line 224, ../sass/_partials/_layout/_page.scss */
+
+.main_block .subscribe .subscribe-form.open input[type="email"]:active,
+.main_block .subscribe .subscribe-form.open input[type="text"]:active {
+    background-color: inherit;
+}
+/* line 228, ../sass/_partials/_layout/_page.scss */
+
+.main_block .subscribe .subscribe-form.open input[type="submit"],
+.main_block .subscribe .subscribe-form.open input[type="button"] {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+}
+/* line 240, ../sass/_partials/_layout/_page.scss */
+
+.main_block .subscribe .subscribe-form.open input[type="submit"]:active,
+.main_block .subscribe .subscribe-form.open input[type="button"]:active {
+    color: inherit;
+}
+/* line 251, ../sass/_partials/_layout/_page.scss */
+
+.main_block.block-with-carousel {
+    top: 25%;
+    display: block;
+}
+/* line 257, ../sass/_partials/_layout/_page.scss */
+
+.main_block.about-app {
+    will-change: opacity;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    opacity: 1;
+    padding: 0;
+    padding: 48px 0 0 0;
+}
+/* line 265, ../sass/_partials/_layout/_page.scss */
+
+.main_block.about-app.close {
+    opacity: 0;
+    visibility: hidden;
+}
+/* line 272, ../sass/_partials/_layout/_page.scss */
+
+.main_block.about-app .main_block_text {
+    margin: 0 auto 12px;
+    -webkit-transition: all 0.3s;
+    transition: 1s;
+}
+/* line 280, ../sass/_partials/_layout/_page.scss */
+
+.main_block button.open-info-about-app,
+.main_block form input.open-info-about-app[type="button"],
+form .main_block input.open-info-about-app[type="button"],
+.main_block form input.open-info-about-app[type="email"],
+form .main_block input.open-info-about-app[type="email"] {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+/* line 287, ../sass/_partials/_layout/_page.scss */
+
+.main_block.carousel {
+    padding: 89px 0 0 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* line 307, ../sass/_partials/_layout/_page.scss */
+
+.pt-page .main_block_text {
+    height: 0;
+}
+/* line 311, ../sass/_partials/_layout/_page.scss */
+
+.pt-page.pt-page-current .main_block_text {
+    height: auto;
+}
+/* main block with text */
+/* line 318, ../sass/_partials/_layout/_page.scss */
+
+.main_block_text {
+    visibility: visible;
+}
+/* line 321, ../sass/_partials/_layout/_page.scss */
+
+.main_block_text.hidden {
+    visibility: hidden;
+}
+/* line 331, ../sass/_partials/_layout/_page.scss */
+
+.main_block_text p.title-text,
+.main_block_text .info address.title-text {
+    margin: 0 0 15px 0;
+    letter-spacing: 3px;
+    opacity: 1;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* line 339, ../sass/_partials/_layout/_page.scss */
+
+.main_block_text .info {
+    width: 100%;
+    overflow: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 0 15px;
+    will-change: transform, opacity;
+    will-change: -webkit-transform, opacity;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.12, 0.38, 0.26, 1), opacity 0.3s cubic-bezier(0.12, 0.38, 0.26, 1);
+    transition: transform 0.3s cubic-bezier(0.12, 0.38, 0.26, 1), opacity 0.3s cubic-bezier(0.12, 0.38, 0.26, 1);
+}
+/* line 364, ../sass/_partials/_layout/_page.scss */
+
+.main_block_text .info.open {
+    opacity: 1;
+    padding: 0;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.12, 0.38, 0.26, 1) 0.3s, opacity 0.3s cubic-bezier(0.12, 0.38, 0.26, 1) 0.3s;
+    transition: transform 0.3s cubic-bezier(0.12, 0.38, 0.26, 1) 0.3s, opacity 0.3s cubic-bezier(0.12, 0.38, 0.26, 1) 0.3s;
+    position: relative;
+    visibility: visible;
+}
+/* MAIN HEADING */
+/* line 386, ../sass/_partials/_layout/_page.scss */
+
+.main-heading {
+    letter-spacing: 8px;
+    color: #fff;
+}
+/* CATEGORY GROUP */
+/* line 392, ../sass/_partials/_layout/_page.scss */
+
+.category-group {
+    padding: 0;
+    list-style: none;
+    display: block;
+    margin: 0 auto 15px;
+}
+/* line 397, ../sass/_partials/_layout/_page.scss */
+
+.category-group > li {
+    display: inline-block;
+    width: 79px;
+}
+/* line 401, ../sass/_partials/_layout/_page.scss */
+
+.category-group > li:before {
+    content: none;
+}
+/* line 405, ../sass/_partials/_layout/_page.scss */
+
+.category-group > li > a {
+    display: block;
+    padding: 10px 15px;
+    line-height: 0;
+}
+/* line 410, ../sass/_partials/_layout/_page.scss */
+
+.category-group > li > a:after {
+    content: none;
+}
+/* line 414, ../sass/_partials/_layout/_page.scss */
+
+.category-group > li > a:focus {
+    outline: none;
+}
+/* line 418, ../sass/_partials/_layout/_page.scss */
+
+.category-group > li > a svg {
+    fill: rgba(255, 255, 255, 0.2);
+    -webkit-transition: fill .5s ease;
+    transition: fill .5s ease;
+}
+/* line 426, ../sass/_partials/_layout/_page.scss */
+
+.category-group > li > a:hover svg {
+    fill: #fff;
+}
+/* line 435, ../sass/_partials/_layout/_page.scss */
+
+.category-group > li.active > a {
+    color: #fff;
+}
+/* line 438, ../sass/_partials/_layout/_page.scss */
+
+.category-group > li.active > a svg {
+    fill: #fff;
+}
+/* line 448, ../sass/_partials/_layout/_page.scss */
+
+.item {
+    cursor: pointer;
+    position: relative;
+    opacity: 0.5;
+    -webkit-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+    -webkit-backface-visibility: hidden;
+    /* Chrome, Safari, Opera */
+    
+    backface-visibility: hidden;
+}
+/* line 460, ../sass/_partials/_layout/_page.scss */
+
+.item .item_img {
+    position: relative;
+    overflow: hidden;
+    backround: transparent;
+}
+/* line 466, ../sass/_partials/_layout/_page.scss */
+
+.item .item_img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    opacity: 0;
+}
+/* line 474, ../sass/_partials/_layout/_page.scss */
+
+.item .item_img canvas {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    z-index: 5;
+    will-change: opacity;
+}
+/* line 484, ../sass/_partials/_layout/_page.scss */
+
+.item .item_img canvas.canvaClip {
+    display: block;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+/* line 491, ../sass/_partials/_layout/_page.scss */
+
+.item .item_img canvas.canvaClip.showThis {
+    opacity: 1;
+    -webkit-transition: opacity 0s;
+    transition: opacity 0s;
+}
+/* line 499, ../sass/_partials/_layout/_page.scss */
+
+.item .item_img canvas.canvaClip.opacity {
+    visibility: hidden;
+}
+/* line 506, ../sass/_partials/_layout/_page.scss */
+
+.item .item_img canvas.timer {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+/* line 515, ../sass/_partials/_layout/_page.scss */
+
+.item.hover {
+    opacity: 1;
+}
+/* line 519, ../sass/_partials/_layout/_page.scss */
+
+.item.hover .item_img {
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+/* line 522, ../sass/_partials/_layout/_page.scss */
+
+.item.hover .item-info {
+    top: 0;
+    visibility: visible;
+}
+/* line 528, ../sass/_partials/_layout/_page.scss */
+
+.item .item-info {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 30px 0 0 0;
+    width: 100%;
+    visibility: hidden;
+    will-change: top;
+    -webkit-transition: top .3s ease-out;
+    transition: top .3s ease-out;
+}
+/* line 540, ../sass/_partials/_layout/_page.scss */
+
+.item .item-info p,
+.item .item-info .main_block_text .info address,
+.main_block_text .info .item .item-info address {
+    font-size: 14px;
+    font-weight: lighter;
+}
+/* line 545, ../sass/_partials/_layout/_page.scss */
+
+.item .item-info .team-name {
+    margin-bottom: 5px;
+    color: #fff;
+    letter-spacing: .9px;
+}
+/* line 551, ../sass/_partials/_layout/_page.scss */
+
+.item .item-info .team-work {
+    display: block;
+}
+/* line 555, ../sass/_partials/_layout/_page.scss */
+
+.item .item-info .social-icons {
+    display: none;
+    list-style: none;
+    margin: 0 auto;
+}
+/* line 559, ../sass/_partials/_layout/_page.scss */
+
+.item .item-info .social-icons > li {
+    float: left;
+}
+/* line 563, ../sass/_partials/_layout/_page.scss */
+
+.item .item-info .fotorama_show-icons {
+    display: none;
+}
+/* line 568, ../sass/_partials/_layout/_page.scss */
+
+.full-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.1);
+    will-change: opacity, background-color;
+    -webkit-transition: opacity .8s ease, background-color .8s ease;
+    transition: opacity .8s ease, background-color .8s ease;
+}
+/* line 581, ../sass/_partials/_layout/_page.scss */
+
+.full-canvas.opac {
+    opacity: 0.5 !important;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/* line 586, ../sass/_partials/_layout/_page.scss */
+
+.full-canvas.opened {
+    background-color: black;
+}
+/* line 592, ../sass/_partials/_layout/_page.scss */
+
+.owl-carousel.demo .owl-stage {
+    overflow: visible;
+}
+/* line 599, ../sass/_partials/_layout/_page.scss */
+
+.demo .owl-item {
+    will-change: transform, opacity;
+    will-change: -webkit-transform, opacity;
+    opacity: .5;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transition: -webkit-transform .5s ease, opacity .5s ease;
+    transition: transform .5s ease, opacity .5s ease;
+    -webkit-transform-origin: 50% 39%;
+    -ms-transform-origin: 50% 39%;
+    transform-origin: 50% 39%;
+}
+/* line 612, ../sass/_partials/_layout/_page.scss */
+
+.demo .owl-item .item {
+    opacity: 1;
+}
+/* line 615, ../sass/_partials/_layout/_page.scss */
+
+.demo .owl-item .item img {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+/* line 622, ../sass/_partials/_layout/_page.scss */
+
+.demo .owl-item.center {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+/* line 628, ../sass/_partials/_layout/_page.scss */
+
+.demo .owl-item.center .item {
+    opacity: 1;
+}
+/* line 633, ../sass/_partials/_layout/_page.scss */
+
+.demo .owl-item .demo-title {
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 25px;
+    letter-spacing: 3px;
+}
+/* line 644, ../sass/_partials/_layout/_page.scss */
+
+.owl-controls {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+/* line 650, ../sass/_partials/_layout/_page.scss */
+
+.owl-controls .owl-prev {
+    position: absolute;
+    left: 0;
+}
+/* line 655, ../sass/_partials/_layout/_page.scss */
+
+.owl-controls .owl-next {
+    position: absolute;
+    right: 0px;
+}
+/* line 662, ../sass/_partials/_layout/_page.scss */
+
+.say-hello {
+    display: none;
+}
+/* line 664, ../sass/_partials/_layout/_page.scss */
+
+.say-hello input {
+    width: 100%;
+}
+/* line 667, ../sass/_partials/_layout/_page.scss */
+
+.say-hello textarea {
+    width: 100%;
+    resize: none;
+}
+/* line 671, ../sass/_partials/_layout/_page.scss */
+
+.say-hello button,
+.say-hello form input[type="button"],
+form .say-hello input[type="button"],
+.say-hello form input[type="email"],
+form .say-hello input[type="email"] {
+    width: 100%;
+}
+/* line 675, ../sass/_partials/_layout/_page.scss */
+
+.say-hello .close-this {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+/* line 685, ../sass/_partials/_layout/_page.scss */
+
+.say-hello .close-this::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+/* line 695, ../sass/_partials/_layout/_page.scss */
+
+.say-hello .close-this::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+/* line 705, ../sass/_partials/_layout/_page.scss */
+
+.say-hello.open {
+    display: block;
+}
+/* line 711, ../sass/_partials/_layout/_page.scss */
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    width: 0;
+    height: 62px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+/* line 721, ../sass/_partials/_layout/_page.scss */
+
+.bottom .close-this {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 23px;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    margin-top: -18px;
+    will-change: opacity;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+/* line 738, ../sass/_partials/_layout/_page.scss */
+
+.bottom .close-this::before {
+    content: '';
+    position: absolute;
+    top: 47%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: background-color .5s ease;
+    transition: background-color .5s ease;
+}
+/* line 760, ../sass/_partials/_layout/_page.scss */
+
+.bottom .close-this::after {
+    content: '';
+    position: absolute;
+    bottom: 46%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.6);
+    opacity: 1;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: background-color .5s ease;
+    transition: background-color .5s ease;
+}
+/* line 785, ../sass/_partials/_layout/_page.scss */
+
+.bottom .close-this:hover::before {
+    background-color: white;
+}
+/* line 789, ../sass/_partials/_layout/_page.scss */
+
+.bottom .close-this:hover::after {
+    background-color: white;
+}
+/* Google map API */
+/* line 799, ../sass/_partials/_layout/_page.scss */
+
+.map {
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    overflow: hidden;
+}
+/* line 810, ../sass/_partials/_layout/_page.scss */
+
+.map #map-canvas {
+    height: 100vh;
+    min-height: 100%;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+/* line 819, ../sass/_partials/_layout/_page.scss */
+
+.map .bottom {
+    width: 100%;
+    height: 62px;
+    margin-top: -62px;
+    background-color: #000;
+}
+/* line 827, ../sass/_partials/_layout/_page.scss */
+
+.map.open {
+    visibility: visible;
+}
+/* Information about APP */
+/* line 836, ../sass/_partials/_layout/_page.scss */
+
+.info-about-app {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+/* line 845, ../sass/_partials/_layout/_page.scss */
+
+.info-about-app.nano {
+    position: absolute;
+    height: 100%;
+}
+/* line 849, ../sass/_partials/_layout/_page.scss */
+
+.info-about-app.open {
+    visibility: visible;
+}
+/* line 852, ../sass/_partials/_layout/_page.scss */
+
+.info-about-app h1 {
+    text-align: left;
+    margin-bottom: 23px;
+}
+/* line 856, ../sass/_partials/_layout/_page.scss */
+
+.info-about-app p,
+.info-about-app .main_block_text .info address,
+.main_block_text .info .info-about-app address {
+    text-align: left;
+}
+/* line 860, ../sass/_partials/_layout/_page.scss */
+
+.info-about-app .info-about-app_block {
+    height: calc(100% - 80px);
+    /*display: table;*/
+    
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/* line 874, ../sass/_partials/_layout/_page.scss */
+
+.info-about-app .info-section {
+    display: none;
+    position: absolute;
+    top: 19.45%;
+    right: 8.65%;
+    width: 26%;
+    max-width: 355px;
+}
+/* line 882, ../sass/_partials/_layout/_page.scss */
+
+.info-about-app .info-section.open {
+    display: block;
+}
+/* line 887, ../sass/_partials/_layout/_page.scss */
+
+.info-about-app .app-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    will-change: transform;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+    height: 75%;
+    overflow: hidden;
+}
+/* line 900, ../sass/_partials/_layout/_page.scss */
+
+.info-about-app .app-img.open {
+    z-index: 9999;
+}
+/* line 904, ../sass/_partials/_layout/_page.scss */
+
+.info-about-app .app-img img {
+    width: 248px;
+    height: 100%;
+    max-height: 507px;
+}
+/* line 911, ../sass/_partials/_layout/_page.scss */
+
+.info-about-app .bottom {
+    width: 100%;
+}
+/* about app right top block */
+/* line 918, ../sass/_partials/_layout/_page.scss */
+
+.top-left-block {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    overflow: hidden;
+    opacity: 1;
+    border-radius: 7%;
+    will-change: transform, top, right, opacity;
+    will-change: -webkit-transform, top, right, opacity;
+    -webkit-transform: rotate(15deg) translate(38%, -18%) scale(1.3);
+    -ms-transform: rotate(15deg) translate(38%, -18%) scale(1.3);
+    transform: rotate(15deg) translate(38%, -18%) scale(1.3);
+    -webkit-transition: -webkit-transform .5s ease-in-out .3s, top .5s ease-in-out .3s, right .5s ease-in-out .3s, opacity 0s ease;
+    transition: transform .5s ease-in-out .3s, top .5s ease-in-out .3s, right .5s ease-in-out .3s, opacity 0s ease;
+    cursor: pointer;
+    z-index: 2;
+}
+/* line 939, ../sass/_partials/_layout/_page.scss */
+
+.top-left-block.open {
+    -webkit-transition: -webkit-transform .5s ease-in-out, top .5s ease-in-out, right .5s ease-in-out, opacity 0.2s ease .9s;
+    transition: transform .5s ease-in-out, top .5s ease-in-out, right .5s ease-in-out, opacity 0.2s ease .9s;
+    opacity: 0;
+    top: 50%;
+    right: 50%;
+    z-index: -1;
+}
+/* line 951, ../sass/_partials/_layout/_page.scss */
+
+.top-left-block img:hover {
+    z-index: 9999;
+    -webkit-animation: thumb .1s ease;
+    animation: thumb .1s ease;
+    -webkit-animation-iteration-count: 3;
+    animation-iteration-count: 3;
+}
+
+@-webkit-keyframes thumb {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(1deg);
+        transform: rotate(1deg);
+    }
+}
+
+@keyframes thumb {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(1deg);
+        transform: rotate(1deg);
+    }
+}
+/* line 969, ../sass/_partials/_layout/_page.scss */
+
+.text-success {
+    color: rgba(162, 255, 0, 0.5);
+}
+/* line 975, ../sass/_partials/_layout/_page.scss */
+
+.item a:after {
+    content: none;
+}
+/*
+* Fotorama layout
+*/
+/* line 5, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style {
+    z-index: 9999;
+}
+/* line 10, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.open {
+    display: block;
+}
+/* line 15, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style .item-index {
+    display: none;
+}
+/* line 20, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 {
+    width: 78% !important;
+    margin: 0 auto;
+    padding: 8px 0 0 0;
+    font-family: "Abel", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* line 29, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__html {
+    width: 100%;
+    height: 100%;
+}
+/* line 35, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__html.open {
+    background-color: #fff;
+}
+/* line 39, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__html .fotorama-info {
+    position: relative;
+}
+/* line 42, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__html .fotorama-info .team-name {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+}
+/* line 49, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__html .fotorama-info .fotorama_show-icons {
+    visibility: hidden;
+}
+/* line 55, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__html .fotorama-info.open .team-name {
+    visibility: visible;
+    display: block;
+    color: #000;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    line-height: 1.5;
+    margin: 13px 0 10px 0;
+    opacity: 1;
+    -webkit-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+}
+/* line 69, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__html .fotorama-info.open .team-name .team-work {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    letter-spacing: 1.4px;
+    padding: 5px 0;
+}
+/* line 79, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__html .fotorama-info.open .item-index {
+    display: none;
+}
+/* line 82, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__html .fotorama-info.open .fotorama_show-icons {
+    visibility: visible;
+    display: block;
+    background: url("../img/share-black.svg") 50% 50% no-repeat;
+    background-size: 100%;
+}
+/* line 88, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__html .fotorama-info.open .fotorama_show-icons .fa {
+    position: absolute;
+    color: #373535;
+}
+/* line 96, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__html .fotorama-info.open ul li a {
+    color: rgba(0, 0, 0, 0.6);
+}
+/* line 104, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__html .fotorama-info .item-index {
+    display: none;
+}
+/* line 108, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__html .fotorama-info .fotorama_show-icons {
+    display: none;
+}
+/* line 115, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__stage {
+    margin: 0 auto 55px;
+}
+/* line 119, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__stage.open {
+    margin: 0 auto 25px;
+}
+/* line 124, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__stage__shaft {
+    width: 100% !important;
+}
+/* line 128, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama__stage__frame.fotorama__active {
+    height: 100%;
+}
+/* line 132, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .fotorama_mobile-count {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: -65px;
+    height: 50px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    padding: 25px;
+}
+/* line 144, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .bottom {
+    position: relative;
+    border: none;
+    width: 100%;
+}
+/* line 148, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style.size-320 .bottom .close-this {
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+/* line 158, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style .fotorama__fullscreen-icon {
+    display: none !important;
+}
+/* line 162, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style .fotorama-info {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+/* line 170, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style .fotorama-info ul {
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+    font-size: 0;
+    -webkit-transition: opacity .3s .2s ease;
+    transition: opacity .3s .2s ease;
+}
+/* line 192, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style .fotorama-info ul li {
+    display: inline-block;
+}
+/* line 195, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style .fotorama-info ul li:before {
+    content: none;
+}
+/* line 199, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style .fotorama-info ul li a {
+    font-size: 17px;
+    padding: 10px;
+}
+/* line 203, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style .fotorama-info ul li a:after {
+    content: none;
+}
+/* line 208, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style .fotorama-info ul.open {
+    opacity: 1;
+    z-index: 2;
+    visibility: visible;
+}
+/* line 215, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style .fotorama-info .fotorama_show-icons {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    background-size: 100%;
+    z-index: 3;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+/* line 234, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style .fotorama-info .fotorama_show-icons:after {
+    content: none;
+}
+/* line 238, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style .fotorama-info .fotorama_show-icons.open {
+    opacity: 0;
+    z-index: -1;
+}
+/* line 243, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama-style .fotorama-info .fotorama_show-icons .fa {
+    left: 0;
+}
+/* line 250, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama__nav {
+    max-height: 100px !important;
+}
+/* line 254, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.hiden {
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+/* line 261, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama--fullscreen {
+    opacity: 0;
+    background-color: transparent;
+    -webkit-transition: opacity .3s ease-in-out, background-color .3s ease;
+    transition: opacity .3s ease-in-out, background-color .3s ease;
+    /*background: transparent!important;*/
+}
+/* line 269, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama--fullscreen .fotorama__nav-wrap {
+    visibility: hidden;
+    opacity: 0;
+    height: 65px;
+}
+/* line 274, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama--fullscreen .fotorama__nav-wrap .fotorama__nav--thumbs {
+    height: 100%;
+}
+/* line 277, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama--fullscreen .fotorama__nav-wrap .fotorama__nav--thumbs .fotorama__nav__shaft {
+    margin-top: 10px;
+}
+/* line 284, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama--fullscreen .fotorama-info {
+    bottom: 25px;
+}
+/* line 288, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama--fullscreen .fotorama-info .team-name {
+    font-family: "Abel", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+/* line 296, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama--fullscreen .fotorama-info .team-name .team-work {
+    display: block;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 4px;
+    padding: 8px 0 0 0;
+}
+/* line 311, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama--fullscreen.open {
+    opacity: 1;
+    background-color: #000;
+}
+/* line 315, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama--fullscreen.open .fotorama__nav-wrap {
+    visibility: visible;
+    opacity: 1;
+    background-color: #000;
+}
+/* line 322, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama--fullscreen .fotorama__nav {
+    background-color: #000 !important;
+}
+/* line 328, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.fotorama__img {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+/* line 335, ../sass/_partials/_layout/_fotoramaLayout.scss */
+
+.opacity {
+    visibility: hidden;
+    -webkit-transition: none;
+    transition: none;
+}
+/* Devise Width */
+/* line 4, ../sass/_partials/_layout/_devWidth.scss */
+
+.app-store,
+.google-play {
+    display: block;
+    position: relative;
+    margin: 0 auto 30px;
+    width: 160px;
+    height: 60px;
+    padding-left: 54px;
+    text-align: left;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    -webkit-transition: background-color 0.5s ease, border-color .5s ease, color .5s ease;
+    transition: background-color 0.5s ease, border-color .5s ease, color .5s ease;
+    cursor: pointer;
+}
+/* line 20, ../sass/_partials/_layout/_devWidth.scss */
+
+.app-store::after,
+.google-play::after {
+    content: none;
+}
+/* line 24, ../sass/_partials/_layout/_devWidth.scss */
+
+.app-store span,
+.google-play span {
+    font-size: 10px;
+    display: block;
+    line-height: 1;
+    margin-top: 13px;
+    margin-bottom: -5px;
+    letter-spacing: -0.5px;
+}
+/* line 33, ../sass/_partials/_layout/_devWidth.scss */
+
+.app-store .fa,
+.google-play .fa {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+}
+/* line 39, ../sass/_partials/_layout/_devWidth.scss */
+
+.app-store .fa.google-play-bg,
+.google-play .fa.google-play-bg {
+    opacity: .2;
+    top: 23%;
+    -webkit-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+}
+/* line 50, ../sass/_partials/_layout/_devWidth.scss */
+
+.app-store .fa.google-play-bg:before,
+.google-play .fa.google-play-bg:before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    background: url("http://nujsoutlawed.in/img/play-market.png") top center no-repeat;
+    width: 26px;
+    height: 27px;
+    background-size: 100%;
+}
+/* line 62, ../sass/_partials/_layout/_devWidth.scss */
+
+.app-store:hover,
+.google-play:hover {
+    border: 1px solid white;
+}
+/* line 67, ../sass/_partials/_layout/_devWidth.scss */
+
+.app-store:hover .fa.google-play-bg,
+.google-play:hover .fa.google-play-bg {
+    opacity: 1;
+}
+/* line 74, ../sass/_partials/_layout/_devWidth.scss */
+
+.app-store {
+    float: left;
+}
+/* line 78, ../sass/_partials/_layout/_devWidth.scss */
+
+.google-play {
+    letter-spacing: -0.95px;
+    float: right;
+}
+/* line 84, ../sass/_partials/_layout/_devWidth.scss */
+
+.main_block .app-store,
+.main_block .google-play {
+    display: none;
+}
+/* for screen < 991 */
+
+@media (max-width: 991px) {
+    /* line 93, ../sass/_partials/_layout/_devWidth.scss */
+    
+    #timer {
+        top: 5%;
+    }
+    /* line 96, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .timer {
+        top: 5%;
+    }
+    /* line 100, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block {
+        padding: 52px 0 0 0;
+    }
+    /* line 103, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block.carousel {
+        padding: 37px 0 0 0;
+    }
+    /* Collapsed menu */
+    /* line 109, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .navbar-header {
+        width: 100%;
+    }
+    /* MAIN TEXT */
+    /* line 114, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main-text {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    /* MAIN BLOCK TEXT */
+    /* line 120, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block_text {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    /* line 125, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .top-left-block {
+        will-change: transform;
+        will-change: -webkit-transform;
+        -webkit-transform: rotate(15deg) translate(10%, -89%) scale(1.7);
+        -ms-transform: rotate(15deg) translate(10%, -89%) scale(1.7);
+        transform: rotate(15deg) translate(10%, -89%) scale(1.7);
+        z-index: -1;
+    }
+    @-webkit-keyframes thumb {
+        0% {
+            -webkit-transform: rotate(14deg) translate(8%, -59%);
+            transform: rotate(14deg) translate(8%, -59%);
+        }
+        100% {
+            -webkit-transform: rotate(15deg) translate(8%, -59%);
+            transform: rotate(15deg) translate(8%, -59%);
+        }
+    }
+    @keyframes thumb {
+        0% {
+            -webkit-transform: rotate(14deg) translate(8%, -59%);
+            transform: rotate(14deg) translate(8%, -59%);
+        }
+        100% {
+            -webkit-transform: rotate(15deg) translate(8%, -59%);
+            transform: rotate(15deg) translate(8%, -59%);
+        }
+    }
+    /* line 147, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .info-about-app .main-block {
+        height: 75%;
+        top: 50%;
+    }
+    /* line 151, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .info-about-app .info-section {
+        top: 19.45%;
+        right: 10%;
+        width: 50%;
+    }
+    /* line 156, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .info-about-app .app-img {
+        left: 4%;
+        will-change: transform;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+    }
+    /* line 163, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        position: absolute;
+        top: -139px;
+    }
+}
+/* for screen < 767 */
+
+@media (max-width: 767px) {
+    /* line 174, ../sass/_partials/_layout/_devWidth.scss */
+    
+    #timer {
+        top: 54%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    /* line 178, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .timer {
+        top: 0;
+    }
+    /* line 182, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block {
+        padding: 39px 0 0 0;
+    }
+    /* line 185, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block .subscribe {
+        width: 60%;
+    }
+    /* line 188, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block .subscribe.open {
+        width: 90%;
+    }
+    /* line 193, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block.contacts {
+        padding: 56px 0 0 0;
+    }
+    /* line 197, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block.carousel {
+        padding: 9px 0 0 0;
+    }
+    /* line 203, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block.main-page header h1 {
+        letter-spacing: 6px;
+    }
+    /* line 210, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block > header h1 {
+        font-size: 30px;
+        letter-spacing: 6px;
+        margin: 0 auto 28px;
+    }
+    /* line 216, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block > header h1.main-page-heading {
+        line-height: 1.2;
+        letter-spacing: 5px;
+    }
+    /* line 223, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block .main_block_text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* line 226, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block .main_block_text p,
+    .main_block .main_block_text .info address {
+        font-size: 14px;
+        line-height: 2.15;
+        margin: 0 0 30px 0px;
+    }
+    /* line 231, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block .main_block_text p.main-text,
+    .main_block .main_block_text .info address.main-text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* line 237, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block .main_block_text .category-group > li {
+        width: 56px;
+    }
+    /* line 243, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block.about-app {
+        padding: 22px 0 0 0;
+    }
+    /* line 247, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block .open-info-about-app {
+        display: none;
+    }
+    /* line 251, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block .app-store,
+    .main_block .google-play {
+        display: block;
+        float: none;
+    }
+    /* line 256, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block .app-store span,
+    .main_block .google-play span {
+        margin-bottom: -1px;
+    }
+    /* line 263, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .top-left-block {
+        display: none;
+    }
+    /* line 268, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .owl-carousel.demos {
+        max-width: 100%;
+        margin: 0;
+    }
+    /* line 272, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .owl-carousel.demos img {
+        opacity: 1;
+    }
+    /* line 278, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .info-about-app {
+        display: none;
+    }
+    /* line 280, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .info-about-app.open {
+        display: none;
+    }
+    /* line 285, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .mobile-show-index {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 99999;
+        text-align: center;
+    }
+    /* line 293, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .mobile-show-index.open {
+        display: block;
+    }
+    /* line 300, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .fotorama__stage__frame .fotorama__html {
+        display: table;
+    }
+    /* line 305, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .fotorama__nav,
+    .fotorama__stage {
+        overflow: visible !important;
+    }
+    /* line 309, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .fotorama__wrap--only-active .fotorama__nav,
+    .fotorama__wrap--only-active .fotorama__stage {
+        width: 100% !important;
+    }
+    /* line 315, ../sass/_partials/_layout/_devWidth.scss */
+    
+    nav.hide {
+        display: block !important;
+    }
+    /* line 321, ../sass/_partials/_layout/_devWidth.scss */
+    
+    .main_block.about-app.close {
+        opacity: 1;
+    }
+    /* line 326, ../sass/_partials/_layout/_devWidth.scss */
+    
+    #bgvid {
+        display: none;
+    }
+    /* line 338, ../sass/_partials/_layout/_devWidth.scss */
+    
+    figure {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+}
+/* Typography */
+/* Form */
+/* line 4, ../sass/_partials/_typography.scss */
+
+form * {
+    border-radius: 0;
+    outline: none;
+}
+/* line 9, ../sass/_partials/_typography.scss */
+
+form input[type="text"] {
+    display: block;
+    width: 100%;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #4c4c4c;
+    padding: 5px 0;
+    letter-spacing: 1px;
+    margin: 0 0 26px 0;
+    will-change: border-bottom-color, color;
+    -webkit-transition: border-bottom-color .3s ease, color .3s ease;
+    transition: border-bottom-color .3s ease, color .3s ease;
+}
+/* line 24, ../sass/_partials/_typography.scss */
+
+form input[type="text"]::-webkit-input-placeholder,
+form input[type="text"]:-moz-placeholder,
+form input[type="text"]::-moz-placeholder,
+form input[type="text"]:-ms-input-placeholder {
+    color: #4c4c4c;
+}
+/* line 31, ../sass/_partials/_typography.scss */
+
+form input[type="text"]:hover,
+form input[type="text"]:focus {
+    border-bottom-color: #fff;
+}
+/* line 35, ../sass/_partials/_typography.scss */
+
+form input[type="text"]:hover::-webkit-input-placeholder,
+form input[type="text"]:hover:-moz-placeholder,
+form input[type="text"]:hover::-moz-placeholder,
+form input[type="text"]:hover:-ms-input-placeholder,
+form input[type="text"]:focus::-webkit-input-placeholder,
+form input[type="text"]:focus:-moz-placeholder,
+form input[type="text"]:focus::-moz-placeholder,
+form input[type="text"]:focus:-ms-input-placeholder {
+    color: #fff;
+}
+/* line 47, ../sass/_partials/_typography.scss */
+
+form > div {
+    padding-left: 0 !important;
+}
+/* line 53, ../sass/_partials/_typography.scss */
+
+form input[type="checkbox"] + label,
+form input[type="radio"] + label {
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    margin: 0 0 28px 0;
+    padding-left: 6px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+/* line 66, ../sass/_partials/_typography.scss */
+
+form input[type="checkbox"]:disabled + label,
+form input[type="radio"]:disabled + label {
+    color: #333;
+    cursor: no-drop;
+}
+/* line 71, ../sass/_partials/_typography.scss */
+
+form input[type="checkbox"]:disabled + label:before,
+form input[type="radio"]:disabled + label:before {
+    border-color: #333;
+    cursor: no-drop;
+}
+/* line 77, ../sass/_partials/_typography.scss */
+
+form input[type="checkbox"],
+form input[type="radio"] {
+    position: relative;
+    margin: 5px 6px 5px 6px;
+    visibility: hidden;
+}
+/* line 84, ../sass/_partials/_typography.scss */
+
+form input[type="checkbox"] + label:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -23px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    z-index: 1;
+    cursor: pointer;
+}
+/* line 96, ../sass/_partials/_typography.scss */
+
+form input[type="checkbox"]:checked + label:after {
+    content: '';
+    position: absolute;
+    left: -15px;
+    width: 7px;
+    height: 13px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    z-index: 2;
+    background-color: transparent;
+    cursor: pointer;
+    -webkit-transform: skew(147deg, 224deg);
+    -ms-transform: skew(147deg, 224deg);
+    transform: skew(147deg, 224deg);
+    border-radius: 0 2px 0 0;
+}
+/* line 113, ../sass/_partials/_typography.scss */
+
+form input[type="radio"] + label:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -25px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}
+/* line 125, ../sass/_partials/_typography.scss */
+
+form input[type="radio"]:checked + label:after {
+    content: '';
+    position: absolute;
+    left: -19px;
+    top: 4px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* line 142, ../sass/_partials/_typography.scss */
+
+form input[type="email"] {
+    text-transform: none;
+}
+/* line 149, ../sass/_partials/_typography.scss */
+
+form select {
+    width: 100%;
+}
+/* line 156, ../sass/_partials/_typography.scss */
+
+.check-group {
+    margin: 11px 0 26px 0px;
+    padding-left: 43px;
+    padding-right: 0;
+    overflow: hidden;
+}
+/* line 163, ../sass/_partials/_typography.scss */
+
+.radio-group {
+    margin: 11px 0 26px 0px;
+    padding-left: 20px;
+    padding-right: 0;
+    overflow: hidden;
+}
+/* line 170, ../sass/_partials/_typography.scss */
+
+.link-group {
+    padding-left: 43px;
+    padding-right: 0;
+    overflow: hidden;
+}
+/* line 176, ../sass/_partials/_typography.scss */
+
+.button-group {
+    padding-left: 9px !important;
+    padding-right: 0;
+    margin: 12px 0 0 0;
+}
+/* line 182, ../sass/_partials/_typography.scss */
+
+.form-message {
+    position: absolute;
+    left: 0;
+    top: 120%;
+    width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    /* line 193, ../sass/_partials/_typography.scss */
+    
+    .check-group {
+        padding-left: 0;
+    }
+    /* line 197, ../sass/_partials/_typography.scss */
+    
+    .radio-group {
+        padding-left: 0;
+    }
+    /* line 201, ../sass/_partials/_typography.scss */
+    
+    .link-group {
+        padding-left: 0;
+        margin-top: 11px;
+    }
+    /* line 206, ../sass/_partials/_typography.scss */
+    
+    .button-group {
+        padding-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* line 215, ../sass/_partials/_typography.scss */
+    
+    ol.left {
+        float: none;
+    }
+    /* line 218, ../sass/_partials/_typography.scss */
+    
+    ol.marg-right-110 {
+        margin-right: 0;
+    }
+    /* line 227, ../sass/_partials/_typography.scss */
+    
+    p img,
+    .main_block_text .info address img {
+        display: block;
+        float: none;
+        margin: 7px auto 15px;
+    }
+    /* line 235, ../sass/_partials/_typography.scss */
+    
+    blockquote {
+        padding: 37px 0 0 0;
+    }
+    /* line 240, ../sass/_partials/_typography.scss */
+    
+    input[type="text"].typo_form_name {
+        width: 100%;
+        float: none;
+    }
+    /* line 245, ../sass/_partials/_typography.scss */
+    
+    .typo_form_select {
+        float: none;
+    }
+    /* line 249, ../sass/_partials/_typography.scss */
+    
+    .check-group,
+    .radio-group,
+    .link-group {
+        margin-bottom: 10px;
+    }
+}
+/* helper classes
+*/
+/* line 263, ../sass/_partials/_typography.scss */
+
+.marg-bot-23 {
+    margin-bottom: 23px;
+}
+/* line 266, ../sass/_partials/_typography.scss */
+
+.marg-bot-6 {
+    margin-bottom: 6px;
+}
+/* line 269, ../sass/_partials/_typography.scss */
+
+.marg-bot-9 {
+    margin-bottom: 9px;
+}
+/* line 272, ../sass/_partials/_typography.scss */
+
+.marg-bot-17 {
+    margin-bottom: 9px;
+}
+/* line 275, ../sass/_partials/_typography.scss */
+
+.marg-bot-12 {
+    margin-bottom: 12px;
+}
+/* line 278, ../sass/_partials/_typography.scss */
+
+.marg-bot-18 {
+    margin-bottom: 18px;
+}
+/* line 281, ../sass/_partials/_typography.scss */
+
+.marg-bot-40 {
+    margin-bottom: 40px;
+}
+/* line 284, ../sass/_partials/_typography.scss */
+
+.marg-bot-41 {
+    margin-bottom: 41px;
+}
+/* line 287, ../sass/_partials/_typography.scss */
+
+.marg-bot-10 {
+    margin-bottom: 10px;
+}
+/* line 290, ../sass/_partials/_typography.scss */
+
+.marg-bot-11 {
+    margin-bottom: 11px;
+}
+/* line 293, ../sass/_partials/_typography.scss */
+
+.marg-bot-7 {
+    margin-bottom: 7px;
+}
+/* line 296, ../sass/_partials/_typography.scss */
+
+.marg-bot-37 {
+    margin-bottom: 37px;
+}
+/* line 299, ../sass/_partials/_typography.scss */
+
+.marg-bot-19 {
+    margin-bottom: 19px;
+}
+/* line 302, ../sass/_partials/_typography.scss */
+
+.marg-bot-50 {
+    margin-bottom: 50px;
+}
+/* line 308, ../sass/_partials/_typography.scss */
+
+.marg-right-110 {
+    margin-right: 110px;
+}
+/* line 313, ../sass/_partials/_typography.scss */
+
+.left {
+    float: left;
+}
+/* line 317, ../sass/_partials/_typography.scss */
+
+.rigth {
+    float: right;
+}
+/* line 322, ../sass/_partials/_typography.scss */
+
+.overflow {
+    overflow: hidden;
+}
+/* Style */
+/* BACKGROUNDS */
+/* line 4, ../sass/_partials/_background.scss */
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    will-change: transform;
+    background-size: cover;
+}
+/* line 19, ../sass/_partials/_background.scss */
+
+.image_bg {
+    background: rgba(0, 0, 0, 0.5) url(http://nujsoutlawed.in/img/slider1.jpg) 50% 50% fixed;
+    background-size: cover;
+}
+/* line 27, ../sass/_partials/_background.scss */
+
+.gradient_bg {
+    background: #18ffff;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE4ZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxOGZmYWIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #18ffff), color-stop(100%, #18ffab));
+    background: -webkit-linear-gradient(left, #18ffff 0%, #18ffab 100%);
+    background: linear-gradient(to right, #18ffff 0%, #18ffab 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#18ffff', endColorstr='#18ffab', GradientType=1);
+}
+/* line 42, ../sass/_partials/_background.scss */
+
+.color_bg {
+    background-color: #c6ff00;
+}
+/* line 50, ../sass/_partials/_background.scss */
+
+.gradient_bg .wrapp .preload-bg,
+.gradient_bg .wrapp .preload-bg .preloaderWraper,
+.color_bg .wrapp .preload-bg,
+.color_bg .wrapp .preload-bg .preloaderWraper {
+    background-color: white;
+}
+/* line 53, ../sass/_partials/_background.scss */
+
+.gradient_bg .wrapp #loadPrecent,
+.color_bg .wrapp #loadPrecent {
+    color: #000;
+}
+/* line 59, ../sass/_partials/_background.scss */
+
+.gradient_bg .wrapp.done .preload-bg,
+.gradient_bg .wrapp.done .preload-bg .preloaderWraper,
+.gradient_bg .wrapp.hide-preloader .preload-bg,
+.gradient_bg .wrapp.hide-preloader .preload-bg .preloaderWraper,
+.color_bg .wrapp.done .preload-bg,
+.color_bg .wrapp.done .preload-bg .preloaderWraper,
+.color_bg .wrapp.hide-preloader .preload-bg,
+.color_bg .wrapp.hide-preloader .preload-bg .preloaderWraper {
+    background-color: rgba(255, 255, 255, 0);
+}
+/* line 66, ../sass/_partials/_background.scss */
+
+.gradient_bg .wrapp .preload-bg,
+.gradient_bg .wrapp .preload-bg .preloaderWraper,
+.color_bg .wrapp .preload-bg,
+.color_bg .wrapp .preload-bg .preloaderWraper {
+    background-color: white;
+}
+/* line 69, ../sass/_partials/_background.scss */
+
+.gradient_bg .wrapp #loadPrecent,
+.color_bg .wrapp #loadPrecent {
+    color: #000;
+}
+/* line 75, ../sass/_partials/_background.scss */
+
+.gradient_bg .wrapp.done .preload-bg,
+.gradient_bg .wrapp.done .preload-bg .preloaderWraper,
+.gradient_bg .wrapp.hide-preloader .preload-bg,
+.gradient_bg .wrapp.hide-preloader .preload-bg .preloaderWraper,
+.color_bg .wrapp.done .preload-bg,
+.color_bg .wrapp.done .preload-bg .preloaderWraper,
+.color_bg .wrapp.hide-preloader .preload-bg,
+.color_bg .wrapp.hide-preloader .preload-bg .preloaderWraper {
+    background-color: rgba(255, 255, 255, 0);
+}
+/* line 82, ../sass/_partials/_background.scss */
+
+.gradient_bg h1,
+.gradient_bg h2,
+.gradient_bg h3,
+.gradient_bg h4,
+.gradient_bg h5,
+.gradient_bg h6,
+.gradient_bg .h1,
+.gradient_bg .h2,
+.gradient_bg .h3,
+.gradient_bg .h4,
+.gradient_bg .h5,
+.gradient_bg .h6,
+.color_bg h1,
+.color_bg h2,
+.color_bg h3,
+.color_bg h4,
+.color_bg h5,
+.color_bg h6,
+.color_bg .h1,
+.color_bg .h2,
+.color_bg .h3,
+.color_bg .h4,
+.color_bg .h5,
+.color_bg .h6 {
+    color: black;
+}
+/* line 88, ../sass/_partials/_background.scss */
+
+.gradient_bg .main_block header h1,
+.color_bg .main_block header h1 {
+    color: black;
+}
+/* line 95, ../sass/_partials/_background.scss */
+
+.gradient_bg p,
+.gradient_bg .main_block_text .info address,
+.main_block_text .info .gradient_bg address,
+.gradient_bg .main_block_text .info address,
+.color_bg p,
+.color_bg .main_block_text .info address,
+.main_block_text .info .color_bg address,
+.color_bg .main_block_text .info address {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}
+/* line 102, ../sass/_partials/_background.scss */
+
+.gradient_bg a,
+.color_bg a {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+/* line 106, ../sass/_partials/_background.scss */
+
+.gradient_bg a:hover,
+.gradient_bg a:active,
+.color_bg a:hover,
+.color_bg a:active {
+    color: black !important;
+}
+/* line 111, ../sass/_partials/_background.scss */
+
+.gradient_bg a:focus,
+.color_bg a:focus {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+/* line 119, ../sass/_partials/_background.scss */
+
+.gradient_bg .subscribe .subscribe-btn,
+.color_bg .subscribe .subscribe-btn {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+}
+/* line 123, ../sass/_partials/_background.scss */
+
+.gradient_bg .subscribe .subscribe-btn:hover,
+.gradient_bg .subscribe .subscribe-btn:active,
+.color_bg .subscribe .subscribe-btn:hover,
+.color_bg .subscribe .subscribe-btn:active {
+    border: 1px solid black;
+    color: black !important;
+}
+/* line 130, ../sass/_partials/_background.scss */
+
+.gradient_bg .subscribe.open,
+.color_bg .subscribe.open {
+    border: 1px solid #000;
+}
+/* line 134, ../sass/_partials/_background.scss */
+
+.gradient_bg .subscribe .subscribe-form input[type="email"],
+.gradient_bg .subscribe .subscribe-form input[type="text"],
+.color_bg .subscribe .subscribe-form input[type="email"],
+.color_bg .subscribe .subscribe-form input[type="text"] {
+    color: #000;
+}
+/* line 139, ../sass/_partials/_background.scss */
+
+.gradient_bg .subscribe .subscribe-form input[type="submit"],
+.gradient_bg .subscribe .subscribe-form input[type="button"],
+.color_bg .subscribe .subscribe-form input[type="submit"],
+.color_bg .subscribe .subscribe-form input[type="button"] {
+    border-color: #000;
+    background: #000 url("../img/send-white.svg") 50% 50% no-repeat;
+    background-size: 65%;
+}
+/* line 148, ../sass/_partials/_background.scss */
+
+.gradient_bg .navbar-brand,
+.color_bg .navbar-brand {
+    color: #000;
+}
+/* line 155, ../sass/_partials/_background.scss */
+
+.gradient_bg .nav > li > a:hover,
+.color_bg .nav > li > a:hover {
+    color: black;
+}
+/* line 161, ../sass/_partials/_background.scss */
+
+.gradient_bg .nav > li.active > a,
+.color_bg .nav > li.active > a {
+    color: #000 !important;
+}
+/* line 169, ../sass/_partials/_background.scss */
+
+.gradient_bg .navbar_share-icons > span,
+.color_bg .navbar_share-icons > span {
+    color: black;
+}
+/* line 174, ../sass/_partials/_background.scss */
+
+.gradient_bg .navbar,
+.color_bg .navbar {
+    background-color: transparent;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* line 178, ../sass/_partials/_background.scss */
+
+.gradient_bg .navbar .navbar-header,
+.color_bg .navbar .navbar-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* line 182, ../sass/_partials/_background.scss */
+
+.gradient_bg .navbar .navbar-toggle,
+.color_bg .navbar .navbar-toggle {
+    opacity: .5;
+    border: none;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+/* line 188, ../sass/_partials/_background.scss */
+
+.gradient_bg .navbar .navbar-toggle .icon-bar,
+.color_bg .navbar .navbar-toggle .icon-bar {
+    background-color: black;
+}
+/* line 191, ../sass/_partials/_background.scss */
+
+.gradient_bg .navbar .navbar-toggle:hover,
+.color_bg .navbar .navbar-toggle:hover {
+    opacity: 1;
+}
+/* line 195, ../sass/_partials/_background.scss */
+
+.gradient_bg .navbar .navbar-toggle:hover,
+.gradient_bg .navbar .navbar-toggle:focus,
+.gradient_bg .navbar .navbar-toggle:active,
+.color_bg .navbar .navbar-toggle:hover,
+.color_bg .navbar .navbar-toggle:focus,
+.color_bg .navbar .navbar-toggle:active {
+    background-color: transparent;
+}
+/* line 206, ../sass/_partials/_background.scss */
+
+.gradient_bg nav.collapsed .navbar_icons,
+.color_bg nav.collapsed .navbar_icons {
+    height: auto !important;
+}
+/* line 209, ../sass/_partials/_background.scss */
+
+.gradient_bg nav.collapsed .navbar_icons > ul > li,
+.color_bg nav.collapsed .navbar_icons > ul > li {
+    height: auto !important;
+}
+/* line 217, ../sass/_partials/_background.scss */
+
+.gradient_bg .navbar_show-icons,
+.gradient_bg .fotorama--fullscreen .fotorama-info .fotorama_show-icons,
+.fotorama--fullscreen .fotorama-info .gradient_bg .fotorama_show-icons,
+.gradient_bg .fotorama--fullscreen .fotorama-info .fotorama_show-icons,
+.color_bg .navbar_show-icons,
+.color_bg .fotorama--fullscreen .fotorama-info .fotorama_show-icons,
+.fotorama--fullscreen .fotorama-info .color_bg .fotorama_show-icons,
+.color_bg .fotorama--fullscreen .fotorama-info .fotorama_show-icons {
+    background: url("../img/share-black.svg") 50% 50% no-repeat;
+    background-size: 20px;
+}
+/* line 225, ../sass/_partials/_background.scss */
+
+.gradient_bg .main_block_text p.title-text,
+.gradient_bg .main_block_text .info address.title-text,
+.gradient_bg .main_block_text .info address.title-text,
+.color_bg .main_block_text p.title-text,
+.color_bg .main_block_text .info address.title-text,
+.color_bg .main_block_text .info address.title-text {
+    color: #000;
+}
+/* line 232, ../sass/_partials/_background.scss */
+
+.gradient_bg .category-group > li a svg,
+.color_bg .category-group > li a svg {
+    fill: rgba(0, 0, 0, 0.5);
+}
+/* line 236, ../sass/_partials/_background.scss */
+
+.gradient_bg .category-group > li a:hover svg,
+.color_bg .category-group > li a:hover svg {
+    fill: black;
+}
+/* line 243, ../sass/_partials/_background.scss */
+
+.gradient_bg .category-group > li.active a svg,
+.color_bg .category-group > li.active a svg {
+    fill: black;
+}
+/* line 251, ../sass/_partials/_background.scss */
+
+.gradient_bg .item .item-info .team-name,
+.color_bg .item .item-info .team-name {
+    color: #000;
+}
+/* line 256, ../sass/_partials/_background.scss */
+
+.gradient_bg .bottom,
+.color_bg .bottom {
+    background-color: transparent;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* line 261, ../sass/_partials/_background.scss */
+
+.gradient_bg .bottom .close-this::before,
+.color_bg .bottom .close-this::before {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+/* line 264, ../sass/_partials/_background.scss */
+
+.gradient_bg .bottom .close-this::after,
+.color_bg .bottom .close-this::after {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+/* line 269, ../sass/_partials/_background.scss */
+
+.gradient_bg .bottom .close-this:hover::before,
+.color_bg .bottom .close-this:hover::before {
+    background-color: black;
+}
+/* line 272, ../sass/_partials/_background.scss */
+
+.gradient_bg .bottom .close-this:hover::after,
+.color_bg .bottom .close-this:hover::after {
+    background-color: black;
+}
+/* line 280, ../sass/_partials/_background.scss */
+
+.gradient_bg .map .bottom,
+.color_bg .map .bottom {
+    background-color: #fff;
+}
+/* line 286, ../sass/_partials/_background.scss */
+
+.gradient_bg .stack__images li,
+.color_bg .stack__images li {
+    background: url("http://nujsoutlawed.in/img/app-black-bg.svg") 100% 100% no-repeat;
+}
+/* line 291, ../sass/_partials/_background.scss */
+
+.gradient_bg .myScroll span,
+.color_bg .myScroll span {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 296, ../sass/_partials/_background.scss */
+
+.gradient_bg .app-store,
+.gradient_bg .google-play,
+.color_bg .app-store,
+.color_bg .google-play {
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* line 301, ../sass/_partials/_background.scss */
+
+.gradient_bg .app-store:hover,
+.gradient_bg .google-play:hover,
+.color_bg .app-store:hover,
+.color_bg .google-play:hover {
+    border: 1px solid black;
+}
+/* line 307, ../sass/_partials/_background.scss */
+
+.gradient_bg .info-about-app .info-about-app_block,
+.color_bg .info-about-app .info-about-app_block {
+    height: calc(100% - 100px);
+}
+/* line 315, ../sass/_partials/_background.scss */
+
+.gradient_bg .fotorama--fullscreen.open,
+.color_bg .fotorama--fullscreen.open {
+    background-color: #fff;
+}
+/* line 320, ../sass/_partials/_background.scss */
+
+.gradient_bg .fotorama--fullscreen .fotorama__nav-wrap,
+.color_bg .fotorama--fullscreen .fotorama__nav-wrap {
+    height: 80px;
+    background-color: #fff;
+}
+/* line 325, ../sass/_partials/_background.scss */
+
+.gradient_bg .fotorama--fullscreen .fotorama__nav,
+.gradient_bg .fotorama--fullscreen .fotorama__stage,
+.color_bg .fotorama--fullscreen .fotorama__nav,
+.color_bg .fotorama--fullscreen .fotorama__stage {
+    background-color: #fff !important;
+}
+/* line 330, ../sass/_partials/_background.scss */
+
+.gradient_bg .fotorama__stage__frame.fotorama__loaded--img.fotorama__active,
+.color_bg .fotorama__stage__frame.fotorama__loaded--img.fotorama__active {
+    background-color: #fff;
+}
+/* line 334, ../sass/_partials/_background.scss */
+
+.gradient_bg .fotorama--fullscreen .fotorama-info .team-name,
+.color_bg .fotorama--fullscreen .fotorama-info .team-name {
+    color: #000 !important;
+}
+/* line 337, ../sass/_partials/_background.scss */
+
+.gradient_bg .fotorama--fullscreen .fotorama-info .team-name .team-work,
+.color_bg .fotorama--fullscreen .fotorama-info .team-name .team-work {
+    color: rgba(0, 0, 0, 0.6);
+}
+/* line 341, ../sass/_partials/_background.scss */
+
+.gradient_bg .fotorama-style.size-320 .bottom,
+.color_bg .fotorama-style.size-320 .bottom {
+    margin-top: 0;
+    background-color: transparent;
+}
+/* line 347, ../sass/_partials/_background.scss */
+
+.gradient_bg .full-canvas,
+.color_bg .full-canvas {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/* line 350, ../sass/_partials/_background.scss */
+
+.gradient_bg .full-canvas.opened,
+.color_bg .full-canvas.opened {
+    background-color: white;
+}
+/* line 355, ../sass/_partials/_background.scss */
+
+.gradient_bg button,
+.gradient_bg form input[type="button"],
+form .gradient_bg input[type="button"],
+.gradient_bg form input[type="email"],
+form .gradient_bg input[type="email"],
+.gradient_bg form input[type="button"],
+.gradient_bg form input[type="email"],
+.color_bg button,
+.color_bg form input[type="button"],
+form .color_bg input[type="button"],
+.color_bg form input[type="email"],
+form .color_bg input[type="email"],
+.color_bg form input[type="button"],
+.color_bg form input[type="email"] {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+}
+/* line 362, ../sass/_partials/_background.scss */
+
+.gradient_bg button:hover,
+.gradient_bg form input[type="button"]:hover,
+form .gradient_bg input[type="button"]:hover,
+.gradient_bg form input[type="email"]:hover,
+form .gradient_bg input[type="email"]:hover,
+.gradient_bg form input[type="button"]:hover,
+.gradient_bg form input[type="email"]:hover,
+.color_bg button:hover,
+.color_bg form input[type="button"]:hover,
+form .color_bg input[type="button"]:hover,
+.color_bg form input[type="email"]:hover,
+form .color_bg input[type="email"]:hover,
+.color_bg form input[type="button"]:hover,
+.color_bg form input[type="email"]:hover {
+    border-color: #000;
+    color: #000;
+}
+/* line 369, ../sass/_partials/_background.scss */
+
+.gradient_bg button:active,
+.gradient_bg form input[type="button"]:active,
+form .gradient_bg input[type="button"]:active,
+.gradient_bg form input[type="email"]:active,
+form .gradient_bg input[type="email"]:active,
+.gradient_bg form input[type="button"]:active,
+.gradient_bg form input[type="email"]:active,
+.color_bg button:active,
+.color_bg form input[type="button"]:active,
+form .color_bg input[type="button"]:active,
+.color_bg form input[type="email"]:active,
+form .color_bg input[type="email"]:active,
+.color_bg form input[type="button"]:active,
+.color_bg form input[type="email"]:active {
+    border-color: #000;
+    background-color: #000;
+    color: #fff;
+}
+/* line 381, ../sass/_partials/_background.scss */
+
+.gradient_bg blockquote:before,
+.color_bg blockquote:before {
+    background: url("../img/quote_inverse.png") top center no-repeat;
+    background-size: 100% 100%;
+    width: 14px;
+    height: 12px;
+}
+/* line 388, ../sass/_partials/_background.scss */
+
+.gradient_bg blockquote footer,
+.color_bg blockquote footer {
+    color: #000;
+}
+
+@media screen and (max-device-width: 767px) {
+    /* line 397, ../sass/_partials/_background.scss */
+    
+    body {
+        background-color: #000;
+    }
+    /* line 398, ../sass/_partials/_background.scss */
+    
+    #bgvid {
+        display: none;
+    }
+}
+/* Preloader */
+/* line 3, ../sass/_partials/_preload.scss */
+
+.wrapp {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    z-index: 99999;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    will-change: transform;
+    -webkit-transition: -webkit-transform 1s cubic-bezier(0.36, 0.78, 0.25, 0.99);
+    transition: transform 1s cubic-bezier(0.36, 0.78, 0.25, 0.99);
+    overflow: hidden;
+}
+/* line 20, ../sass/_partials/_preload.scss */
+
+.wrapp .preload-bg,
+.wrapp .preload-bg .preloaderWraper {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 99999;
+    -webkit-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+}
+/* line 36, ../sass/_partials/_preload.scss */
+
+.wrapp .preload-bg .preloaderWraper {
+    background-color: transparent !important;
+    will-change: transform;
+}
+/* line 43, ../sass/_partials/_preload.scss */
+
+.wrapp .preload-bg .preloaderWraper .scaleDiv {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    will-change: transform;
+    will-change: -webkit-transform;
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+    -webkit-transition: -webkit-transform 1.5s cubic-bezier(0.17, 0.64, 0.3, 0.93), opacity 1.5s ease;
+    transition: transform 1.5s cubic-bezier(0.17, 0.64, 0.3, 0.93), opacity 1.5s ease;
+}
+/* line 60, ../sass/_partials/_preload.scss */
+
+.wrapp .preload-bg .preloaderWraper .scaleDiv .genesisPreloader {
+    will-change: transform;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    -webkit-animation: spining 20s linear 0s infinite forwards;
+    animation: spining 20s linear 0s infinite forwards;
+    /* IE 10+, Fx 29+ */
+}
+/* line 75, ../sass/_partials/_preload.scss */
+
+.wrapp .preload-bg .preloaderWraper .scaleDiv .genesisPreloader.opacity {
+    opacity: 0;
+}
+/* line 88, ../sass/_partials/_preload.scss */
+
+.wrapp .preload-bg .preloaderWraper .scaleDiv .timer {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+/* line 99, ../sass/_partials/_preload.scss */
+
+.wrapp #loadPrecent {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    will-change: transform;
+    z-index: 99999;
+}
+/* line 111, ../sass/_partials/_preload.scss */
+
+.wrapp.done {
+    z-index: 0;
+    z-index: -1\9;
+    z-index: -1\10;
+}
+/* line 120, ../sass/_partials/_preload.scss */
+
+.wrapp.done .preload-bg,
+.wrapp.done .preload-bg .preloaderWraper {
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+/* line 126, ../sass/_partials/_preload.scss */
+
+.wrapp.done .preload-bg .preloaderWraper {
+    background-color: transparent;
+}
+/* line 130, ../sass/_partials/_preload.scss */
+
+.wrapp.done .preload-bg .preloaderWraper .scaleDiv {
+    -webkit-transform: scale(2.8);
+    -ms-transform: scale(2.8);
+    transform: scale(2.8);
+    background-color: transparent;
+    opacity: 0.2;
+}
+/* line 138, ../sass/_partials/_preload.scss */
+
+.wrapp.done .preload-bg .preloaderWraper .scaleDiv .genesisPreloader.stop {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+/* line 157, ../sass/_partials/_preload.scss */
+
+.wrapp.hide-preloader {
+    z-index: 0;
+    z-index: -1\9;
+    z-index: -1\10;
+}
+/* line 164, ../sass/_partials/_preload.scss */
+
+.wrapp.hide-preloader .preload-bg,
+.wrapp.hide-preloader .preload-bg .preloaderWraper {
+    background-color: rgba(0, 0, 0, 0.3);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+/* line 170, ../sass/_partials/_preload.scss */
+
+.wrapp.hide-preloader .preload-bg .preloaderWraper {
+    background-color: transparent;
+}
+/* line 174, ../sass/_partials/_preload.scss */
+
+.wrapp.hide-preloader .preload-bg .preloaderWraper .scaleDiv {
+    -webkit-transform: scale(3);
+    -ms-transform: scale(3);
+    transform: scale(3);
+    background-color: transparent;
+    opacity: 0;
+}
+/* line 182, ../sass/_partials/_preload.scss */
+
+.wrapp.hide-preloader .preload-bg .preloaderWraper .scaleDiv .genesisPreloader.stop {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes spining {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spining {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes preload-show-1 {
+    from {
+        -webkit-transform: rotateZ(60deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(60deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-show-1 {
+    from {
+        -webkit-transform: rotateZ(60deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(60deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-hide-1 {
+    to {
+        -webkit-transform: rotateZ(60deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(60deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-hide-1 {
+    to {
+        -webkit-transform: rotateZ(60deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(60deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-cycle-1 {
+    5% {
+        -webkit-transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+    10%,
+    75% {
+        -webkit-transform: rotateZ(60deg) rotateY(0) rotateX(0deg);
+        transform: rotateZ(60deg) rotateY(0) rotateX(0deg);
+        border-left-color: #333333;
+    }
+    80%,
+    100% {
+        -webkit-transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-cycle-1 {
+    5% {
+        -webkit-transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+    10%,
+    75% {
+        -webkit-transform: rotateZ(60deg) rotateY(0) rotateX(0deg);
+        transform: rotateZ(60deg) rotateY(0) rotateX(0deg);
+        border-left-color: #333333;
+    }
+    80%,
+    100% {
+        -webkit-transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(60deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-show-2 {
+    from {
+        -webkit-transform: rotateZ(120deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(120deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-show-2 {
+    from {
+        -webkit-transform: rotateZ(120deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(120deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-hide-2 {
+    to {
+        -webkit-transform: rotateZ(120deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(120deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-hide-2 {
+    to {
+        -webkit-transform: rotateZ(120deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(120deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-cycle-2 {
+    10% {
+        -webkit-transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+    15%,
+    70% {
+        -webkit-transform: rotateZ(120deg) rotateY(0) rotateX(0deg);
+        transform: rotateZ(120deg) rotateY(0) rotateX(0deg);
+        border-left-color: #333333;
+    }
+    75%,
+    100% {
+        -webkit-transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-cycle-2 {
+    10% {
+        -webkit-transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+    15%,
+    70% {
+        -webkit-transform: rotateZ(120deg) rotateY(0) rotateX(0deg);
+        transform: rotateZ(120deg) rotateY(0) rotateX(0deg);
+        border-left-color: #333333;
+    }
+    75%,
+    100% {
+        -webkit-transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(120deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-show-3 {
+    from {
+        -webkit-transform: rotateZ(180deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(180deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-show-3 {
+    from {
+        -webkit-transform: rotateZ(180deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(180deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-hide-3 {
+    to {
+        -webkit-transform: rotateZ(180deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(180deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-hide-3 {
+    to {
+        -webkit-transform: rotateZ(180deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(180deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-cycle-3 {
+    15% {
+        -webkit-transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+    20%,
+    65% {
+        -webkit-transform: rotateZ(180deg) rotateY(0) rotateX(0deg);
+        transform: rotateZ(180deg) rotateY(0) rotateX(0deg);
+        border-left-color: #333333;
+    }
+    70%,
+    100% {
+        -webkit-transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-cycle-3 {
+    15% {
+        -webkit-transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+    20%,
+    65% {
+        -webkit-transform: rotateZ(180deg) rotateY(0) rotateX(0deg);
+        transform: rotateZ(180deg) rotateY(0) rotateX(0deg);
+        border-left-color: #333333;
+    }
+    70%,
+    100% {
+        -webkit-transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(180deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-show-4 {
+    from {
+        -webkit-transform: rotateZ(240deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(240deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-show-4 {
+    from {
+        -webkit-transform: rotateZ(240deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(240deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-hide-4 {
+    to {
+        -webkit-transform: rotateZ(240deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(240deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-hide-4 {
+    to {
+        -webkit-transform: rotateZ(240deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(240deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-cycle-4 {
+    20% {
+        -webkit-transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+    25%,
+    60% {
+        -webkit-transform: rotateZ(240deg) rotateY(0) rotateX(0deg);
+        transform: rotateZ(240deg) rotateY(0) rotateX(0deg);
+        border-left-color: #333333;
+    }
+    65%,
+    100% {
+        -webkit-transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-cycle-4 {
+    20% {
+        -webkit-transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+    25%,
+    60% {
+        -webkit-transform: rotateZ(240deg) rotateY(0) rotateX(0deg);
+        transform: rotateZ(240deg) rotateY(0) rotateX(0deg);
+        border-left-color: #333333;
+    }
+    65%,
+    100% {
+        -webkit-transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(240deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-show-5 {
+    from {
+        -webkit-transform: rotateZ(300deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(300deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-show-5 {
+    from {
+        -webkit-transform: rotateZ(300deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(300deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-hide-5 {
+    to {
+        -webkit-transform: rotateZ(300deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(300deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-hide-5 {
+    to {
+        -webkit-transform: rotateZ(300deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(300deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-cycle-5 {
+    25% {
+        -webkit-transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+    30%,
+    55% {
+        -webkit-transform: rotateZ(300deg) rotateY(0) rotateX(0deg);
+        transform: rotateZ(300deg) rotateY(0) rotateX(0deg);
+        border-left-color: #333333;
+    }
+    60%,
+    100% {
+        -webkit-transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-cycle-5 {
+    25% {
+        -webkit-transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+    30%,
+    55% {
+        -webkit-transform: rotateZ(300deg) rotateY(0) rotateX(0deg);
+        transform: rotateZ(300deg) rotateY(0) rotateX(0deg);
+        border-left-color: #333333;
+    }
+    60%,
+    100% {
+        -webkit-transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(300deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-show-6 {
+    from {
+        -webkit-transform: rotateZ(360deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(360deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-show-6 {
+    from {
+        -webkit-transform: rotateZ(360deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(360deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-hide-6 {
+    to {
+        -webkit-transform: rotateZ(360deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(360deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-hide-6 {
+    to {
+        -webkit-transform: rotateZ(360deg) rotateY(-90deg) rotateX(0deg);
+        transform: rotateZ(360deg) rotateY(-90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-cycle-6 {
+    30% {
+        -webkit-transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+    35%,
+    50% {
+        -webkit-transform: rotateZ(360deg) rotateY(0) rotateX(0deg);
+        transform: rotateZ(360deg) rotateY(0) rotateX(0deg);
+        border-left-color: #333333;
+    }
+    55%,
+    100% {
+        -webkit-transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@keyframes preload-cycle-6 {
+    30% {
+        -webkit-transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+    35%,
+    50% {
+        -webkit-transform: rotateZ(360deg) rotateY(0) rotateX(0deg);
+        transform: rotateZ(360deg) rotateY(0) rotateX(0deg);
+        border-left-color: #333333;
+    }
+    55%,
+    100% {
+        -webkit-transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+        transform: rotateZ(360deg) rotateY(90deg) rotateX(0deg);
+        border-left-color: #000000;
+    }
+}
+
+@-webkit-keyframes preload-flip {
+    0% {
+        -webkit-transform: rotateY(0deg) rotateZ(-60deg);
+        transform: rotateY(0deg) rotateZ(-60deg);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg) rotateZ(-60deg);
+        transform: rotateY(360deg) rotateZ(-60deg);
+    }
+}
+
+@keyframes preload-flip {
+    0% {
+        -webkit-transform: rotateY(0deg) rotateZ(-60deg);
+        transform: rotateY(0deg) rotateZ(-60deg);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg) rotateZ(-60deg);
+        transform: rotateY(360deg) rotateZ(-60deg);
+    }
+}
+/* line 258, ../sass/_partials/_preload.scss */
+
+.default-preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    display: block;
+    width: 3.75em;
+    height: 4.25em;
+    margin-left: -1.875em;
+    margin-top: -2.125em;
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: rotateY(180deg) rotateZ(-60deg);
+    transform: rotateY(180deg) rotateZ(-60deg);
+}
+/* line 273, ../sass/_partials/_preload.scss */
+
+.default-preloader.opacity {
+    opacity: 0;
+    visibility: visible;
+    -webkit-transition: opacity .5s .5s ease;
+    transition: opacity .5s .5s ease;
+}
+/* line 280, ../sass/_partials/_preload.scss */
+
+.default-preloader .slice {
+    border-top: 1.125em solid transparent;
+    border-right: none;
+    border-bottom: 1em solid transparent;
+    border-left: 1.875em solid #f7484e;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    border-radius: 3px 3px 0 0;
+}
+/* line 293, ../sass/_partials/_preload.scss */
+
+.default-preloader .slice:nth-child(1) {
+    -webkit-transform: rotateZ(60deg) rotateY(0deg) rotateX(0);
+    transform: rotateZ(60deg) rotateY(0deg) rotateX(0);
+    -webkit-animation: 0.15s linear 0.82s preload-hide-1 both 1;
+    animation: 0.15s linear 0.82s preload-hide-1 both 1;
+}
+/* line 293, ../sass/_partials/_preload.scss */
+
+.default-preloader .slice:nth-child(2) {
+    -webkit-transform: rotateZ(120deg) rotateY(0deg) rotateX(0);
+    transform: rotateZ(120deg) rotateY(0deg) rotateX(0);
+    -webkit-animation: 0.15s linear 0.74s preload-hide-2 both 1;
+    animation: 0.15s linear 0.74s preload-hide-2 both 1;
+}
+/* line 293, ../sass/_partials/_preload.scss */
+
+.default-preloader .slice:nth-child(3) {
+    -webkit-transform: rotateZ(180deg) rotateY(0deg) rotateX(0);
+    transform: rotateZ(180deg) rotateY(0deg) rotateX(0);
+    -webkit-animation: 0.15s linear 0.66s preload-hide-3 both 1;
+    animation: 0.15s linear 0.66s preload-hide-3 both 1;
+}
+/* line 293, ../sass/_partials/_preload.scss */
+
+.default-preloader .slice:nth-child(4) {
+    -webkit-transform: rotateZ(240deg) rotateY(0deg) rotateX(0);
+    transform: rotateZ(240deg) rotateY(0deg) rotateX(0);
+    -webkit-animation: 0.15s linear 0.58s preload-hide-4 both 1;
+    animation: 0.15s linear 0.58s preload-hide-4 both 1;
+}
+/* line 293, ../sass/_partials/_preload.scss */
+
+.default-preloader .slice:nth-child(5) {
+    -webkit-transform: rotateZ(300deg) rotateY(0deg) rotateX(0);
+    transform: rotateZ(300deg) rotateY(0deg) rotateX(0);
+    -webkit-animation: 0.15s linear 0.5s preload-hide-5 both 1;
+    animation: 0.15s linear 0.5s preload-hide-5 both 1;
+}
+/* line 293, ../sass/_partials/_preload.scss */
+
+.default-preloader .slice:nth-child(6) {
+    -webkit-transform: rotateZ(360deg) rotateY(0deg) rotateX(0);
+    transform: rotateZ(360deg) rotateY(0deg) rotateX(0);
+    -webkit-animation: 0.15s linear 0.42s preload-hide-6 both 1;
+    animation: 0.15s linear 0.42s preload-hide-6 both 1;
+}
+/* line 300, ../sass/_partials/_preload.scss */
+
+.default-preloader.loading {
+    -webkit-animation: 2s preload-flip steps(2) infinite both;
+    animation: 2s preload-flip steps(2) infinite both;
+}
+/* line 303, ../sass/_partials/_preload.scss */
+
+.default-preloader.loading .slice:nth-child(1) {
+    -webkit-transform: rotateZ(60deg) rotateY(90deg) rotateX(0);
+    transform: rotateZ(60deg) rotateY(90deg) rotateX(0);
+    -webkit-animation: 2s preload-cycle-1 linear infinite both;
+    animation: 2s preload-cycle-1 linear infinite both;
+}
+/* line 303, ../sass/_partials/_preload.scss */
+
+.default-preloader.loading .slice:nth-child(2) {
+    -webkit-transform: rotateZ(120deg) rotateY(90deg) rotateX(0);
+    transform: rotateZ(120deg) rotateY(90deg) rotateX(0);
+    -webkit-animation: 2s preload-cycle-2 linear infinite both;
+    animation: 2s preload-cycle-2 linear infinite both;
+}
+/* line 303, ../sass/_partials/_preload.scss */
+
+.default-preloader.loading .slice:nth-child(3) {
+    -webkit-transform: rotateZ(180deg) rotateY(90deg) rotateX(0);
+    transform: rotateZ(180deg) rotateY(90deg) rotateX(0);
+    -webkit-animation: 2s preload-cycle-3 linear infinite both;
+    animation: 2s preload-cycle-3 linear infinite both;
+}
+/* line 303, ../sass/_partials/_preload.scss */
+
+.default-preloader.loading .slice:nth-child(4) {
+    -webkit-transform: rotateZ(240deg) rotateY(90deg) rotateX(0);
+    transform: rotateZ(240deg) rotateY(90deg) rotateX(0);
+    -webkit-animation: 2s preload-cycle-4 linear infinite both;
+    animation: 2s preload-cycle-4 linear infinite both;
+}
+/* line 303, ../sass/_partials/_preload.scss */
+
+.default-preloader.loading .slice:nth-child(5) {
+    -webkit-transform: rotateZ(300deg) rotateY(90deg) rotateX(0);
+    transform: rotateZ(300deg) rotateY(90deg) rotateX(0);
+    -webkit-animation: 2s preload-cycle-5 linear infinite both;
+    animation: 2s preload-cycle-5 linear infinite both;
+}
+/* line 303, ../sass/_partials/_preload.scss */
+
+.default-preloader.loading .slice:nth-child(6) {
+    -webkit-transform: rotateZ(360deg) rotateY(90deg) rotateX(0);
+    transform: rotateZ(360deg) rotateY(90deg) rotateX(0);
+    -webkit-animation: 2s preload-cycle-6 linear infinite both;
+    animation: 2s preload-cycle-6 linear infinite both;
+}
+/* Scroll Style */
+/* line 3, ../sass/_partials/_scrollStyler.scss */
+
+.myScroll {
+    position: fixed;
+    right: 2px;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    height: 100%;
+    z-index: 0;
+}
+/* line 12, ../sass/_partials/_scrollStyler.scss */
+
+.myScroll span {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: inherit;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+/* line 25, ../sass/_partials/_scrollStyler.scss */
+
+.myScroll span:before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 0;
+    display: block;
+    width: inherit;
+    height: 4px;
+    background-color: inherit;
+    border-radius: 50% 50% 0 0;
+}
+/* line 39, ../sass/_partials/_scrollStyler.scss */
+
+.myScroll span:after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    display: block;
+    width: inherit;
+    height: 4px;
+    background-color: inherit;
+    border-radius: 0 0 50% 50%;
+}
+/* PLUGINS - all plugins */
+/* INVERSE VERSION */
+/* line 2, ../sass/_partials/_inverse.scss */
+
+body.inverse {
+    background: rgba(0, 0, 0, 0.5) url(http://nujsoutlawed.in/img/inverse_bg.jpg) 50% 50% fixed;
+    background-size: cover;
+}
+/* line 14, ../sass/_partials/_inverse.scss */
+
+.inverse .wrapp .preload-bg,
+.inverse .wrapp .preload-bg .preloaderWraper {
+    background-color: white;
+}
+/* line 17, ../sass/_partials/_inverse.scss */
+
+.inverse .wrapp #loadPrecent {
+    color: #000;
+}
+/* line 23, ../sass/_partials/_inverse.scss */
+
+.inverse .wrapp.done .preload-bg,
+.inverse .wrapp.done .preload-bg .preloaderWraper,
+.inverse .wrapp.hide-preloader .preload-bg,
+.inverse .wrapp.hide-preloader .preload-bg .preloaderWraper {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+/* line 30, ../sass/_partials/_inverse.scss */
+
+.inverse h1,
+.inverse h2,
+.inverse h3,
+.inverse h4,
+.inverse h5,
+.inverse h6,
+.inverse .h1,
+.inverse .h2,
+.inverse .h3,
+.inverse .h4,
+.inverse .h5,
+.inverse .h6 {
+    color: black;
+}
+/* line 36, ../sass/_partials/_inverse.scss */
+
+.inverse .main_block header h1 {
+    color: black;
+}
+/* line 43, ../sass/_partials/_inverse.scss */
+
+.inverse p,
+.inverse .main_block_text .info address,
+.main_block_text .info .inverse address,
+.inverse .main_block_text .info address {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}
+/* line 50, ../sass/_partials/_inverse.scss */
+
+.inverse a {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+/* line 54, ../sass/_partials/_inverse.scss */
+
+.inverse a:hover,
+.inverse a:active {
+    color: black !important;
+}
+/* line 59, ../sass/_partials/_inverse.scss */
+
+.inverse a:focus {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+/* line 67, ../sass/_partials/_inverse.scss */
+
+.inverse .subscribe .subscribe-btn {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+}
+/* line 71, ../sass/_partials/_inverse.scss */
+
+.inverse .subscribe .subscribe-btn:hover,
+.inverse .subscribe .subscribe-btn:active {
+    border: 1px solid black;
+    color: black !important;
+}
+/* line 78, ../sass/_partials/_inverse.scss */
+
+.inverse .subscribe.open {
+    border: 1px solid #000;
+}
+/* line 82, ../sass/_partials/_inverse.scss */
+
+.inverse .subscribe .subscribe-form input[type="email"],
+.inverse .subscribe .subscribe-form input[type="text"] {
+    color: #000;
+}
+/* line 87, ../sass/_partials/_inverse.scss */
+
+.inverse .subscribe .subscribe-form input[type="submit"],
+.inverse .subscribe .subscribe-form input[type="button"] {
+    border-color: #000;
+    background: #000 url("../img/send-white.svg") 50% 50% no-repeat;
+    background-size: 65%;
+}
+/* line 96, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar-brand {
+    color: #000;
+}
+/* line 103, ../sass/_partials/_inverse.scss */
+
+.inverse .nav > li > a:hover {
+    color: black;
+}
+/* line 109, ../sass/_partials/_inverse.scss */
+
+.inverse .nav > li.active > a {
+    color: #000 !important;
+}
+/* line 117, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar_share-icons > span {
+    color: black;
+}
+/* line 122, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar {
+    min-height: 80px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid transparent;
+}
+/* line 127, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar .navbar-header {
+    border-bottom: 1px solid transparent;
+}
+/* line 131, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar .navbar-brand {
+    height: 80px;
+    line-height: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* line 140, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar .navbar-nav > li > a {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* line 148, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar .navbar_share-icons span {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* line 153, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar .navbar_share-icons .navbar_icons {
+    height: 80px;
+}
+/* line 155, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar .navbar_share-icons .navbar_icons > ul {
+    height: auto;
+}
+/* line 157, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar .navbar_share-icons .navbar_icons > ul > li {
+    height: 80px;
+}
+/* line 164, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar .navbar-toggle {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+}
+/* line 169, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar .navbar-toggle:hover,
+.inverse .navbar .navbar-toggle:focus,
+.inverse .navbar .navbar-toggle:active {
+    background-color: transparent;
+}
+/* line 180, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar.collapsed .navbar-nav > li > a {
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+/* line 188, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar.collapsed .navbar_share-icons span {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* line 194, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar.collapsed.open {
+    margin-bottom: -80px;
+}
+/* line 199, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar .navbar-toggle {
+    opacity: .5;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+/* line 207, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar .navbar-toggle .icon-bar {
+    background-color: black;
+}
+/* line 210, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar .navbar-toggle:hover {
+    opacity: 1;
+}
+/* line 218, ../sass/_partials/_inverse.scss */
+
+.inverse nav.collapsed .navbar_icons {
+    height: auto !important;
+}
+/* line 221, ../sass/_partials/_inverse.scss */
+
+.inverse nav.collapsed .navbar_icons > ul > li {
+    height: auto !important;
+}
+/* line 229, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar_show-icons,
+.inverse .fotorama--fullscreen .fotorama-info .fotorama_show-icons,
+.fotorama--fullscreen .fotorama-info .inverse .fotorama_show-icons,
+.inverse .fotorama--fullscreen .fotorama-info .fotorama_show-icons {
+    background: url("../img/share-black.svg") 50% 50% no-repeat;
+    background-size: 20px;
+}
+/* line 237, ../sass/_partials/_inverse.scss */
+
+.inverse .main_block_text p.title-text,
+.inverse .main_block_text .info address.title-text,
+.inverse .main_block_text .info address.title-text {
+    color: #000;
+}
+/* line 244, ../sass/_partials/_inverse.scss */
+
+.inverse .category-group > li a svg {
+    fill: rgba(0, 0, 0, 0.5);
+}
+/* line 248, ../sass/_partials/_inverse.scss */
+
+.inverse .category-group > li a:hover svg {
+    fill: black;
+}
+/* line 255, ../sass/_partials/_inverse.scss */
+
+.inverse .category-group > li.active a svg {
+    fill: black;
+}
+/* line 263, ../sass/_partials/_inverse.scss */
+
+.inverse .item .item-info .team-name {
+    color: #000;
+}
+/* line 268, ../sass/_partials/_inverse.scss */
+
+.inverse .bottom {
+    height: 80px;
+    background-color: #fff;
+    margin-top: -80px;
+}
+/* line 274, ../sass/_partials/_inverse.scss */
+
+.inverse .bottom .close-this::before {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+/* line 277, ../sass/_partials/_inverse.scss */
+
+.inverse .bottom .close-this::after {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+/* line 282, ../sass/_partials/_inverse.scss */
+
+.inverse .bottom .close-this:hover::before {
+    background-color: black;
+}
+/* line 285, ../sass/_partials/_inverse.scss */
+
+.inverse .bottom .close-this:hover::after {
+    background-color: black;
+}
+/* line 293, ../sass/_partials/_inverse.scss */
+
+.inverse .stack__images li {
+    background: url("http://nujsoutlawed.in/img/app-black-bg.svg") 100% 100% no-repeat;
+}
+/* line 298, ../sass/_partials/_inverse.scss */
+
+.inverse .myScroll span {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 301, ../sass/_partials/_inverse.scss */
+
+.inverse .navbar-nav > li > a {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* line 307, ../sass/_partials/_inverse.scss */
+
+.inverse .app-store,
+.inverse .google-play {
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* line 312, ../sass/_partials/_inverse.scss */
+
+.inverse .app-store:hover,
+.inverse .google-play:hover {
+    border: 1px solid black;
+}
+/* line 318, ../sass/_partials/_inverse.scss */
+
+.inverse .info-about-app .info-about-app_block {
+    height: calc(100% - 100px);
+}
+/* line 326, ../sass/_partials/_inverse.scss */
+
+.inverse .fotorama--fullscreen.open {
+    background-color: #fff;
+}
+/* line 331, ../sass/_partials/_inverse.scss */
+
+.inverse .fullscreen {
+    background-color: #fff;
+}
+/* line 335, ../sass/_partials/_inverse.scss */
+
+.inverse .fotorama--fullscreen .fotorama__nav-wrap {
+    height: 80px;
+    background-color: #fff;
+}
+/* line 340, ../sass/_partials/_inverse.scss */
+
+.inverse .fotorama--fullscreen .fotorama__nav,
+.inverse .fotorama--fullscreen .fotorama__stage {
+    background-color: #fff !important;
+}
+/* line 345, ../sass/_partials/_inverse.scss */
+
+.inverse .fotorama__stage__frame.fotorama__loaded--img.fotorama__active {
+    background-color: #fff;
+}
+/* line 349, ../sass/_partials/_inverse.scss */
+
+.inverse .fotorama--fullscreen .fotorama-info .team-name {
+    color: #000 !important;
+}
+/* line 352, ../sass/_partials/_inverse.scss */
+
+.inverse .fotorama--fullscreen .fotorama-info .team-name .team-work {
+    color: rgba(0, 0, 0, 0.6);
+}
+/* line 356, ../sass/_partials/_inverse.scss */
+
+.inverse .fotorama-style.size-320 .bottom {
+    margin-top: 0;
+    background-color: transparent;
+}
+/* line 362, ../sass/_partials/_inverse.scss */
+
+.inverse .full-canvas {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/* line 365, ../sass/_partials/_inverse.scss */
+
+.inverse .full-canvas.opened {
+    background-color: white;
+}
+/* line 370, ../sass/_partials/_inverse.scss */
+
+.inverse button,
+.inverse form input[type="button"],
+form .inverse input[type="button"],
+.inverse form input[type="email"],
+form .inverse input[type="email"],
+.inverse form input[type="button"],
+.inverse form input[type="email"] {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+}
+/* line 377, ../sass/_partials/_inverse.scss */
+
+.inverse button:hover,
+.inverse form input[type="button"]:hover,
+form .inverse input[type="button"]:hover,
+.inverse form input[type="email"]:hover,
+form .inverse input[type="email"]:hover,
+.inverse form input[type="button"]:hover,
+.inverse form input[type="email"]:hover {
+    border-color: #000;
+    color: #000;
+}
+/* line 384, ../sass/_partials/_inverse.scss */
+
+.inverse button:active,
+.inverse form input[type="button"]:active,
+form .inverse input[type="button"]:active,
+.inverse form input[type="email"]:active,
+form .inverse input[type="email"]:active,
+.inverse form input[type="button"]:active,
+.inverse form input[type="email"]:active {
+    border-color: #000;
+    background-color: #000;
+    color: #fff;
+}
+/* line 396, ../sass/_partials/_inverse.scss */
+
+.inverse blockquote:before {
+    background: url("../img/quote_inverse.png") top center no-repeat;
+    background-size: 100% 100%;
+    width: 14px;
+    height: 12px;
+}
+/* line 403, ../sass/_partials/_inverse.scss */
+
+.inverse blockquote footer {
+    color: #000;
+}
+/* line 33, ../sass/_partials/_app.scss */
+
+.top-logotip {
+    width: 150px;
+    position: absolute;
+    top: 5.04%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 99999;
+    text-align: center;
+}
+/* line 43, ../sass/_partials/_app.scss */
+
+.top-logotip img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,574 @@
+body {
+  background: url('background.png');
+    background-size: cover;
+  -webkit-animation: backgroundScroll 48s linear infinite;
+   animation: backgroundScroll 48s linear infinite;
+   width: 100%;
+   height: 100%;
+
+  margin: 0px;
+  overflow: hidden;
+  cursor:move;
+}
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -3820px 0;}
+}
+
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -3820px 0;}
+}
+
+
+.jumbotron {
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%,-50%);
+border: 1px ;
+}
+
+
+.icon1{
+margin-left:-10%;
+margin-top:600%;
+width:40px;
+height:40px;
+
+
+}
+
+
+
+.icon2{
+
+margin-left:-240%;
+margin-top:-300%;
+width:70px;
+height:70px;
+}
+
+.icon3{
+
+margin-left:210%;
+margin-top:-110%;
+width:70px;
+height:70px;
+}
+
+.icon4{
+
+margin-left:255%;
+margin-top:-325%;
+width:70px;
+height:70px;
+}
+
+.icon5{
+
+margin-left:-330%;
+margin-top:-145%;
+width:70px;
+height:70px;
+}
+
+
+
+.icon6{
+
+margin-left:-287%;
+margin-top:350%;
+width:70px;
+height:70px;
+}
+
+
+.icon7{
+
+margin-left:240%;
+margin-top:525%;
+width:70px;
+height:70px;
+}
+
+
+.icon8{
+
+margin-left:310%;
+margin-top:1180%;
+width:30px;
+height:30px;
+}
+
+
+
+.icon9{
+
+margin-left:-415%;
+margin-top:10%;
+width:40px;
+height:40px;
+}
+
+.icon10{
+
+margin-left:310%;
+margin-top:160%;
+width:50px;
+height:50px;
+}
+
+
+
+.icon11{
+
+margin-left:-113%;
+margin-top:-452%;
+width:55px;
+height:50px;
+}
+
+
+
+
+.icon12{
+
+margin-left:-110%;
+margin-top:-245%;
+width:60px;
+height:50px;
+}
+
+
+
+
+.icon13{
+
+margin-left:177%;
+margin-top:-362%;
+width:55px;
+height:55px;
+}
+
+
+
+
+.icon14{
+
+margin-left:105%;
+margin-top:-245%;
+width:60px;
+height:50px;
+}
+
+
+
+
+
+.icon15{
+
+margin-left:500%;
+margin-top:-200%;
+width:45px;
+height:45px;
+}
+
+
+
+
+
+.icon16{
+
+margin-left:480%;
+margin-top:10%;
+width:50px;
+height:50px;
+}
+
+
+
+
+
+.icon17{
+
+margin-left:-173%;
+margin-top:587%;
+width:60px;
+height:50px;
+}
+
+
+.bub{
+margin-top:3%;
+}
+
+.vec{
+margin-top:3%;
+}
+
+
+
+@media only screen and (max-width:600px){
+
+.bub{
+width:300px;
+height:200px;
+
+}
+
+.vec{
+width:300px;
+height:200px;
+
+}
+
+
+
+
+}
+}
+
+
+@media only screen  and (max-height:400px){
+
+.bub{
+width:300px;
+height:200px;
+
+}
+
+.vec{
+width:300px;
+height:200px;
+
+}
+
+
+
+
+}
+
+
+
+}
+
+  body {
+
+    background-color: rgb(200,200,200);
+
+    margin: 0px;
+    overflow: hidden;
+    cursor:move;
+  }
+  @font-face
+  {
+  font-family: handycheera;
+  src: url(HoboStd.woff);
+  }
+
+  #info
+  {
+    position: absolute;
+    top: 0px; width: 100%;
+    color: #ffffff;
+    padding: 5px;
+    font-family:Monospace;
+    font-size:13px;
+    font-weight: bold;
+    text-align:center;
+  }
+
+  a {
+    color: #ffffff;
+  }
+  .log
+  {	width:600px;
+    height:130px;
+    margin-left:10px;
+    margin-top:-300px;
+  }
+  .logoi
+  {	width:450px;
+    height:70px;
+    margin-left:10px;
+    margin-top:-210px;
+
+  }
+
+  #hedding
+  {
+  background: rgba(0,0,0,0.2);
+  text-align: center;
+  color:#fff;
+  font: 95px/1 "Impact";
+  text-transform: uppercase;
+  display: block;
+  text-shadow:#253e45 -1px 1px 0,
+  #253e45 -2px 2px 0,
+  #d45848 -3px 3px 0,
+  #d45848 -4px 4px 0;
+  margin: 5% auto 5%;
+  }
+
+  .main-icons
+        { font-family: hobo std medium;
+          position: absolute;
+          top: 87%;
+          left:47%;
+          transform: translate(-50%,-50%);
+          border: 1px ;
+          text-shadow:
+          0.025em 0.025em 0.025em rgba(0, 0, 0, 2),
+          0 0 0.5em rgba(255, 255, 255, 0.3);
+          color: white;
+
+       }
+
+  .mico:hover
+    {
+
+      transform: rotate(360deg);
+      transition: all 0.3s ease-in-out 0s;
+    }
+
+    .explore{
+      position:fixed;
+      left:-250px;
+      top:120px;
+width:500px;
+height:150px;
+
+    }
+    .time{
+      position:fixed;
+      left:-530px;
+      top:150px;
+width:150px;
+height:150px;
+    }
+    .jecrc{
+      position:fixed;
+      left:-530px;
+      top:-310px;
+
+height:200px;
+    }
+
+            .prize{
+              position:fixed;
+              left:270px;
+              top:130px;
+    width:200px;
+    height:200px;
+            }
+            .prize1{
+              position:fixed;
+              left:380px;
+              top:160px;
+    width:200px;
+    height:150px;
+            }
+            #splash{
+				top:86.5%;
+            display:none;
+
+            }
+
+            #about {
+            display:none;
+			top:86.5%;
+
+            }
+
+
+            #team {
+            display:none;
+			top:86.5%;
+
+            }
+            #gallery {
+            display:none;
+			top:86.5%;
+            left:46%;
+            }
+            #sponsors{
+            display:none;
+			top:86.5%;
+            left:45%;
+            }
+
+
+            #support{
+            display:none;
+			top:86.5%;
+            left:46.5%;
+            }
+
+
+            #endeavour{
+            display:none;
+			top:86.5%;
+            left:45%;
+            }
+
+            #quanta{
+            display:none;
+			top:86.5%;
+            left:46%;
+            }
+
+
+            #zarurat{
+            display:none;
+			top:86.5%;
+            left:46%;
+            }
+
+
+
+            #alumni{
+            display:none;
+			top:86.5%;
+            left:46%;
+            }
+
+
+            #itnerary{
+            display:none;
+			top:86.5%;
+            left:46%;
+            }
+
+
+            #tedx{
+            display:none;
+			top:86.5%;
+            left:43%;
+            }
+
+
+            #fb{
+            display:none;
+top:86.5%;
+            left:45%;
+            }
+
+
+            #insta{
+            display:none;
+			top:86.5%;
+            left:45%;
+            }
+
+
+            #twitter{
+            display:none;
+			top:86.5%;
+            left:46%;
+            }
+
+
+            #youtube{
+            display:none;
+			top:86.5%;
+            left:46%;
+            }
+
+			@media only screen and (max-width:1340px){
+				
+				
+				   #splash{
+				
+            display:none;
+
+            }
+
+            #about {
+            display:none;
+
+            }
+
+
+            #team {
+            display:none;
+
+            }
+            #gallery {
+            display:none;
+            left:46%;
+            }
+            #sponsors{
+            display:none;
+            left:45%;
+            }
+
+
+            #support{
+            display:none;
+            left:46.5%;
+            }
+
+
+            #endeavour{
+            display:none;
+            left:45%;
+            }
+
+            #quanta{
+            display:none;
+            left:46%;
+            }
+
+
+            #zarurat{
+            display:none;
+            left:46%;
+            }
+
+
+
+            #alumni{
+            display:none;
+            left:46%;
+            }
+
+
+            #itnerary{
+            display:none;
+            left:46%;
+            }
+
+
+            #tedx{
+            display:none;
+            left:43%;
+            }
+
+
+            #fb{
+            display:none;
+
+            left:45%;
+            }
+
+
+            #insta{
+            display:none;
+            left:45%;
+            }
+
+
+            #twitter{
+            display:none;
+            left:46%;
+            }
+
+
+            #youtube{
+            display:none;
+            left:46%;
+            }
+
+				
+			}
