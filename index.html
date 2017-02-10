@@ -1,7 +1,7 @@
-
 <html>
 	<head>
 		<meta charset=utf-8>
+		<meta name="viewport" content="width=device-width, initial-scale=0.8, minimum-scale=0.8, maximum-scale=0.8">
 		<title>Renaissance</title>
 			<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 			<link rel="stylesheet" type="text/css" href="component.css" />
@@ -28,7 +28,7 @@ alert("Mobile view comming soon.");
  position:fixed;
  top:-350px;
  left:-900px;
- 
+
  }
  .fadelogo2{
  position:fixed;
@@ -36,25 +36,25 @@ alert("Mobile view comming soon.");
  left:350px;
  width:500px;
  height:125px;
- 
+
  }
- 
+
  .fadelogo3{
  position:fixed;
  top:-250px;
  left:420px;
  width:350px;
  height:85px;
- 
+
  }
  .size_ribbon{
  width:500px;
  height:250px;
  display:none;
- margin-top:115%;
+ margin-top:125%;
  margin-left:-1.5%;
 
- 
+
  }
  @media only screen and (max-width:1340px){
  .size_ribbon{
@@ -64,15 +64,40 @@ alert("Mobile view comming soon.");
  margin-top:110%;
  margin-left:-1.5%;
 
- 
+
  }
- 
- 
- 
+
+ .fadelogo1{
+ width:300px;
+ height:250px;
+ position:fixed;
+ top:-350px;
+ left:-700px;
+
  }
- 
+ .fadelogo2{
+ position:fixed;
+ top:-350px;
+ left:250px;
+ width:400px;
+ height:125px;
+
+ }
+
+ .fadelogo3{
+ position:fixed;
+ top:-270px;
+ left:300px;
+ width:300px;
+ height:65px;
+
+ }
+
+
+ }
+
 </style>
- 
+
 	</head>
 
 	<body>
@@ -108,17 +133,17 @@ alert("Mobile view comming soon.");
 		<div class="jumbotron">
 	  <img class=" logoi" src="vectors ren 17/final poster ren 17-13.png" id="logoi">
  </div>
- 
- 
- 
-	<div class="jumbotron">	
+
+
+
+	<div class="jumbotron">
 	  <img class="fadelogo1" src="vectors ren 17/final poster ren 17-07.png" id="maze20">
  </div>
- 
+
 	<div class="jumbotron">
 	  <img class="fadelogo2" src="vectors ren 17/final poster ren 17-03.png" id="maze21">
  </div>
- 
+
 	<div class="jumbotron">
 	  <img class="fadelogo3" src="vectors ren 17/final poster ren 17-13.png" id="maze22">
  </div>
@@ -335,10 +360,10 @@ toggleit();
 		$("#maze2").click(function(){
 			$("#logoi").fadeTo(200,1);
 				$("#explore").fadeTo(200,1);
-				
+
 	//			$("#prize").fadeTo(200,1);
 		//			$("#prize1").fadeTo(200,1);
-			$("#jecrc").fadeTo(200,1); 
+			$("#jecrc").fadeTo(200,1);
 				//	$("#time").fadeTo(200,1);
 			$("#logoim").fadeTo(200,1);
        toggleit();
@@ -494,8 +519,8 @@ toggleit();
 																				$("#alumni").hide();
 																				$("#ribbon").hide();
 																				}
-																);	
-																
+																);
+
 </script>
   <script src="js/renderers/Projector.js"></script>
 <script src="build/three.js"></script>
@@ -558,8 +583,8 @@ toggleit();
 				$("#logoi").fadeTo(1000,0);
 				$("#logoim").fadeTo(1000,0);
 				$("#explore").fadeTo(1000,0);
-				
-				
+
+
 				// $("#prize").fadeTo(1000,0);
 				// $("#prize1").fadeTo(1000,0);
 				$("#jecrc").fadeTo(1000,0);
@@ -586,7 +611,7 @@ toggleit();
 				$("#maze20").toggle();
 				$("#maze21").toggle();
 				$("#maze22").toggle();
-			
+
 				console.log('you clicked on mesh 2', mesh)
 			}, false);
 
