@@ -578,9 +578,11 @@ to {background-position: -3820px 0;}
 }
 .bar:hover .inner-bar h2 {
     color: #f63b29;
+    font-family: hobo;
 }
 .bar-full .inner-bar h2 {
     color: #f63b29;
+    font-family: hobo;
     font-size: 2em;
 }
 .bar.bar-full {
