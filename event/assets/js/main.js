@@ -21,27 +21,28 @@ renApp.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
     $stateProvider
 
         // HOME STATES AND NESTED VIEWS ========================================
-        .state('home', {
-            url: '/welcome',
-            title: 'National Level Techno-Cultural Fest',
-            templateUrl: 'assets/partials/partial-home.html',
-            controller: function(renService,$scope, Page){
-                prefetchImages(['about-us.png','events.png','team.png','gallery.png','sponsor.png','support.png'],'assets/img/logo/explore/');
-                prefetchImages(['splash.png','quanta.png', 'alumni.png','tas.png', 'endeavour.png','zarurat.png'],'assets/img/logo/categories/');
-                renService.async().then(function(d) {
-                    prefetchImages(d['imgArray'],'assets/img/logo/events/');
-                });
-                $scope.$on("$viewContentLoaded",function(){
+           .state('home', {
+       url: '/welcome',
+       title: 'National Level Techno-Cultural Fest',
+       templateUrl: 'assets/partials/partial-home.html',
+       controller: function(renService, $scope, Page) {
+           prefetchImages(['about-us.png', 'events.png', 'team.png', 'gallery.png', 'sponsor.png', 'support.png'], 'assets/img/logo/explore/');
+           prefetchImages(['splash.png', 'quanta.png', 'alumni.png', 'tas.png', 'endeavour.png', 'zarurat.png'], 'assets/img/logo/categories/');
+           renService.async().then(function(d) {
+               prefetchImages(d['imgArray'], 'assets/img/logo/events/');
+           });
+           $scope.$on("$viewContentLoaded", function() {
 
-                });
-            }
-        })
+           });
+       }
+   })
 
-        .state('explore', {
-            url: '/home',
-            title: 'Home',
-            templateUrl: 'javascript:history.back()'
-        })
+   .state('explore', {
+           url: '/home',
+           title: 'Home',
+           templateUrl: 'assets/partials/partial-explore.html'
+       })
+
         // Routes from explore
         .state('about', {
             url: '/about',
