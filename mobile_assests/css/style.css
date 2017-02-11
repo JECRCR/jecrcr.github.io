@@ -1,0 +1,533 @@
+body,html {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+/*Background Image URl*/
+body {
+  background: url('../img/background.png');
+  -webkit-animation: backgroundScroll 12s linear infinite;
+  animation: backgroundScroll 12s linear infinite;
+  width: 100%;
+  height: 100%;
+}
+.main_body{
+  height: 100%;
+
+}
+
+@font-face {
+    font-family: handycheera;
+    src: url(../fonts/handy_cheera.woff);
+}
+
+
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -3820px 0;}
+}
+
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -3820px 0;}
+}
+
+a {
+  text-decoration: none !important;
+}
+.top_ren_container {
+  width: 100%;
+  position: relative;
+}
+.ren_focus_container{
+  width: 100%;
+}
+.ren_bottom_container{
+  width: 331px;
+  left: 0px;
+  padding: 0 4%;
+  margin: 70px auto 20 auto;
+}
+.center_container_box{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*Css For Animated Elements*/
+.animated_elements{
+  position: absolute;
+  height: 100%;
+  width: 98%;
+  z-index: 0/*Change to 10*/;
+}
+.plane{
+  height: 57px;
+  width: 62px;
+}
+.plane_container{
+  top: 131px;
+  left: 2px;
+  position: absolute;
+  -webkit-animation: plane 9s linear infinite;
+  animation: plane 9s linear infinite;
+}
+#plane2{
+  background: transparent url("../img/sprite.png") repeat scroll -21px -173px;
+}
+#plane1{
+  background: transparent url("../img/sprite.png") repeat scroll -88px -173px;
+}
+.hot_balloon {
+  background: url('../img/sprite.png');
+  background-position: -28px -19px;
+  height: 53px;
+  width: 54px;
+}
+
+.hot_balloon_container{
+  position: absolute;
+  right:0%;
+  top:10px;
+  -webkit-animation-delay: 5s; /* Safari 4.0 - 8.0 */
+  animation-delay: 5s;
+  -webkit-animation: hot_balloon 15s linear infinite;
+  animation: hot_balloon 15s linear infinite;
+}
+
+.sun {
+  background: url('../img/sprite.png');
+  background-position: -174px -161px;
+  height: 79px;
+  width: 85px;
+  position: absolute;
+  top: 10px;
+  left: 160px;
+  -webkit-animation: pulsate 3.5s linear;
+  animation: pulsate 3.5s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.meteor {
+  background: url('../img/sprite.png');
+  background-position: -130px -13px;
+  border-radius: 400px;
+  height: 103px;
+  width: 163px;
+/*  -webkit-animation: meteor_fade 10s linear infinite;
+  animation: meteor_fade 10s linear infinite; */
+}
+
+.meteor_container{
+  position: absolute;
+  right:230px;
+  top:10px;
+  -webkit-animation-delay: 15s; /* Safari 4.0 - 8.0 */
+  animation-delay: 15s;
+  -webkit-animation: meteor 2.5s linear infinite;
+  animation: meteor 2.5s linear infinite;
+
+}
+.helium_balloon {
+  right:6%;
+  position: absolute;
+  -webkit-animation-delay: 5s; /* Safari 4.0 - 8.0 */
+   animation-delay: 5s;
+  -webkit-animation: balloon 19s linear infinite;
+  animation: balloon 19s linear infinite;
+
+}
+
+.helium_image{
+  height: 156px;
+  width: 118px;
+  background: url('../img/sprite.png');
+  background-position: -292px -60px;
+}
+
+
+.floating_banner {
+ background: url(../img/sprite.png);
+  background-position: 50px -905px;
+  height: 74px;
+  width: 447px;
+  position: relative;
+  left: 50.7%;
+  transform: translateX(-50%);
+  background-size: 500px 500px;
+}
+.arrow{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.fa-chevron-up{
+  font-size: 40px !important;
+  /*
+  color: white;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #2762ff;
+  */
+  color: #ffffff;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #41434b;
+
+
+}
+
+
+@keyframes arrow {
+	0%,100% {
+		transform:scale(1,1)
+	}
+	10% {
+		transform:scale(1.1,1.05)
+	}
+	50% {
+		transform:scale(1.33,1.36)
+	}
+}
+@-webkit-keyframes arrow {
+	0%,100% {
+		-webkit-transform:scale(1,1)
+	}
+	10% {
+		-webkit-transform:scale(1.1,1.1)
+	}
+	50% {
+		-webkit-transform:scale(1.33,1.36)
+	}
+}
+
+.renaissance_logo {
+  background: url('../img/sprite.png');
+  background-position: -368px -499px;
+  height: 59px;
+  position: relative;
+  width: 321px;
+  margin: 10px auto 24px;
+}
+
+@keyframes pulsate {
+	0%,100% {
+		transform:scale(1,1)
+	}
+	10% {
+		transform:scale(1.05,1.05)
+	}
+	50% {
+		transform:scale(1.10,1.10)
+	}
+}
+@-webkit-keyframes pulsate {
+  0%,100% {
+    transform:scale(1,1)
+  }
+  10% {
+    transform:scale(1.05,1.05)
+  }
+  50% {
+    transform:scale(1.10,1.10)
+  }
+}
+
+.renaissance_date {
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 164px;
+}
+
+.college_logo {
+  background: url('../img/sprite.png');
+  background-position: -327px -28px;
+  float: left;
+  width: 108px;
+  height: 95px;
+  background-size: 500px 500px;
+}
+
+.event_brand_partner {
+  background: url('../img/sprite.png');
+  background-position: -459px -180px;
+  float: left;
+  height: 72px;
+  margin-top: 18px;
+  width: 185px;
+}
+
+.middle_text {
+  float: left;
+  font-weight: 700;
+  margin-left: 11px;
+  margin-right: 32px;
+  margin-top: 44px;
+}
+
+.earth_menu_block {
+  margin-top: 22px;
+  width: 302px;
+  margin: 16px auto 0px auto;
+}
+
+.rotating_ren_earth {
+  background: url(../img/sprite.png);
+  background-position: -11px -278px;
+  height: 284px;
+  position: relative;
+  transform: translateX(-50%);
+  width: 290px;
+  animation: pulsate 1.5s linear;
+  animation-iteration-count: infinite;
+}
+
+.menu_ren_play_button {
+  background: url('../img/sprite.png');
+  background-position: -324px -294px;
+  height: 57px;
+  width: 56px;
+  position: absolute;
+  cursor: pointer;
+  left: 49%;
+  transform: translateX(-50%);
+  top: 37%;
+}
+
+.prize_icon {
+  background: url('../img/sprite.png');
+  background-position: -319px -402px;
+  height: 82px;
+  width: 85px;
+}
+.sponsors {
+  height: 94px;
+  margin: 0 auto;
+  width: 133px;
+}
+.present_text {
+  color: #505050;
+  font-weight: 700;
+  height: 60px;
+  margin-top: 23px;
+  margin: 0 auto;
+  padding-top: 18px;
+  width: 394px;
+}
+.renaissance_tagline {
+  font-family: handycheera;
+  padding-left: 6px;
+  color: #505050;
+  height: 38px;
+  margin: 0px auto 0px auto;
+  width: 297px;
+  font-size: 20px;
+}
+
+.ren_social_buttons{
+  float: right;
+}
+
+.ren_share_circle {
+  float: left;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  padding: 20px 22px;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #FFF;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.ren_share_circle:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  cursor: pointer;
+}
+
+.ren_facebook_button{
+  background: #3b5998;
+}
+
+.ren_twitter_button{
+  background: #1da1f2;
+}
+
+.ren_youtube_button{
+  background: #cd201f;
+}
+
+.ren_author_button{
+   background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF)
+}
+
+.prize_bar{
+  margin: -18px auto 0 auto;
+  height: 116px;
+  width: 240px;
+}
+.social_media{
+    margin-left: 14px;
+}
+
+.prize_icon{
+  float: left;
+}
+
+.prize_text{
+  float:left;
+  padding: 10px;
+   font-weight: 800;
+  font-size: 16px;
+  color: rgb(72, 73, 83);
+}
+
+.prize_title{
+  font-weight: 800;
+  font-size: 16px;
+  color: rgb(72, 73, 83);
+  margin-top: 5px;
+}
+
+.prize_amount{
+  font-weight: 800;
+  font-size: 22px;
+  color: rgb(72, 73, 83);
+}
+
+/* Animations */
+/* Balloon Float Animation*/
+@keyframes balloon {
+    from {bottom: 0%;
+    right:6%;}
+    to {bottom: 100%;
+    right:86%;}
+}
+
+@-webkit-keyframes  balloon {
+    from {bottom: 0%;
+    right:6%;}
+    to {bottom: 100%;
+    right:86%;}
+}
+
+@keyframes plane {
+    from {top: 30%;
+      left:0%;
+    }
+    to {left: 30%;
+      top: -10%;
+    }
+}
+
+@-webkit-keyframes  plane {
+      from {top: 30%;
+        left:0%;
+      }
+      to {left: 30%;
+        top: -10%;
+      }
+}
+
+
+@keyframes hot_balloon {
+    from {right: 0%;}
+    to {right: 100%;}
+}
+
+@-webkit-keyframes  hot_balloon {
+    from {right: 0%;}
+    to {right: 100%;}
+}
+
+
+@keyframes meteor {
+  from {
+    right: 0%;
+    top: -60%:
+    max-height: 103px;
+    width: 163px;
+  }
+  to {
+    right: 30%;
+    top: 30%;
+    opacity: 0;
+    max-height: 103px;
+    width: 163px;
+  }
+}
+
+/*
+@-webkit-keyframes  meteor {
+  from {
+    right: 20%;
+    top: -60%:
+    max-height: 103px;
+    width: 163px;
+  }
+  to {
+    right: 60%;
+    top:  60%;
+    max-height: 103px;
+  }
+}
+*/
+
+
+@keyframes meteor_fade {
+  from {
+    display: block;
+    max-height: 103px;
+    opacity: 100;
+  }
+  to {
+     display: block;
+     max-height: 0px;
+     opacity: -80;
+  }
+}
+
+@-webkit-keyframes  meteor_fade {
+  from {  max-height: 103px;
+          opacity: 100;
+          display: block;
+  }
+  to {  max-height: 0px;
+        opacity: -80;
+        display: block;
+  }
+}
+
+
+
+@keyframes sunfading {
+  from {
+    border-radius: 0px;
+    opacity: 100;
+  }
+  to { border-radius: 100px;
+    opacity: 60;
+  }
+}
+
+@-webkit-keyframes sunfading {
+  from {
+    border-radius: 0px;
+    opacity: 100;
+  }
+  to {
+    border-radius: 100px;
+    opacity: 60;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .ren_bottom_container {
+      width: 372px;
+      left: 0px;
+      padding: 0 4%;
+      margin: 70px auto 20 auto;
+  }
+}
