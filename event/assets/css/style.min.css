@@ -1559,7 +1559,7 @@ a.list-group-item img {
     }
     .navigation {
         padding: 0px 5px;
-        background: rgba(14, 37, 51, 0.8);
+        background: rgba(14, 37, 51, 0);
     }
     .login-modal .close-btn, .account-modal .close-btn {
         top: 25px;
