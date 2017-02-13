@@ -1236,7 +1236,7 @@ a.list-group-item img {
     border: 2px solid rgba(255, 255, 255, 0);
     border-radius: 1em;
     padding: 5px 1em;
-    color: white;
+    color: black;
 }
 #contact-form input[type=submit] {
     background-color: #00a69c;
