@@ -616,7 +616,8 @@
                 "venue": "<b>Date: </b>    8th March, 2017\r\n<b>Time: </b>    7:00 PM to 10:00 PM\r\n<b>Venue: </b>    Central Lawn",
                 "prize": "1st Prize :   Worth &#8377; 28000 (including &#8377; 20000 cash)\r\n2nd Prize :    Worth &#8377;10000 (including &#8377;6000 cash)",
                 "coordinators": "Mehak Pandita :   +91-7568736232\r\n Email :   mpandita996@gmail.com",
-                "class": "col-sm-5ths col-xs-6"
+                "class": "col-sm-5ths col-xs-6",
+                "embed": "new"
             },
             {
                 "id": "302",
