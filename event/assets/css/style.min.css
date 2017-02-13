@@ -624,6 +624,7 @@ to {background-position: -3820px 0;}
 }
 .event-content img {
     max-width: 100%;
+    display: none;
 }
 .bar .inner-bar img.category-img {
     -webkit-transition: all 0.5s ease-out;
