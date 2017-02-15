@@ -435,7 +435,7 @@
 			"category": "2",
 			"type": "1",
 			"title": "embryo",
-			"about": "This Embryo is aiming to tap the minds of budding engineers. In this regard, we have enclosed the poster of the Embryo. The events like paper presentation in the symposium helps students to think and come up with innovative ideas ,also enhancing the on stage skills of the students\r\nFew events challenging the students ability apart from academic proficiency, helps in bringing out professionalism and volunteering traits from the individuals.",
+			"about": "In this event student will have to present a paper on a topic from electrical or electronics engineering.",
 			"rules": "<b>Topic:</b>\r\nLatest  Researches on technology (in any technical field & in any branch of science).\r\n\r\n<b>Rules:</b>\r\n<ol><li>The first stage involves the uploading of <a href=\"http://tinyurl.com/z426onw\" target=\"_blank\">abstracts online</a>. The entries selected for the second round are required to present their paper at JECRC JAIPUR during RENAISSANCE. </li><li>Participants from different institutions can also form a team. </li><li>A maximum of 2 students per team are allowed to present a paper . In case of team participation, both the members are required to be present at the time of the event. </li><li>The decision of the judges will be final and binding.</li></ol>\r\n\r\n<b>Guidelines:</b>\r\n<ol><li>Presentations should be in .ppt or .pdfformat.</li><li>For the presentations, a LCD projector, a computer , a mike and speakers will be provided.</li><li>The time for one presentation will be 6-8 minutes. One buzzer will be rung after 6 minutes to remind the participants about the time and final buzzer will be rung after 8 minutes.</li><li>Any extension in the allotted time will result in the loss of points.</li><li>No request regarding change in schedule and date of paper presentation will be entertained under any circumstances.</li></ol>\r\n\r\n<b>The papers will be judged on the basis of their innovation, in depth knowledge of the field and presentation skills. The decision of the judges will be final and binding.</b>",
 			"fees": "Entry Fee :     &#8377;200",
 			"thumbnail": "quanta/embryo.png",
@@ -555,7 +555,93 @@
 			"prize": "1st Prize :     &#8377;8,000\r\n2nd Prize :     &#8377;4,000\r\n<i>SHORTLISTED TEAM FOR FINAL ROUND WILL WE AWARDED &#8377;1000 (OUTSIDE RAJASTHAN)</i>",
 			"coordinators": "AMIT MODI :   +91-9636199279\r\nKAPIL SHARMA :   +91-9667058708\r\nAnurag saini :   +91-8385099178\r\nVijay Kumar Singhal",
 			"class": "col-sm-3 col-xs-6"
-		}]
+				}, {
+		 "id": "224",
+		 "name": "Best Out Of Waste",
+		 "category": "2",
+		 "type": "4",
+		 "title": "best-out-of-waste",
+		 "about": "As the name itself explains “Best Out of Waste”. This is an event in which participants are suppose to make anything to their creativity from the waste products given to them. We will be providing them with the materials from which they need to make any 3D model. To highlight the importance of 3R’s i.e reduce, reuse &amp; recycle for a better future.",
+		 "rules": "<ol><li>Maximum 2 members in a team.</li><li>Use of any kind of mechanical or electrical things and waste materials other than provided isstrictly prohibited.</li><li>Participants must reach half an hour prior to the commencement of the event.</li><li>The model created must consist 70% of waste.</li><li>The judge’s decision will be final and cannot be challenged.</li></ol>",
+		 "fees": "Entry Fee :     &#8377;100",
+		 "thumbnail": "quanta/best-out-of-waste.png",
+		 "venue": "<b>Date: </b>    11th March, 2017\r\n<b>Time: </b>    3:30 PM to 6:30 PM\r\n<b>Venue: </b>    C Block",
+		 "prize": "1st Prize :     &#8377;1500\r\n2nd Prize :     &#8377;800",
+		 "coordinators": "Sukanya Sharma:   +91-9119301141\r\nPrabhad Saraswat :   +91-7297926655",
+		 "class": "col-sm-3 col-xs-6"
+		}, {
+		 "id": "225",
+		 "name": "Dexterity- “Bridge O Mania",
+		 "category": "2",
+		 "type": "5",
+		 "title": "best-out-of-waste",
+		 "about": "The event here explores the creativity of participant and his/her understanding off the structure by implementing simple theories of structure and a little mathematics. In this event, participants have to construct a bridge of given dimensions using popsicle sticks.",
+		 "rules": "<ol><li>Maximum 3 members in a team.</li><li>Adhesice and 200 popsicle sticks will be provided on the spot.</li><li>It is not mandatory to use all the popsicle sticks.</li><li>Use of material other than given is not permitted.</li><li>The organizer have all the rights to change any rule at any point of the event.</li><li>Dimensions : Lendht(span)- 50 cm \r\nClearance - 5cm on each side \r\n Width- 10 cm\r\n limiting to an error of 2 cm in width & 4cm in length</li><li.If the structure fails to satisfy any of the above constraints then it will be rejected</li><li>The bridge that meets the above constraints and dimensions supporting maximum weight at center will be declared as the winner \r\n Efficeincy Ratio: Load takesn/weight of the bridge</li></ol>",
+		 "fees": "Entry Fee :     &#8377;250",
+		 "thumbnail": "quanta/dexterity.png",
+		 "venue": "<b>Date: </b>    8th March, 2017\r\n<b>Time: </b>    11:00 AM to 2:30 PM\r\n<b>Venue: </b>    Basket Ball Court",
+		 "prize": "1st Prize :     &#8377;3000\r\n2nd Prize :     &#8377;2000",
+		 "coordinators": "Hansraj Togara:   +91-9001687626\r\nMohit Sharma :   +91-8385947312",
+		 "class": "col-sm-3 col-xs-6"
+		}, {
+		 "id": "226",
+		 "name": "Manthan",
+		 "category": "2",
+		 "type": "4",
+		 "title": "manthan",
+		 "about": "The event here explores the basic civil engineering knowledge. This event is a quiz competition comprising of three rounds. First round will be having multiple choice questions followed by second round which is a buzzer round and then a target round which will be having questions from yearly syllabus only.",
+		 "rules": "<ol><li>A team can consist of maximum 2 paticipants.</li><li>Use of mobile phones, calculator or any other electrical accessories is prohibited.</li><li>All forms must be submitted to “www.tinyurl.com/jecrc-manthan” before the dead line.</li><li>The judge’s decision will be final and can’t be argued.</li></ol>",
+		 "fees": "Entry Fee :     &#8377;150",
+		 "thumbnail": "quanta/manthan.png",
+		 "venue": "<b>Date: </b>    9th March, 2017\r\n<b>Time: </b>    12:30 PM to 4:30 PM\r\n<b>Venue: </b>    C Block - CG 06",
+		 "prize": "1st Prize :     &#8377;2000\r\n2nd Prize :     &#8377;10000",
+		 "coordinators": "Himanshu:   +91-9649379551\r\nJasveer :   +91-8696784154",
+		 "class": "col-sm-3 col-xs-6"
+		}, {
+		 "id": "227",
+		 "name": "Pradarshini - How Creative You Are",
+		 "category": "2",
+		 "type": "5",
+		 "title": "pradarshini",
+		 "about": "<li>Interested participant can participate individually or in a team of two.</li><li>Participants have to bring their own drawing materials as per their requirements.</li><li>Decision of Judges will be final and cannot be challenged or questioned.</li>",
+		 "rules": "<ol><li>Maximum 2 members in a team.</li><li>Use of any kind of mechanical or electrical things and waste materials other than provided isstrictly prohibited.</li><li>Participants must reach half an hour prior to the commencement of the event.</li><li>The model created must consist 70% of waste.</li><li>The judge’s decision will be final and cannot be challenged.</li></ol>",
+		 "fees": "Entry Fee :     &#8377;100",
+		 "thumbnail": "quanta/best-out-of-waste.png",
+		 "venue": "<b>Date: </b>    10th March, 2017\r\n<b>Time: </b>    9:30 AM to 1:30 PM\r\n<b>Venue: </b>    MD (CE LAB)",
+		 "prize": "1st Prize :     &#8377;1500\r\n2nd Prize :     &#8377;800",
+		 "coordinators": "Poorna:   +91-7597925257\r\nRadhika:   +91-7062622845",
+		 "class": "col-sm-3 col-xs-6"
+}, {
+ "id": "228",
+ "name": "ROBO SOCCER",
+ "category": "2",
+ "type": "3",
+ "title": "ROBO SOCCER",
+ "about": "For all who have passion in Robotics or Sports, RENAISSANCE͛17 presents ͚Robo soccer. This competitions to show how good and swift robot of yours can be by playing soccer using it and scoring more goals.",
+ "rules": "\r\nGeneral Rules:\r\n<ol><li>1. The robot will get input signals wired/wireless from outside the arena.</li> <li>2. Only one team member can control one robot throughout the event. So, at one time, only two team members will be controlling the robots.</li> <li>3. No ready made components should be employed in making the robot. (Except controllers)</li> <li>4. If any team is found harming the arena, the team will be disqualified on the spot.</li> <li>5. In case of wireless robot, it should contain its own power supply of 12V. ROBO SOCCER RENAISSANCE͛17 7</li> <li>6. DC Power supply of 12V, 2A will be provided by the IGNUS Team (Power Adapters).</li> <li>7. Our team will not be responsible for any damage done to the robot in the arena.</li> <li>8. our team will not be responsible for the noises created due to same frequencies in wireless </li> <li>communication between two teams during game.</li> <li>9. Teams have to be present on scheduled time and delay won&#39;t be entertained.</li> <li>10.In case of any discrepancies, the decision of the event coordinators will be final. </li> </ol>",
+ "fees": "Entry Fee :     &#8377;500",
+ "thumbnail": "quanta/best-out-of-waste.png",
+ "venue": "<b>Date: </b>    March, 2017\r\n<b>Time: </b>    9:30 AM to 1:30 PM\r\n<b>Venue: </b>   ",
+ "prize": "1st Prize :     &#8377;5000\r\n2nd Prize :     &#8377;3000",
+ "coordinators": "RISHABH ANAND :   +91-9660792263\r\nMAYANK GUPTA :   +91-8426094295",
+ "class": "col-sm-3 col-xs-6"
+
+}, {
+ "id": "229",
+ "name": "Drone Dangal",
+ "category": "2",
+ "type": "3",
+ "title": "Drone Dangal",
+ "about": "Build your Drone to travel from source to destination crossing various interruptions,hurdles, etc., along the path of journey. This is an open event for all (but should not be from any industry or a professional).",
+ "rules": "\r\nGeneral Rules:\r\n<ol><li>The Drone Copter will be evaluated with various stages of designing, construction,implementation of innovation and flying.</li><li>Each and every part will be observed for judging which includes the connection of various parts, fixing of components, materials used, how the stuff is implemented, etc.</li><li> The timer will start from the moment the countdown finish.</li><li>The timer will stop only when the drone finally comes to start zone. </li><li>The electric voltage anywhere in the machine should not be more then 12V DC at any point of time.</li><li>The organizers reserve the rights to change any or all of the above rules as they deem fit.Change in rules, if any will be highlighted on the website and notified to the registeredteams.</li><li> Violation of any of the above rules will lead to disqualification.</li><li>Decisions of judges will be final and binding on all.</li><li>Participants will be responsible for damage to their drones.</li>\r\nMachine Specifications:\r\n <li> Minimum Dimension: 30cm x 30cm x 10cm</li> <li>Maximum Dimension: 100cm x 100cm x 30cm.</li> <li> Machines should be powered/propelled by non­ hydrocarbon engine.</li> <li>Teams can bring not only Drones but other flying machines as mentioned Zeplin, Co­ axial chopper, Tail rotor chopper, Quadrotor, Hexapod, Tripod and Octacopter.</li> <li> If you have a drone that does not fit within the above specifications or is in some way ambiguous or borderline, please contact the event organizers.</li></ol>\r\nCompetition Stages and Elimination rounds\r\n<bold>Round 1</bold><ol><li>The goal will be for the Drone copter to takeoff from a specific location and land withinthe boundary of a predetermined circular landing crossing various hurdles in a time limitof 3 min.</li><li>The performance will be evaluated basis the time taken from takeoff to landing within thespecified circle.</li><li>Teams unable to complete this task or completing task in much more time (compared toother teams) will go through elimination.</li><li>During this stage the teams will be given a maximum of two attempts for take-off andlanding.</li></ol><bold>Round 2</bold><ol><li>This stage meets the perfection in the stability of the Drone Copter.</li><li>During this stage the Drone Copter has to travel through the gaps in the various hurdles.This is a time sensitive round and a maximum of two attempts will be provided. The circuit needs to be completed without avoiding any of the hurdles.</li><li>The hurdles difficulty level will be higher than elimination round.</li><li>The team completing all the above tasks in minimum time with more accuracy will be the winner.</li></ol>",
+ "fees": "Entry Fee :     &#8377;500",
+ "thumbnail": "quanta/best-out-of-waste.png",
+ "venue": "<b>Date: </b>  8th March, 2017\r\n<b>Time: </b>    1:30 PM to 4:30 PM\r\n<b>Venue: GH LAWN</b>   ",
+ "prize": "1st Prize :     &#8377;5000\r\n2nd Prize :     &#8377;3000",
+ "coordinators": "Dipanshu Sharma :   +91-9772750018\r\nDushyant Marothia :   +91-7742434323\r\nGarvit Chugh :   +91-9772758587\r\nManav Sharma :   +91-9828373549\r\nNikhil Goyal :   +91-9549378353\r\nAarushi Singh :   +91-9828014663",
+ "class": "col-sm-3 col-xs-6"
+}
+]
 	},
 	"3": {
 		"name": "Endeavour",
