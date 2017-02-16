@@ -271,17 +271,17 @@ a {
 
 .earth_menu_block {
   margin-top: 22px;
-  width: 302px;
+  width: 234px;
   margin: 16px auto 0px auto;
 }
 
 .rotating_ren_earth {
   background: url(../img/sprite.png);
-  background-position: 13px -240px;
+  background-position: -13px -240px;
   height: 235px;
   position: relative;
   transform: translateX(-50%);
-  width: 290px;
+  width: 234px;
   animation: pulsate 1.5s linear;
   animation-iteration-count: infinite;
   background-size: 600px 600px;
