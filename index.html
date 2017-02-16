@@ -5,7 +5,7 @@
     </title>
     <meta charset="utf-8">
     <meta content='Renaissance is a Techno-Cultural fest which provides a versatile platform for all the students to learn and explore the various dimensions of their personality.' name='description'/>
-    
+
 		<meta charset=utf-8>
 		   <link rel="stylesheet" type="text/css" href="component.css" />
       <link rel="stylesheet" href="home.css">
@@ -89,6 +89,10 @@ window.location = "http://www.jecrcrenaissance.in/mobile.html";
 	</head>
 
 	<body>
+    <div class="jumbotron">
+     <img src="vectors ren 17/fake.png" class="animated infinite pulse" style="width:200px;height:200px;display:none;" id="nakli" onclick="whenclicked()"/>
+    </div>
+    
 		<div class="plane_container">
 			<div class="plane" id="plane"></div>
 		</div>
@@ -191,11 +195,11 @@ window.location = "http://www.jecrcrenaissance.in/mobile.html";
 
   </div>
   <div class="jumbotron">
-  
+
 		<a href="event/index.html#/events/splash">
-		
+
 		<img src="vectors ren 17/final poster ren 17-21.png" id="maze6" class=" icon4 mico"  />
-		
+
 		</a>
   </div>
 
@@ -482,6 +486,9 @@ toggleit();
 <script src="js/renderers/CanvasRenderer.js"></script>
 <div class="duniya">
 	<script>
+
+  function globe()
+  {
 	var camera, scene, renderer;
 	var geometry, material, mesh;
 		var texture_placeholder,
@@ -493,6 +500,7 @@ toggleit();
 				target = new THREE.Vector3();
 	init();
 	animate();
+}
 	function init() {
 	//initiating renderers earlier
 	renderer = new THREE.WebGLRenderer({ alpha: true });
@@ -644,6 +652,83 @@ toggleit();
 	}
 
 	</script>
+</div>
+<div id="fornotworking">
+
+<script>
+//globe();
+function webgl_detect(return_context)
+{
+    if (!!window.WebGLRenderingContext) {
+        var canvas = document.createElement("canvas"),
+             names = ["webgl", "experimental-webgl", "moz-webgl", "webkit-3d"],
+           context = false;
+
+        for(var i=0;i<4;i++) {
+            try {
+                context = canvas.getContext(names[i]);
+                if (context && typeof context.getParameter == "function") {
+                    // WebGL is enabled
+                    if (return_context) {
+                        // return WebGL object if the function's argument is present
+                        return {name:names[i], gl:context};
+                    }
+                    // else, return just true
+                    return true;
+                }
+            } catch(e) {}
+        }
+
+        // WebGL is supported, but disabled
+        return false;
+    }
+
+    // WebGL not supported
+    return false;
+}
+
+if(webgl_detect)
+{globe();
+//$("#nakli").toggle();
+}
+
+else {
+  $("#nakli").toggle();
+}
+
+function whenclicked()
+{
+  $("#logoi").fadeTo(1000,0);
+  $("#logoim").fadeTo(1000,0);
+  $("#explore").fadeTo(1000,0);
+  $("#jecrc").fadeTo(1000,0);
+  $("#maze2").toggle();
+  $("#maze").toggle();
+  $("#maze3").toggle();
+  $("#maze4").toggle();
+  $("#maze5").toggle();
+  $("#maze6").toggle();
+  $("#maze7").toggle();
+  $("#maze8").toggle();
+  $("#maze9").toggle();
+  $("#maze10").toggle();
+  $("#maze11").toggle();
+  $("#maze12").toggle();
+  $("#maze13").toggle();
+  $("#maze14").toggle();
+  $("#maze15").toggle();
+  $("#maze16").toggle();
+  $("#maze17").toggle();
+  $("#maze18").toggle();
+  $("#maze19").toggle();
+  $("#maze20").toggle();
+  $("#maze21").toggle();
+  $("#maze22").toggle();
+
+}
+</script>
+
+
 </div>
 
     <script src="js/jquery-1.11.2.min.js"></script>
