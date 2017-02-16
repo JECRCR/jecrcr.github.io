@@ -277,13 +277,14 @@ a {
 
 .rotating_ren_earth {
   background: url(../img/sprite.png);
-  background-position: -11px -278px;
-  height: 269px;
+  background-position: 13px -240px;
+  height: 235px;
   position: relative;
   transform: translateX(-50%);
   width: 290px;
   animation: pulsate 1.5s linear;
   animation-iteration-count: infinite;
+  background-size: 600px 600px;
 }
 
 .menu_ren_play_button {
