@@ -276,20 +276,6 @@
 			"coordinators": "Ankush Goyal :   +91-9636999399\r\nAbhishek Laddha :   +91-9529019457\r\nNikita Khandelwal :   +91-9529309881\r\nSurbhi Khandelwal :   +91-8442052015",
 			"class": "col-sm-5ths col-xs-6"
 		}, {
-			"id": "204",
-			"name": "Algoholic",
-			"category": "2",
-			"type": "2",
-			"title": "algoholic",
-			"about": "Algorithm based online competitive programming.\r\n\r\nIt is a two-participant algorithmic programming based event that requires the participant to solve simple problems using programming in any language.\r\nThe event will we conducted on HackerEarth.",
-			"rules": "The contest will consist of a single round of 2 hours\r\nRegistration Deadline: Closes 1 hour before the event",
-			"fees": "Entry Fee :     &#8377;250 per team",
-			"thumbnail": "quanta/algoholic.png",
-			"venue": "<b>Date: </b>    18th March, 2016\r\n<b>Time: </b>    1:30 PM to 3:30 PM\r\n<b>Venue: </b>    IBM Lab",
-			"prize": "1st Prize :     &#8377;3000\r\n2nd Prize :     &#8377;1500",
-			"coordinators": "Shikhar Saxena :   +91-9414424643\r\nHimalaya :   +91-8504036303\r\nAnjali Singh :   +91-7728028078\r\nBulbul Kaul :   +91-8239366037",
-			"class": "col-sm-5ths col-xs-6"
-		}, {
 			"id": "205",
 			"name": "AERO",
 			"category": "2",
@@ -444,20 +430,6 @@
 			"coordinators": "Shubhi Jain :   +91-9694282809\r\nShubham Khaitan :   +91-9928322200\r\nChirag Jain :   +91-9799144688\r\nPrateek Mittal :   +91-9166511400",
 			"class": "col-sm-3 col-xs-6"
 		}, {
-			"id": "216",
-			"name": "DEXTERITY",
-			"category": "2",
-			"type": "4",
-			"title": "dexterity",
-			"about": "<b>Bridge Designing Challenge</b> which gives you a great opportunity to prove your mettle as an innovative engineer and mark your talent nationwide by building your own model of bridge.\r\n\r\n<b>Round 1:</b>\r\nAn MCQ consisting the basic questions. This round will be a qualifying round.\r\n\r\n<b>Round 2:</b>\r\n\r\n<b>Problem statement:</b> Design a bridge model having dimensions given below. Materials will be provided on the spot. \r\n\r\n<b>Dimensions:</b> Length (span): 50 cm. Clearance:-10 cm on each side -Width: 10 cm. There should not be any variations in the dimensions of the bridge, Limiting to an error of 1 cm in width and 2 cm in length. ",
-			"rules": "<ol><li>Maximum 3 Members per team. Participants from different institutions can form a team.</li><li>Adhesives and 200 Popsicle sticks will be provided on the spot.</li><li>It is not compulsory to use all the sticks.</li><li>Use of material other than given is not permitted.</li></ol>\r\n\r\nGeneral Rules:\r\n<ol><li>Shape: Structure could be of absolutely any shape satisfying the above constraints.</li><li>Once the structure is weighed, you are not allowed to modify your structure in any way.</li><li>If the structure fails to satisfy any of the above constraints then it will be summarily rejected.</li><li>Any structure that is not ready within the time limit will be disqualified immediately.</li><li>Judges’ decision shall be final and binding to all.</li><li>The organizers reserve all rights to change any or all of the above rules at any point of the event.</li></ol>\r\n\r\n<b>WINNING CRITERIA:</b>\r\nThe model built by each team will be tested till failure (yielding) by applying an incremental static load.\r\nThe lightest bridge (that meets the given constraints & dimensions) supporting maximum weight at centre will be declared as the winner.\r\nEfficiency ratio = Load taken / weight of the bridge.",
-			"fees": "Entry Fee :     &#8377;250",
-			"thumbnail": "quanta/dexterity.png",
-			"venue": "<b>Date: </b>    18th March, 2016\r\n<b>Time: </b>    11:30 AM to 2:30 PM\r\n<b>Venue: </b>   Badminton Court",
-			"prize": "1st Prize :     &#8377;3000\r\n2nd Prize :     &#8377;1500",
-			"coordinators": "Amrit :   +91-8740079173 \r\nRamchandra Pandey :   +91-8385024805\r\nVikas Devrath :   +91-8947910606 \r\nAnurag Tiwari :   +91-8441943481",
-			"class": "col-sm-3 col-xs-6"
-		}, {
 			"id": "217",
 			"name": "SAND IT",
 			"category": "2",
@@ -528,20 +500,6 @@
 			"coordinators": "Prashant Jha :   +91-9799953278\r\nRavi Ranjan Pathak :   +91-7062424606\r\nPrachi Khandelwal :   +91-8739969517\r\nAbhimanyu :   +91-8385052586\r\nShambhavi :   +91-7240689577\r\nKunal Soni :   +91-8955936536",
 			"class": "col-sm-3 margin-events3 col-xs-6"
 		}, {
-			"id": "222",
-			"name": "Spell Bee",
-			"category": "2",
-			"type": "1",
-			"title": "spell-bee",
-			"about": "I.N.G.E.N.I.O.U.S, C.E.R.E.B.R.A.L, P.R.O.D.I.G.Y. If these are words that describe you best, you've reached the right place. Spell Bee is on the hunt for the best speller. If you have a P.E.N.C.H.A.N.T for spellings come here and try yourself out. ",
-			"rules": "The competition will be divided into 2 rounds.\r\n\r\n<b>Round 1:</b>\r\nRound one will be the rapid fire round in which you will be provided with many word, just spell them out and gain your position in the next round.\r\n\r\n<b>Round 2:</b>\r\nRound two would be a pointer round, which is again divided into 2 phases:\r\nPhase 1:\r\nthe phase will be of visuals i.e. each team will be provided with some visuals which they have to guess; each correct answer will fetch you some points and incorrect will deduct the same.\r\n\r\nPhase 2:\r\nthis phase is all about anagrams; teams will get some anagrams and along with some clues (a maximum of three). The points will be provided after seeing that after which clue you get your answer correct.",
-			"fees": "Entry Fee :     &#8377;200",
-			"thumbnail": "quanta/spell-bee.png",
-			"venue": "<b>Date: </b>    20th March, 2016\r\n<b>Time: </b>    1:30 PM to 3:30 PM\r\n<b>Venue: </b>    Auditorium",
-			"prize": "1st Prize :     &#8377;2000\r\n2nd Prize :     &#8377;1200",
-			"coordinators": "Chaitanya Swaraj :   +91-8441023565\r\nPrashansha Goyal :   +91-7782025460\r\nAman Vyas :   +91-9468692028 \r\nChaman Singh",
-			"class": "col-sm-3 col-xs-6"
-		}, {
 			"id": "223",
 			"name": "NEW VENTURE",
 			"category": "2",
@@ -555,7 +513,7 @@
 			"prize": "1st Prize :     &#8377;8,000\r\n2nd Prize :     &#8377;4,000\r\n<i>SHORTLISTED TEAM FOR FINAL ROUND WILL WE AWARDED &#8377;1000 (OUTSIDE RAJASTHAN)</i>",
 			"coordinators": "AMIT MODI :   +91-9636199279\r\nKAPIL SHARMA :   +91-9667058708\r\nAnurag saini :   +91-8385099178\r\nVijay Kumar Singhal",
 			"class": "col-sm-3 col-xs-6"
-				}, {
+		}, {
 		 "id": "224",
 		 "name": "Best Out Of Waste",
 		 "category": "2",
@@ -635,7 +593,7 @@
  "about": "Build your Drone to travel from source to destination crossing various interruptions,hurdles, etc., along the path of journey. This is an open event for all (but should not be from any industry or a professional).",
  "rules": "\r\nGeneral Rules:\r\n<ol><li>The Drone Copter will be evaluated with various stages of designing, construction,implementation of innovation and flying.</li><li>Each and every part will be observed for judging which includes the connection of various parts, fixing of components, materials used, how the stuff is implemented, etc.</li><li> The timer will start from the moment the countdown finish.</li><li>The timer will stop only when the drone finally comes to start zone. </li><li>The electric voltage anywhere in the machine should not be more then 12V DC at any point of time.</li><li>The organizers reserve the rights to change any or all of the above rules as they deem fit.Change in rules, if any will be highlighted on the website and notified to the registeredteams.</li><li> Violation of any of the above rules will lead to disqualification.</li><li>Decisions of judges will be final and binding on all.</li><li>Participants will be responsible for damage to their drones.</li>\r\nMachine Specifications:\r\n <li> Minimum Dimension: 30cm x 30cm x 10cm</li> <li>Maximum Dimension: 100cm x 100cm x 30cm.</li> <li> Machines should be powered/propelled by non­ hydrocarbon engine.</li> <li>Teams can bring not only Drones but other flying machines as mentioned Zeplin, Co­ axial chopper, Tail rotor chopper, Quadrotor, Hexapod, Tripod and Octacopter.</li> <li> If you have a drone that does not fit within the above specifications or is in some way ambiguous or borderline, please contact the event organizers.</li></ol>\r\nCompetition Stages and Elimination rounds\r\n<bold>Round 1</bold><ol><li>The goal will be for the Drone copter to takeoff from a specific location and land withinthe boundary of a predetermined circular landing crossing various hurdles in a time limitof 3 min.</li><li>The performance will be evaluated basis the time taken from takeoff to landing within thespecified circle.</li><li>Teams unable to complete this task or completing task in much more time (compared toother teams) will go through elimination.</li><li>During this stage the teams will be given a maximum of two attempts for take-off andlanding.</li></ol><bold>Round 2</bold><ol><li>This stage meets the perfection in the stability of the Drone Copter.</li><li>During this stage the Drone Copter has to travel through the gaps in the various hurdles.This is a time sensitive round and a maximum of two attempts will be provided. The circuit needs to be completed without avoiding any of the hurdles.</li><li>The hurdles difficulty level will be higher than elimination round.</li><li>The team completing all the above tasks in minimum time with more accuracy will be the winner.</li></ol>",
  "fees": "Entry Fee :     &#8377;500",
- "thumbnail": "quanta/best-out-of-waste.png",
+ "thumbnail": "quanta/game-of-drones.png",
  "venue": "<b>Date: </b>  8th March, 2017\r\n<b>Time: </b>    1:30 PM to 4:30 PM\r\n<b>Venue: GH LAWN</b>   ",
  "prize": "1st Prize :     &#8377;5000\r\n2nd Prize :     &#8377;3000",
  "coordinators": "Dipanshu Sharma :   +91-9772750018\r\nDushyant Marothia :   +91-7742434323\r\nGarvit Chugh :   +91-9772758587\r\nManav Sharma :   +91-9828373549\r\nNikhil Goyal :   +91-9549378353\r\nAarushi Singh :   +91-9828014663",
