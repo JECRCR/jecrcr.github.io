@@ -160,27 +160,15 @@ from {bottom: -10%;}
 to {bottom: 100%;}
 
 }
-
 @keyframes plane {
 
-0% {top: 85%;
+from {top: 85%;
 
   left:100%;
 }
 
-35%
-{
-  top: 27%;
-  left:70%;
-}
 
-70%
-{
-  top:20%;
-  left:33%;
-}
-
-    100%
+  to
     {
       top:0%;
       left:20%;
@@ -189,24 +177,12 @@ to {bottom: 100%;}
 }
 
 @-webkit-keyframes  plane {
-  0% {top: 85%;
+ from {top: 85%;
 
     left:100%;
   }
 
-  35%
-  {
-    top: 27%;
-    left:70%;
-  }
-
-  70%
-  {
-    top:20%;
-    left:33%;
-  }
-
-      100%
+  to
       {
         top:0%;
         left:20%;
