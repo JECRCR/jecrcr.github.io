@@ -430,34 +430,6 @@
 			"coordinators": "Shubhi Jain :   +91-9694282809\r\nShubham Khaitan :   +91-9928322200\r\nChirag Jain :   +91-9799144688\r\nPrateek Mittal :   +91-9166511400",
 			"class": "col-sm-3 col-xs-6"
 		}, {
-			"id": "217",
-			"name": "SAND IT",
-			"category": "2",
-			"type": "4",
-			"title": "sand-it",
-			"about": "Explore the love of playing with sand hidden in every individual.",
-			"rules": "<ol><li>Maximum of three members can participate in a team.</li><li>The event consists of two rounds(Qualifying and final).</li><li>In qualifying round, teams have to design any shape within 20 minutes.</li><li>Elimination will be done on the basis of height of that shape.</li><li>In final round, Props and shape will be given to the teams according to lottery system.</li><li>Marks will be awarded by the Judges.</li><li>The decision of the Judges will be considered as final and no further challenges will be entertained.</li><li>TIME LIMIT-20 minutes(In qualifying round)</li></ol>\r\n\r\n<b>60 minutes(In final round)</b>",
-			"fees": "Entry Fee :     &#8377;300",
-			"thumbnail": "quanta/sand-it.png",
-			"venue": "<b>Date: </b>    19th March, 2016\r\n<b>Time: </b>    12:30 PM to 3:00 PM\r\n<b>Venue: </b>   Badminton Court",
-			"prize": "1st Prize :     &#8377;2500\r\n2nd Prize :     &#8377;1500",
-			"coordinators": "Harshwardhan Arya :   +91-8875609149\r\nAkshat Tiwari :   +91-7727884775\r\nMeenakshi Sharma :   +91-9529828733\r\nKanak Jain :   +91-8947944109",
-			"class": "col-sm-3 margin-events3 col-xs-6"
-		}, {
-			"id": "218",
-			"name": "TECHNO CROSSWINDS",
-			"category": "2",
-			"type": "1",
-			"title": "techno-crosswinds",
-			"about": "It is a technical crossword puzzle solving competition that contains questions relating to engineering and science.",
-			"rules": "<ol><li>Techno crosswinds is a technical event comprising of 2 rounds.</li><li>Participants can come in a team of 2 members or there can be a single participant.</li><li>Registered Participants should inform of their arrival 30 mins before the event.</li><li>Registration for the event will close 1 hours before the event.</li></ol>\r\n\r\n<b>ROUND 1:</b>\r\n<ol><li>This round will contain multiple choice questions related to logical reasoning, aptitude , Mathematics, English and general knowledge. Time limit will be 30 minutes.</li><li>There will be elimination on the basis of marks obtained.</li></ol>\r\n\r\n<b>ROUND 2:</b>\r\n<ol><li>This round will contain technical questions in the form of a crossword. Time limit will be 30 minutes.</li><li>In case of a tie, the total time taken for completion will be considered.</li><li>Decision of judges or the conducting authority will be final.</li></ol>",
-			"fees": "Entry Fee :     &#8377;200",
-			"thumbnail": "quanta/techno-crosswinds.png",
-			"venue": "<b>Date: </b>    20th March, 2016\r\n<b>Time: </b>    10:30 AM to 12:30 PM\r\n<b>Venue: </b>   B-Block LT 7, LT 8",
-			"prize": "1st Prize :     &#8377;2000\r\n2nd Prize :     &#8377;1200",
-			"coordinators": "Vaishali Bhardwaj :   +91-9414030600\r\nVidhika Mathur :   +91-9468712188\r\nShalini Agrawal :   +91-9461583764\r\nAshish Kumar Singhal :   +91-8302899457",
-			"class": "col-sm-3 col-xs-6"
-		}, {
 			"id": "219",
 			"name": "ZENITH",
 			"category": "2",
@@ -624,6 +596,81 @@
  "rules": "\r\nGeneral Rules:\r\n<ol><li>The participating team must not comprise of more than 3 persons.</li><li>Use of props other than provided is prohibited.</li><li>Use of supports is however allowed</li><li>Participants must carry their own pair of ruler, scissors or any other cutting tool.</li></ol>",
  "fees": "Entry Fee :     &#8377;200",
  "thumbnail": "quanta/zenith.png",
+ "venue": "<b>Date: </b>  9th March, 2017\r\n<b>Time: </b>    9:30 AM to 12:30 PM\r\n<b>Venue: In Front Of C Block</b>   ",
+ "prize": "1st Prize :     &#8377;5000\r\n2nd Prize :     &#8377;3000",
+ "coordinators": "Neha Akhter :   +91-9610663606\r\nAhsan Ullah :   +91-9690766389\r\nVikram Sharma :   +91-9928510318",
+ "class": "col-sm-3 col-xs-6"
+}
+, {
+ "id": "232",
+ "name": "Pen It Down",
+ "category": "2",
+ "type": "4",
+ "title": "pen it down",
+ "about": "The event here explores the creativity and understanding of the structure. In this event, participants have to construct a structure of roof and floor standing more or less permanently in one place provided props.",
+ "rules": "\r\nGeneral Rules:\r\n<ol><li>The participating team must not comprise of more than 3 persons.</li><li>Use of props other than provided is prohibited.</li><li>Use of supports is however allowed</li><li>Participants must carry their own pair of ruler, scissors or any other cutting tool.</li></ol>",
+ "fees": "Entry Fee :     &#8377;200",
+ "thumbnail": "quanta/penitdown.png",
+ "venue": "<b>Date: </b>  9th March, 2017\r\n<b>Time: </b>    9:30 AM to 12:30 PM\r\n<b>Venue: In Front Of C Block</b>   ",
+ "prize": "1st Prize :     &#8377;5000\r\n2nd Prize :     &#8377;3000",
+ "coordinators": "Neha Akhter :   +91-9610663606\r\nAhsan Ullah :   +91-9690766389\r\nVikram Sharma :   +91-9928510318",
+ "class": "col-sm-3 col-xs-6"
+}
+, {
+ "id": "232",
+ "name": "Poster Making",
+ "category": "2",
+ "type": "4",
+ "title": "poster making",
+ "about": "The event here explores the creativity and understanding of the structure. In this event, participants have to construct a structure of roof and floor standing more or less permanently in one place provided props.",
+ "rules": "\r\nGeneral Rules:\r\n<ol><li>The participating team must not comprise of more than 3 persons.</li><li>Use of props other than provided is prohibited.</li><li>Use of supports is however allowed</li><li>Participants must carry their own pair of ruler, scissors or any other cutting tool.</li></ol>",
+ "fees": "Entry Fee :     &#8377;200",
+ "thumbnail": "quanta/postermaking.png",
+ "venue": "<b>Date: </b>  9th March, 2017\r\n<b>Time: </b>    9:30 AM to 12:30 PM\r\n<b>Venue: In Front Of C Block</b>   ",
+ "prize": "1st Prize :     &#8377;5000\r\n2nd Prize :     &#8377;3000",
+ "coordinators": "Neha Akhter :   +91-9610663606\r\nAhsan Ullah :   +91-9690766389\r\nVikram Sharma :   +91-9928510318",
+ "class": "col-sm-3 col-xs-6"
+}
+, {
+ "id": "233",
+ "name": "Technical Hack",
+ "category": "2",
+ "type": "1",
+ "title": "technical hack",
+ "about": "The event here explores the creativity and understanding of the structure. In this event, participants have to construct a structure of roof and floor standing more or less permanently in one place provided props.",
+ "rules": "\r\nGeneral Rules:\r\n<ol><li>The participating team must not comprise of more than 3 persons.</li><li>Use of props other than provided is prohibited.</li><li>Use of supports is however allowed</li><li>Participants must carry their own pair of ruler, scissors or any other cutting tool.</li></ol>",
+ "fees": "Entry Fee :     &#8377;200",
+ "thumbnail": "quanta/technicalhack.png",
+ "venue": "<b>Date: </b>  9th March, 2017\r\n<b>Time: </b>    9:30 AM to 12:30 PM\r\n<b>Venue: In Front Of C Block</b>   ",
+ "prize": "1st Prize :     &#8377;5000\r\n2nd Prize :     &#8377;3000",
+ "coordinators": "Neha Akhter :   +91-9610663606\r\nAhsan Ullah :   +91-9690766389\r\nVikram Sharma :   +91-9928510318",
+ "class": "col-sm-3 col-xs-6"
+}
+, {
+ "id": "234",
+ "name": "Meditation",
+ "category": "2",
+ "type": "1",
+ "title": "meditation",
+ "about": "The event here explores the creativity and understanding of the structure. In this event, participants have to construct a structure of roof and floor standing more or less permanently in one place provided props.",
+ "rules": "\r\nGeneral Rules:\r\n<ol><li>The participating team must not comprise of more than 3 persons.</li><li>Use of props other than provided is prohibited.</li><li>Use of supports is however allowed</li><li>Participants must carry their own pair of ruler, scissors or any other cutting tool.</li></ol>",
+ "fees": "Entry Fee :     &#8377;200",
+ "thumbnail": "quanta/meditation.png",
+ "venue": "<b>Date: </b>  9th March, 2017\r\n<b>Time: </b>    9:30 AM to 12:30 PM\r\n<b>Venue: In Front Of C Block</b>   ",
+ "prize": "1st Prize :     &#8377;5000\r\n2nd Prize :     &#8377;3000",
+ "coordinators": "Neha Akhter :   +91-9610663606\r\nAhsan Ullah :   +91-9690766389\r\nVikram Sharma :   +91-9928510318",
+ "class": "col-sm-3 col-xs-6"
+}
+, {
+ "id": "235",
+ "name": "Catch The Phrase",
+ "category": "2",
+ "type": "1",
+ "title": "catch the phrase",
+ "about": "The event here explores the creativity and understanding of the structure. In this event, participants have to construct a structure of roof and floor standing more or less permanently in one place provided props.",
+ "rules": "\r\nGeneral Rules:\r\n<ol><li>The participating team must not comprise of more than 3 persons.</li><li>Use of props other than provided is prohibited.</li><li>Use of supports is however allowed</li><li>Participants must carry their own pair of ruler, scissors or any other cutting tool.</li></ol>",
+ "fees": "Entry Fee :     &#8377;200",
+ "thumbnail": "quanta/catchthephrase.png",
  "venue": "<b>Date: </b>  9th March, 2017\r\n<b>Time: </b>    9:30 AM to 12:30 PM\r\n<b>Venue: In Front Of C Block</b>   ",
  "prize": "1st Prize :     &#8377;5000\r\n2nd Prize :     &#8377;3000",
  "coordinators": "Neha Akhter :   +91-9610663606\r\nAhsan Ullah :   +91-9690766389\r\nVikram Sharma :   +91-9928510318",
