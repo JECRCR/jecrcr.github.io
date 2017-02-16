@@ -43,10 +43,10 @@ a {
   width: 100%;
 }
 .ren_bottom_container{
-  width: 331px;
-  left: 0px;
-  padding: 0 4%;
-  margin: 70px auto 20 auto;
+   width: 331px;
+   left: 0px;
+   padding: 0 4%;
+   margin: 10px auto 20 auto;
 }
 .center_container_box{
   position: relative;
@@ -155,6 +155,7 @@ a {
   left: 50.7%;
   transform: translateX(-50%);
   background-size: 500px 500px;
+  margin-top: -20px;
 }
 .arrow{
   position: relative;
@@ -201,12 +202,12 @@ a {
 }
 
 .renaissance_logo {
-  background: url('../img/sprite.png');
-  background-position: -368px -499px;
-  height: 59px;
-  position: relative;
-  width: 321px;
-  margin: 10px auto 24px;
+    background: url(../img/sprite.png);
+    background-position: -368px -499px;
+    height: 59px;
+    position: relative;
+    width: 321px;
+    margin: -26px auto 7px;
 }
 
 @keyframes pulsate {
@@ -242,12 +243,13 @@ a {
 }
 
 .college_logo {
-  background: url('../img/sprite.png');
-  background-position: -327px -28px;
-  float: left;
-  width: 108px;
-  height: 95px;
-  background-size: 500px 500px;
+    background: url(../img/sprite.png);
+    background-position: -327px -28px;
+    float: left;
+    width: 108px;
+    height: 95px;
+    background-size: 500px 500px;
+    margin-top: -19px;
 }
 
 .event_brand_partner {
@@ -276,7 +278,7 @@ a {
 .rotating_ren_earth {
   background: url(../img/sprite.png);
   background-position: -11px -278px;
-  height: 284px;
+  height: 269px;
   position: relative;
   transform: translateX(-50%);
   width: 290px;
