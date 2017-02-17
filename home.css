@@ -369,110 +369,113 @@ height:200px;
     width:200px;
     height:150px;
             }
-            #splash{
-				top:86.5%;
-            display:none;
+           #splash{
 
+            display:none;
+             left:44%;
+		   top:86.5%;
             }
 
             #about {
             display:none;
-			top:86.5%;
-
+            left:44%;
+		    top:86.5%;
             }
 
 
             #team {
             display:none;
-			top:86.5%;
-
+            left:44%;
+		    top:86.5%;
             }
             #gallery {
             display:none;
-			top:86.5%;
-            left:46%;
+            left:44%;
+		    top:86.5%;
             }
             #sponsors{
             display:none;
-			top:86.5%;
-            left:45%;
+            left:43.5%;
+		    top:86.5%;
             }
 
 
             #support{
             display:none;
-			top:86.5%;
-            left:46.5%;
+            left:44%;
+		    top:86.5%;
             }
 
 
             #endeavour{
             display:none;
-			top:86.5%;
-            left:45%;
+            left:43%;
+		    top:86.5%;
             }
 
             #quanta{
             display:none;
-			top:86.5%;
-            left:46%;
+            left:44%;
+		    top:86.5%;
             }
 
 
             #zarurat{
             display:none;
-			top:86.5%;
-            left:46%;
+            left:44%;
+		    top:86.5%;
             }
 
 
 
             #alumni{
             display:none;
-			top:86.5%;
-            left:46%;
+            left:44%;
+		    top:86.5%;
             }
 
 
             #itnerary{
             display:none;
-			top:86.5%;
-            left:46%;
+            left:44%;
+		    top:86.5%;
             }
 
 
             #tedx{
             display:none;
-			top:86.5%;
-            left:43%;
+            left:41%;
+		    
+		    top:86.5%;
             }
 
 
             #fb{
             display:none;
-top:86.5%;
-            left:45%;
+
+            left:43%;
+		    top:86.5%;
             }
 
 
             #insta{
             display:none;
-			top:86.5%;
-            left:45%;
+            left:43%;
+		    top:86.5%;
             }
 
 
             #twitter{
             display:none;
-			top:86.5%;
-            left:46%;
+            left:44%;
+		    top:86.5%;
             }
 
 
             #youtube{
             display:none;
-			top:86.5%;
-            left:46%;
+            left:44%;
+		    top:86.5%;
             }
 
 			@media only screen and (max-width:1340px){
