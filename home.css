@@ -478,97 +478,96 @@ top:86.5%;
 			@media only screen and (max-width:1340px){
 				
 				
-				   #splash{
-				
-            display:none;
+	#splash{
 
+            display:none;
+             left:44%;
             }
 
             #about {
             display:none;
-
+            left:44%;
             }
 
 
             #team {
             display:none;
-
+            left:44%;
             }
             #gallery {
             display:none;
-            left:46%;
+            left:44%;
             }
             #sponsors{
             display:none;
-            left:45%;
+            left:43.5%;
             }
 
 
             #support{
             display:none;
-            left:46.5%;
+            left:44%;
             }
 
 
             #endeavour{
             display:none;
-            left:45%;
+            left:43%;
             }
 
             #quanta{
             display:none;
-            left:46%;
+            left:44%;
             }
 
 
             #zarurat{
             display:none;
-            left:46%;
+            left:44%;
             }
 
 
 
             #alumni{
             display:none;
-            left:46%;
+            left:44%;
             }
 
 
             #itnerary{
             display:none;
-            left:46%;
+            left:44%;
             }
 
 
             #tedx{
             display:none;
-            left:43%;
+            left:41%;
             }
 
 
             #fb{
             display:none;
 
-            left:45%;
+            left:43%;
             }
 
 
             #insta{
             display:none;
-            left:45%;
+            left:43%;
             }
 
 
             #twitter{
             display:none;
-            left:46%;
+            left:44%;
             }
 
 
             #youtube{
             display:none;
-            left:46%;
+            left:44%;
             }
-
 				
 			}
