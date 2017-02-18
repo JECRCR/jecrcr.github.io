@@ -1,20 +1,21 @@
-<div>
+<div >
     <ul ng-if="types.length!=1" class="nav nav-tabs" role="tablist" >
         <li ng-repeat="type in types" role="presentation" ng-class="{active: $first}"><a data-target="#type{{$index+1}}" aria-controls="tab{{$index+1}}" role="tab" data-toggle="tab">{{ type }}</a></li>
     </ul>
     <div class="tab-content">
-	
+
         <div role="tabpanel" class="tab-pane fade" ng-class='{active:$first, in:$first}' id="type{{$index+1}}" ng-repeat="type in types">
             <div class="row">
-                <div ng-if="types.length!=1" class="{{event.class}} event-icon" ng-repeat="event in events | type: $index+1 ">
-                    <img ng-click="openDetails(event.title)" ng-src="assets/img/logo/events/{{ event.thumbnail }}" alt="{{ event.name }}" />
+                <div ng-if="types.length!=1" class="{{event.class}} event-icon" ng-repeat="event in events | type: $index+1 " class=' col-md-2 col-xs-2'>
+                    <img ng-click="openDetails(event.title)" ng-src="assets/img/logo/events/{{ event.thumbnail }}" alt="{{ event.name }}" style="max-width: 290px;" />
                 </div>
+
                 <div ng-if="types.length==1" class="{{event.class}} event-icon" ng-repeat="event in events">
-                    <img ng-click="openDetails(event.title)" ng-src="assets/img/logo/events/{{ event.thumbnail }}" alt="{{ event.name }}" />
+                    <img ng-click="openDetails(event.title)" ng-src="assets/img/logo/events/{{ event.thumbnail }}" alt="{{ event.name }}" style="max-width: 290px;" />
                 </div>
             </div>
         </div>
-		
+
     </div>
 </div>
 
