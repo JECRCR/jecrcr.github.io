@@ -183,7 +183,7 @@ renApp.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
             templateUrl: 'assets/partials/partial-category-page.html',
             controller: function(renService, $scope, $state, Page){
 
-                $scope.types = ['CONSTRUCTO','CARRIAGE RETURN','ROBO FIESTA', 'VOCATIONAL'];
+                $scope.types = ['CS/IT','MECH','ECE', 'EE' ,'CE','Applied Sci.'];
                 $scope.category = 'quanta';
                 renService.async().then(function(d) {
                     $scope.events = d['quanta'];
