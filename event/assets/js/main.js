@@ -280,7 +280,8 @@ renApp.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
         ;
 });
 
-renApp.factory('renService', function($http) {
+renApp.
+('renService', function($http) {
     var url = "../events.json";
     var promise;
     var myService = {
@@ -313,7 +314,7 @@ renApp.factory('Page', function ($window) {
     var title = 'Welcome';
     return {
         title: function () { return title; },
-        setTitle: function (newTitle) { title = newTitle; $window.document.title = 'JECRC Renaissance 2016 | '+ newTitle; }
+        setTitle: function (newTitle) { title = newTitle; $window.document.title = 'JECRC Renaissance 2017 | '+ newTitle; }
     };
 });
 
