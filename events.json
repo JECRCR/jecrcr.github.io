@@ -245,7 +245,7 @@
 			"thumbnail": "quanta/just-c.png",
 			"venue": "<b>Date: </b>    10th March, 2017\r\n<b>Time: </b>    9:30 AM onwards\r\n<b>Venue: </b>   CP1 to CP8, Block A",
 			"prize": "1st Prize :     &#8377;Rs. 5,000/- cash prize.\r\n10 Consolation prizes of Rs. 500/- each.",
-			"coordinators": "Aauish Garg :   +91-7597 140740\r\nKapil Khandelwal :   +91-8766 101160\r\nMohit Jain :   +91-7073 590355\r\nDaksha Humad :   +91-7877 822824",
+			"coordinators": "Ayush Garg :   +91-7597 140740\r\nKapil Khandelwal :   +91-8766 101160\r\nMohit Jain :   +91-7073 590355\r\nDaksha Humad :   +91-7877 822824",
 			"class": "col-sm-3 col-xs-6"
 		}, {
 			"id": "202",
@@ -276,11 +276,11 @@
 			"coordinators": "Abhishek Pandey :   +91-7597867068\r\nAbhishek Sarawag :   +91-9610616042\r\nPranav Dua :   +91-8739958037",
 			"class": "col-sm-3 col-xs-6"
 		},{
-			"id": "206",
+			"id": "204",
 			"name": "Embryo mechanical",
 			"category": "2",
 			"type": "2",
-			"title": "embryo ",
+			"title": "embryo mech",
 			"about": "This Embryo is aiming to tap the minds of budding mechanical engineers. In this regard, we have enclosed the poster of the Embryo. The events like paper presentation in the symposium helps students to think and come up with innovative ideas ,also enhancing the on stage skills of the students Few events challenging the students ability apart from academic proficiency, helps in bringing out professionalism and volunteeringtraits from the individuals.",
 			"rules": "1. The first stage involves the uploading of abstracts online \"manishsrivastava.me@jecrc.ac.in\". The entries selected for the second round are required to present their paper at JECRC JAIPUR during RENAISSANCE-17.\r\n2. Participants from different institutions can also form a team.\r\n3. A maximum of 2 students per team are allowed to present a paper. In case of team participation, both the members are required to be present at the time of the event.\r\n4. The decision of the judges will be final and binding. <b>Guidelines:</b>\r\n1. Presentations should be in .ppt or .pptx format.\r\n2. For the presentations, a LCD projector, a computer, a mike and speakers will be provided.\r\n3. The time for one presentation will be 5-7 minutes. One buzzer will be rung after 5 minutes to remind the participants about the time and final buzzer will be rung after 7 minutes.\r\n4. Any extension in the allotted time will result in the loss of points.\r\n5. No request regarding change in schedule and date of paper presentation will be entertained under any circumstances.<b>The papers will be judged on the basis of their innovation, in depth knowledge of the field and presentation skills. The decision of the judges will be final and binding.</b>",
 			"fees": "Entry Fee :     &#8377;100",
@@ -288,13 +288,13 @@
 			"venue": "<b>Date: </b>    8th March, 2017\r\n<b>Time: </b>    11:00 AM to 3:00 PM\r\n<b>Venue: </b>   C-401",
 			"prize": "1st Prize :     &#8377;2500\r\n2nd Prize :     &#8377;1500",
 			"coordinators": "Shahjade Alam :   +91-8947910251\r\nDhruv Laddha :   +91-7597923778\r\nDevendra :   +91-8107632175\r\nShahrukh Khan :   +91-8562075358",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}, {
-			"id": "204",
+			"id": "206",
 			"name": "CADD MANIA mechanical",
 			"category": "2",
 			"type": "2",
-			"title": "cadd-mania  ",
+			"title": "cadd-mania",
 			"about": "In this event participant  challenged to design 3-D object on AutoCAD.",
 			"rules": "<b>Stage I:</b>\r\nIt is divided into two parts.\r\n<ol><li>Quiz (15 question/15 marks/10 min.)</li><li>2D-drawing (1 drawing/25 marks/30 min.)</li></ol>\r\n\r\n<b>Stage II:</b>\r\nThe student who qualifies 1st stage will only move to the second stage.\r\nContestants will be given a 3D drawing and its all three views (F.V., T.V., S.V.) would have to be drawn with dimensions in 90 min. (60 marks)\r\n\r\n<b>Final result will be declared on the basis of both stages.</b>\r\n\r\n<b>Evaluation Criteria:</b>\r\n<ul><li>Time</li><li>Accuracy</li></ul>\r\n\r\n<b>Guidelines :</b>\r\n<ul><li>It is individual participant’s event.</li><li>No other accessories will be provided rather than Question Paper.</li><li>No external electronic devices will be allowed.</li><li>If system problem occurs, it will be short out at the time of event.</li><li>Decision of judges will be final, cannot be argued.</li></ul>",
 			"fees": "Entry Fee :     &#8377;150",
@@ -302,8 +302,22 @@
 			"venue": "<b>Date: </b>    8th March, 2017\r\n<b>Time: </b>    2:00 PM to 4:30 PM\r\n<b>Venue: </b>    BF-08",
 			"prize": "1st Prize :     &#8377;2000\r\n2nd Prize :     &#8377;1000",
 			"coordinators": "Vivek Sharma-7737355997\r\nShubham Rathi :   +91-8890111910\r\nDilip Jajoo :   +91-8107424409\r\nHimanshu Guneshwar :   +91-9460554144",
+			"class": "col-sm-4 col-xs-6"
+		}, {
+			"id": "207",
+			"name": "Junkyard wars",
+			"category": "2",
+			"type": "4",
+			"title": "junkyard-wars",
+			"about": "Put your creativity to test and produce something highly innovative out of it. The 'Junk Yard Wars' will challenge the participants to create products like hovercrafts, cross-bows and remote controlled cars or something creative  from petty materials like, pencil buds, broken toys and ice-cream. So are you ready to take on the challenge.........?????",
+			"rules": "<b>Round I (MCQ Round)</b><ol><li>There will be a total of 25 qs for the time duration of 15 min.</li><li>The marking scheme will be +3 for correct answer and -1 for each wrong answer.</li></ol><b>Round II</b><ol><li>The teams must adhere to the spirit of healthy competition. The teams must not damage the opponent's machine in any way. Judges reserve the right to disqualify any team indulging in misbehaviour.</li><li>The organizers reserve all rights to change any or all of the above rules as they deem fit.</li><li>Point description will be disclosed on the spot before commencement of event.</li><li>Change in rules, if any, will be highlighted on the website and notified to the registered teams.</li></ol><b>Team Specifications</b><ol><li>A team may consist of a maximum of 3 members.</li><li>Each and every participant team should have a valid ID card.</li><li>Each team must declare a name for their object at the time of competition.</li></ol><b>SCORING</b><ol><li>Scoring will be done upon the creativity of team and how perfectly they will achieve their task.</li><li>In case of a tie one who has scored more points will be given preference over other(s).</li><li>Final decision in any case shall rest with the judge.</li></ol><ul><li>Certifications for contestants of second round.</li><li>Hampers for first round contestants.</li></ul>",
+			"fees": "Entry Fee :     &#8377;300",
+			"thumbnail": "quanta/junkyard-war.png",
+			"venue": "<b>Date: </b>    21st March, 2016\r\n<b>Time: </b>    9:30 AM to 12:30 PM\r\n<b>Venue: </b>    Badminton Court",
+			"prize": "1st Prize :     &#8377;3000\r\n2nd Prize :     &#8377;1500",
+			"coordinators": "Poorva Soni :   +91-7733836379\r\nOjasvi Singhal :   +91-8952094206\r\nSantosh Kumar :   +91-8502910866\r\nAkash Jain :   +91-9024923955",
 			"class": "col-sm-3 col-xs-6"
-		} , {
+		}, {
 			"id": "208",
 			"name": "Fork lifter",
 			"category": "2",
@@ -316,7 +330,7 @@
 			"venue": "<b>Date: </b>    11th March, 2017\r\n<b>Time: </b>    12:30 PM to 3:30 PM\r\n<b>Venue: </b>   B-BLOCK FOUNTAIN",
 			"prize": "1st Prize :     &#8377;2500\r\n2nd Prize :     &#8377;1500",
 			"coordinators": "Girish Khandelwal :   +91-7737833541 \r\nRaushan Kumar :   +91-8440980043 \r\nOm Prakash Yadav :   +91-7062756792 \r\nPrince Kumar :   +91-9828941454 \r\nShubham Wadhwa :   +91-9116490811 \r\nVikash Jain :   +91-8058406306",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}, {
 			"id": "209",
 			"name": "MIGHTY THROTTLE",
@@ -330,7 +344,7 @@
 			"venue": "<b>Date: </b>    9th March, 2017(1st Round) and 10th March, 2017(2nd Round)\r\n<b>Time: </b>    9:30 AM to 3:30 PM and 9:30 to 12:30 PM respectively\t\r\n<b>Venue: </b>   C-Block Lawn",
 			"prize": "1st Prize :     &#8377;15,000\r\n2nd Prize :     &#8377;10,000",
 			"coordinators": "Mohit Pareek :   +91-9782941104\r\nRahul Gupta :   +91-8561844204\r\nGovind Vyas :   +91-9610488491\r\nSatyam Jain :   +91-7737436129\r\nGagan Jindal:   +91-9602085058",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}, {
 			"id": "210",
 			"name": "FORMULA ZERO",
@@ -378,7 +392,7 @@
 			"name": "Brain Wiz",
 			"category": "2",
 			"type": "1",
-			"title": "brain-wiz  ",
+			"title": "brain-wiz",
 			"about": "Though quiz team competitions are often viewed as the pursuit of trivial knowledge, they encourage students to achieve academic excellence and increase their awareness of the world around them. And our Brain wiz is one of them.",
 			"rules": "Each Team must comprise of 2 members\r\n\r\n<b>1st Round:</b>\r\n<ol><li>IQ based paper of 35 to 40 questions.</li><li>Its an elimination round</li><li>Time duration=30 mins</li></ol>\r\n\r\n<b>\f2nd Round:</b>\r\nThis round is divided in two parts:\r\n<ol><li>Time duration = 30 mins.<ul><li>Rapid fire of 5 min for each team individually</li><li>One question for each team (visual round )</li></ul></li><li>Buzzer Round (Tie breaker round)</li></ol>",
 			"fees": "Entry Fee :     &#8377;200",
@@ -386,13 +400,13 @@
 			"venue": "<b>Date: </b>    20th March, 2016\r\n<b>Time: </b>    1:00 PM to 3:00 PM\r\n<b>Venue: </b>   B-301 & ER",
 			"prize": "1st Prize :     &#8377;2000\r\n2nd Prize :     &#8377;1200",
 			"coordinators": "Rakesh Kumar Upadhyay :   +91-7610002112\r\nNishant Kumar :   +91-7728909489\r\nAniket Kumar :   +91-8302465264\r\nSudhir Kumar :   +91-8559883095",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}, {
 			"id": "214",
 			"name": "COMBATANT ece",
 			"category": "2",
 			"type": "3",
-			"title": "combatant",
+			"title": "combatant-ece",
 			"about": "Renovator is a technical event that falls right into the core of engineering. It emphasis on the basic circuits that are involve in the course of engineering. It also disperses light onto the innovation and creativity. Show cases your imagination with circuits to redesign by searching the missing components. The right or wrong selection may lead to new functioning of the circuit.\r\nTo make it simple, the event consist of two rounds, first about the identification of circuit elements and second about the design of already studied circuit",
 			"rules": "<ol><li>Combatant is a technical event comprising of 3 rounds.</li><li>Number of participants in each team is 2-3.</li><li>First round will be objective type quiz on the fundamentals of electrical and electronics and aptitude.</li><li>After the round-1 all selected team go to round-2 and in round-2 the participants will try to solves the puzzles & design a working circuit which will be from basic electrical and electronics .That will be given on the spot.</li><li>In the final and third round the teams will have to solve the given circuit design problem.Winner will be judged on the basis of accuracy of the result and presentation of the circuit design.Decision of judges and the conducting authority will be final.</li></ol>",
 			"fees": "Entry Fee :     &#8377;200",
@@ -428,7 +442,7 @@
 			"venue": "<b>Date: </b>    11th March, 2017\r\n<b>Time: </b>    9:30 AM to 12:30 PM\r\n<b>Venue: </b>C-BLOCK LAWN",
 			"prize": "1st Prize :     &#8377;2500\r\n2nd Prize :     &#8377;1500",
 			"coordinators": "Dinesh Kumar Jain :   +91-7611048565\r\nVishvendra kumar :   +91-7014690417\r\nNirankar Singh :   +91-7732898891",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}, {
 			"id": "221",
 			"name": "Reverse Engineering",
@@ -442,13 +456,13 @@
 			"venue": "<b>Date: </b>    9th March, 2017\r\n<b>Time: </b>    9:30 AM to 3:30 PM\r\n<b>Venue: </b>   B-301 & ER",
 			"prize": "1st Prize :   &#8377;3000\r\n2nd Prize :   &#8377;2000",
 			"coordinators": "Prashant Jha :   +91-9799953278\r\nRavi Ranjan Pathak :   +91-7062424606\r\nPrachi Khandelwal :   +91-8739969517\r\nAbhimanyu :   +91-8385052586\r\nShambhavi :   +91-7240689577\r\nKunal Soni :   +91-8955936536",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-3 margin-events3 col-xs-6"
 		}, {
 			"id": "222",
 			"name": "Reverse Engineering mechanical",
 			"category": "2",
 			"type": "2",
-			"title": "reverse-engineering  ",
+			"title": "reverse-engineering-mech",
 			"about": "Do you think... You know everything about Automobile Engine. This event requires in depth knowledg about various components involved in the assembly of an Automobile Engine.",
 			"rules": "This event is divided into two stages. In the first stage each team (Two Members) has to clear an objective type test paper, only the qualified teams will be allowed to enter in the second stage. In the second stage each team will be provided an Automobile Engine which they have to disassemble and then again assembleit to the original state. Detailed description of each stage is as follows:\r\n<b>Round 1:</b>\r\n1. This stage is to test the technical skills of the participants.\r\n2. Each team should answer 20 questions (objective type) each carrying 3 marks and 1 mark will bededucted for wrong answer.\r\n3. Duration: 15 minutes.<b>Round 2:</b>\r\n This Stage will be further divided into two phases i.e.<b>Phase-1:</b>\r\n1. An Automobile Engine and a tool kit will be provided to each team.\r\n2. Teams have to disassemble the Automobile Engine up to the last component, identify and note its components.\r\n3. Duration: 30 minutes<b>Phase-2:</b>\r\n1. In this phase teams have to assemble the Automobile Engine to the original state.\r\n2. Upon the completion of the task, a judge will test the knowledge of the participants and awardmarks.\r\n3. It should be clearly kept in mind that any damage caused to the device, no matter how insignificant,will lead to disqualification.\r\n4. Duration: 20 minutes",
 			"fees": "Entry Fee :     &#8377;150",
@@ -456,7 +470,7 @@
 			"venue": "<b>Date: </b>    9th March, 2017\r\n<b>Time: </b>    9:30 AM to 12:30 PM\r\n<b>Venue: </b>  Badminton Court",
 			"prize": "1st Prize :   &#8377;2500\r\n2nd Prize :   &#8377;1500",
 			"coordinators": "Mohit P.Saini :   +91-9782291197\r\nRaja Janmejay :   +91-9887520333\r\nAbhijeet Sharma :   +91-9462120331\r\nVijaykant gaur :   +91-8561031898\r\nArpit Jain :   +91-9057972772",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}
 		, {
 			"id": "223",
@@ -471,7 +485,7 @@
 			"venue": "<b>Date: </b>    11th March, 2017\r\n<b>Time: </b>    9:30 AM to 4:30 PM\r\n<b>Venue: </b>  C 401 ",
 			"prize": "1st Prize :     &#8377;10,000\r\n5 Consolation prizes worth &#8377;3000/-",
 			"coordinators": "Anisha Goyal :   +91-9784016561\r\nRonak Patni :   +91-7597344484\r\nShubham Khandelwal :   +91-8290395377\r\nAnjali Agarwal :   +91-7727900245S\r\nSamarth Tholia :   +91-7568088929\r\nShubham Serva :   +91-9024886356",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}, {
 			"id": "224",
 			"name": "Best Out Of Waste",
@@ -491,7 +505,7 @@
 			"name": "Dexterity- “Bridge O Mania",
 			"category": "2",
 			"type": "5",
-			"title": "Dexterity ",
+			"title": "Dexterity",
 			"about": "The event here explores the creativity of participant and his/her understanding off the structure by implementing simple theories of structure and a little mathematics. In this event, participants have to construct a bridge of given dimensions using popsicle sticks.",
 			"rules": "<ol><li>Maximum 3 members in a team.</li><li>Adhesice and 200 popsicle sticks will be provided on the spot.</li><li>It is not mandatory to use all the popsicle sticks.</li><li>Use of material other than given is not permitted.</li><li>The organizer have all the rights to change any rule at any point of the event.</li><li>Dimensions : Lendht(span)- 50 cm \r\nClearance - 5cm on each side \r\n Width- 10 cm\r\n limiting to an error of 2 cm in width & 4cm in length</li><li.If the structure fails to satisfy any of the above constraints then it will be rejected</li><li>The bridge that meets the above constraints and dimensions supporting maximum weight at center will be declared as the winner \r\n Efficeincy Ratio: Load takesn/weight of the bridge</li></ol>",
 			"fees": "Entry Fee :     &#8377;250",
@@ -527,7 +541,7 @@
 			"venue": "<b>Date: </b>    10th March, 2017\r\n<b>Time: </b>    9:30 AM to 1:30 PM\r\n<b>Venue: </b>    MD (CE LAB)",
 			"prize": "1st Prize :     &#8377;1000\r\n2nd Prize :     &#8377;800",
 			"coordinators": "Poorna:   +91-7597925257\r\nRadhika:   +91-7062622845",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-6 col-xs-6"
 		}, {
 			"id": "228",
 			"name": "ROBO SOCCER",
@@ -545,7 +559,7 @@
 
 		}, {
 			"id": "229",
-			"name": "Drone Dangal",
+			"name": "GAMES OF DRONES",
 			"category": "2",
 			"type": "3",
 			"title": "Drone Dangal",
@@ -570,13 +584,13 @@
 			"venue": "<b>Date: </b>  8th March, 2017\r\n<b>Time: </b>    2:00 PM to 4:00 PM\r\n<b>Venue: Cp- 18 C Blocks</b>   ",
 			"prize": "1st Prize :     &#8377;1500\r\n2nd Prize :     &#8377;800",
 			"coordinators": "Chandan Chandravanshi :   +91-703589862\r\nDurgesh Kumar  :   +91-9829992126\r\nAshish Singh :   +91-9785578585",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-6 col-xs-6"
 		}, {
 			"id": "231",
 			"name": "Zenith - Reach Towards Sky",
 			"category": "2",
 			"type": "5",
-			"title": "zenith",
+			"title": "zenith-rts",
 			"about": "The event here explores the creativity and understanding of the structure. In this event, participants have to construct a structure of roof and floor standing more or less permanently in one place provided props.",
 			"rules": "\r\nGeneral Rules:\r\n<ol><li>The participating team must not comprise of more than 3 persons.</li><li>Use of props other than provided is prohibited.</li><li>Use of supports is however allowed</li><li>Participants must carry their own pair of ruler, scissors or any other cutting tool.</li></ol>",
 			"fees": "Entry Fee :     &#8377;200",
@@ -590,7 +604,7 @@
 			"name": "Technical Hack",
 			"category": "2",
 			"type": "3",
-			"title": "technical hack ",
+			"title": "technical hack",
 			"about": "The event is to develop research activity among students. Participants will try to match results of research papers in given prescribed time. The participants in the next level will have to draft abstract and title of another research paper. The shortlisted participant will have to present a Power point presentation of the same paper in the next level.",
       "rules": "1. The event consists of three rounds. First round is online round where as the other two rounds are offline. \r\n 2. Open for all branches. \r\n 3. Use of internet is permitted for first round only. Duration of first round is around two weeks. \r\n 4. Round 2 and 3 will be conducted on 11 th March, 2017. \r\n 5. Decision of the judges will be final. <b>\r\n Rules for Round 1 – </b>\r\n 1. Teams have to simulate a portion of the paper given to them in specified number of days. \r\n 2. Participating teams can opt the research interest from list of areas specified. \r\n 3. A research paper will be allotted as per their research area. \r\n 4. First round has no elimination but the credits will be added in round two for the elimination.\r\n <b> Rules for Round 2 </b>\r\n 1. Teams will be given a research paper and they have to write the abstract and title for it. \r\n 2. Selected teams will move to the next round. \r\n 3. Time period- (1.5hr)\r\n <b> Rules for Round 3 – </b> \r\n 1. The teams will be provided with facilities to prepare power point presentations for their research papers within duration of one hour. \r\n 2. Each team will be given 10 minutes to present the presentation and handle the queries. \r\n 3. Participants will be evaluated on the basis of communication skills, content and handling of queries.",
 			"fees": "Entry Fee :     &#8377;200",
@@ -612,14 +626,14 @@
 			"venue": "<b>Date: </b>  9th and 10th March, 2017\r\n<b>Time: </b>    9:30 AM to 11:30 PM\r\n<b>Venue: </b>Wisdom hall, Spiritual Research Cell, Near BH-1, JECRC",
 			"prize": "Two lucky winners will get opportunity of Karadascan &amp; Aura Scanning.",
 			"coordinators": "Gaurav Trivedi \r\nRishika Agarwal \r\nArush Maski \r\nAkash Damotiya \r\nRitika Safaya",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		} ,
 {
- "id": "236",
+ "id": "235",
  "name": "Junkyard Wars applied science ",
  "category": "2",
  "type": "6",
- "title": "Junkyard Wars ",
+ "title": "Junkyard Wars applied ",
  "about": "In this event the participant will present the things/ project/ techniques/ jugaad made up of waste materials.  It should be an innovative fix for your business an improvised solution born from ingenuity and cleverness.",
  "rules": "<b>Members in a team :</b>  3 (Maximum)\r\n<b>The jugaad will be judged in 4 different areas.</b>\r\nTechnique          10 marks\r\nPresentation       10 marks\r\nInnovation         10 marks\r\nApplication        20 marks",
  "fees": "Entry Fee :     &#8377;150",
@@ -630,7 +644,7 @@
  "class": "col-sm-3 col-xs-6"
 },
 {
- "id": "237",
+ "id": "236",
  "name": "Let Me Speak",
  "category": "2",
  "type": "6",
@@ -644,7 +658,7 @@
  "coordinators": " Shruti Shukla :   +91-8854822110\r\nAmbuj Shukla :   +91- 9461545859\r\nPrajjwal  Joshi :   +91-7737571623",
  "class": "col-sm-3 col-xs-6"
 },{
- "id": "238",
+ "id": "237",
  "name": "Pen It Down",
  "category": "2",
  "type": "6",
@@ -659,7 +673,7 @@
  "class": "col-sm-3 col-xs-6"
 },
 {
- "id": "239",
+ "id": "238",
  "name": "Q-Fiesta (Applied Sciece)",
  "category": "2",
  "type": "6",
@@ -674,7 +688,7 @@
  "class": "col-sm-3 col-xs-6"
 },
 {
- "id": "240",
+ "id": "239",
  "name": "Drishyam - Poster Presentation",
  "category": "2",
  "type": "6",
@@ -686,11 +700,11 @@
  "venue": "<b>Date: </b> 10th March, 2017\r\n<b>Time: </b>    09:30 AM to 12:30 PM\r\n<b>Venue: </b>CG & CF Of Block C ",
  "prize": "1st Prize :     &#8377;2000\r\n2nd Prize :     &#8377;1500",
 "coordinators": " Hardeep Singh :   +91-9649172521\r\nMahipal Singh :   +91- 8899791956",
- "class": "col-sm-3 col-xs-6"
+ "class": "col-sm-12 col-xs-6"
 }
 ,
 {
- "id": "241",
+ "id": "240",
  "name": "R-MECH OLYMPIAD",
  "category": "2",
  "type": "2",
@@ -702,7 +716,7 @@
  "venue": "<b>Date: </b> 10th March, 2017\r\n<b>Time: </b>    12:30 AM to 3:30 PM\r\n<b>Venue: </b>BT-07 &amp; BT-14 ",
  "prize": "1st Prize :     &#8377;1500\r\n2nd Prize :     &#8377;750 \r\nConsolation Prize: Rs. 300 (2 in Each Year)",
 "coordinators": "Linkon Gori :   +91-9462181912 \r\nYogesh Yadav :   +91-8559909689 \r\nKuldeep Soni :   +91-9929862949",
- "class": "col-sm-3 col-xs-6"
+ "class": "col-sm-4 col-xs-6"
 },
 
 {
@@ -718,7 +732,7 @@
  "venue": "<b>Date: </b> 9th March, 2017\r\n<b>Time: </b>    12:30 AM to 3:30 PM\r\n<b>Venue: </b>BT-07 &amp; BT-14 ",
  "prize": "1st Prize :     &#8377;2100\r\n2nd Prize :     &#8377;1100 \r\n3rd Prize :     &#8377;700",
  "coordinators": "Jayesh Garg :   +91-7665426077 \r\nKanaram :   +91-8386881879 \r\nHimanshu Rai :   +91-9166170366 \r\nPratyush :   +91-9549938874 \r\n Manish sain :   +91-9680357494",
- "class": "col-sm-3 col-xs-6"
+ "class": "col-sm-4 col-xs-6"
 }
 ,
 
@@ -727,7 +741,7 @@
  "name": "IVSHOW",
  "category": "2",
  "type": "2",
- "title": "brain quest",
+ "title": "IVshow",
  "about": "IVSHOW has the main motto to read the speed of Engineers mind. In this regard, we have enclosed the Innovative video competition which named as IVSHOW. This event gives the platform to the students to show their hidden talent with engineering innovative videos collection and motivates the rest of the students to think to be innovative.",
  "rules": "1. Individual participation only. \r\n 2. The Video will be judged on the basis of their innovation, in depth knowledge of the field and the \r\n decision of the judges will be final and binding. \r\n 3. Video should be in HD format. \r\n 4. The time for video presentation will be 5 minutes and for questions 2 minutes will be provided. \r\n 5. Any extension in the allotted time will result in the loss of points. \r\n <b>Guidelines:</b> \r\n 1. For the presentations, a LCD projector, a computer, a mike and speakers will be provided. \r\n2. Video should be relevant and belong to engineering field.",
  "fees": "Entry Fee :     &#8377;100",
@@ -735,13 +749,14 @@
  "venue": "<b>Date: </b> 11th March, 2017\r\n<b>Time: </b>   2:30 PM to 4:30 PM\r\n<b>Venue: </b>C-501",
  "prize": "1st Prize :     &#8377;1500\r\n2nd Prize :     &#8377;1000 ",
  "coordinators": "Vivek Soni :   +91-7792856564 \r\nShubham Khandelwal :   +91-9530031335 \r\nParul Yadav :   +91-7728820030 \r\nSuraj Prajapati :   +91-9694565854 \r\nPrince Sharma :   +91-9828941454",
- "class": "col-sm-3 col-xs-6"
-},{
+ "class": "col-sm-4 col-xs-6"
+},
+{
  "id": "243",
  "name": "quizolic ece",
  "category": "2",
  "type": "3",
- "title": "Quizolic  ",
+ "title": "Quizolic",
  "about": "A quiz is more than just a collection of questions in search of answers. It is a reflection of the times we live and have lived in. The event presents a medley of well gleaned technical questions to test the intellectual capabilities. If Archie was the first and backrub became Google, the advent of search engines and internet has meant that answers to anything are just a click away.",
  "rules":"1. The event has four rounds. \r\n 2. Maximum number of participants per team is two. \r\n 3. In first round 20 questions will be provided. \r\n 4. The elimination of teams depends on the cut off decided by the judges. \r\n 5. A chit will be drawn from the pot which will consist of three questions. \r\n 6. The students will be given 2 minutes time to solve the three questions. \r\n 7. The participants who qualify in round two will appear for next round. \r\n 8. Round three is a visual round. \r\n9. In round for the top five teams will be participating, which will be buzzer round. \r\n <b>General Rules</b>\r\n 1. Use of calculators, mobiles and other electronic gadgets is strictly prohibited. \r\n 2. Team members can be from different colleges and branches and years.",
  "fees": "Entry Fee :     &#8377;200",
@@ -755,7 +770,7 @@
  "name": "Techno InBuzz",
  "category": "2",
  "type": "3",
- "title": "Quizolic",
+ "title": "Quizolic buzz",
  "about": "When you want to know how things really work, study them when they&#39;re coming apart.William Gibson, Zero History Techno InBuzz is a Technical poster presentation. This is the presentation of research information or an idea with an academic or professional focus on a poster. For any professional, communicating his/her idea efficiently determines his success professionally. The primary motive of this competition is to enhance the ability to deliver a visual presentation without any other audio/video aids. This event basically focuses on the creativity of the students. Here in Renaissance we provide you a platform to showcase your innovation, creativity, knowledge, and ability to tackle queries.",
  "rules":"Team size should not be more than three. \r\n 2. Each team must come along with their prepared posters. \r\n 3. The themes can be selected from the underlined : Electronics &amp; Electrical Mechanical &amp; Civil Computer Science &amp; Information Technology Basic Sciences \r\n 4. The size of poster should be of following dimensions A1 (23.4 x 33.1 in) size. \r\n 5. Judges will evaluate the posters on given criteria like creativity, future aspects and Presentation and queries. \r\n 6. The judges will short list teams for second round. \r\n 7. Second round will be the Blaze round (rapid fire) consisting of questions related to their Creative design. \r\n 8. Top scorer will be announced as Winner and runner up. \r\n 9. The decision of the judges will be final and cannot be questioned.",
  "fees": "Entry Fee :     &#8377;200",
@@ -769,7 +784,7 @@
  "name": "embryo ee",
  "category": "2",
  "type": "4",
- "title": "embryo        ",
+ "title": "embryo ee",
  "about": "In this event student will have to present a paper on a topic from electrical or electronics engineering.",
  "rules":"1.      Maximum number of participants in a Team is 2. \r\n 2.      The topics of the papers need to be based on streams related to electrical and electronics engineering. \r\n 3.      Abstract should not exceed 300 words and Paper should not exceed 6-7 pages. \r\n 4.      The subject of the mail with the attached abstract and later. \r\n 5.      Bring your college I-Card &amp; receipt on event day. \r\n 6.      Please bring your Power Point presentation in a pen-drive. \r\n 7.      Soft-copies of the submitted paper and PowerPoint presentations must be in the .docx format. \r\n 8.      Please Mail your abstract, paper and ppt to vishalsharma.ee@jecrc.ac.in Difficulties will be addressed through the same email-id. \r\n 9.      Please bring 01 hard copy of the submitted paper on the day of the event. \r\n 10.  The teams will get 10 minutes for presentation followed by question and answer session. \r\n 11.  Persons from different institutions can be a part of the same team. However, one person may not be a part of multiple teams for the same event. \r\n 12.  The mail with submissions should contain: Title- theme of the paper. Name of both the authors . Phone no of both the authors. E- mail ID . \r\n 13.  The abstract mail should contain abstract,  your e-mail id and mobile number. \r\n 14.   The decision of judges will be final and no arguments or appeal will be entertained.",
  "fees": "Entry Fee :     &#8377;100",
@@ -779,7 +794,7 @@
  "coordinators": "Akshita Mangal :   +91-9460441766\r\nHarshit Jain :   +91-8233437773\r\nAnurag Garg :   +91-8058454802\r\nShubham Agrawal :   +91-7619726022\r\nNeha Gour :   +91-9001247068\r\nAyush Bhatnagar :   +91-9571067121\r\nNanika Gee Padha :   +91-9610974442",
  "class": "col-sm-3 col-xs-6"
 },{
- "id": "245",
+ "id": "246",
  "name": "Electro Quizzard",
  "category": "2",
  "type": "4",
@@ -793,7 +808,7 @@
  "coordinators": "Him Shikhar :   +91-7062709998 \r\nTushar Jain :   +91-8561970403&gt; \r\nVipul Jain :   +91-8502082322&gt; \r\nTanuj sukhpadia :   +91-8058950867",
  "class": "col-sm-3 col-xs-6"
 },{
- "id": "246",
+ "id": "247",
  "category": "2",
  "name": "AUTOMAGIC",
  "type": "4",
@@ -807,11 +822,11 @@
  "coordinators": "Romit Malav :   +91-9460954765\r\nPrakash Bijarniya :   +91-8003017483\r\nSandeep Pareek :   +91-7597589351\r\n Navjot singh :   +91-8003044197\r\nAnju Shukla :   +91-7062829517\r\nNeeraj Singla :   +91-8764375636",
  "class": "col-sm-3 col-xs-6"
 },{
- "id": "247",
+ "id": "248",
  "category": "2",
  "name": "Crazy Innovators ee",
  "type": "4",
- "title": "Crazy Innovators",
+ "title": "Crazy Innovators ee",
  "about": "The extraordinary event aimed to discuss innovative technologies, ideas and projects that may find their business solutions in the cross border economy. If you have the passion to think out of the box which can evolve as a new technology then you’ve reached the right place i.e. \"CRAZY INNOVATORS\"",
  "rules": "ID card is mandatory. \r\n • Demonstration time is maximum 10 mins. \r\n • Build a small and nimble team ( 2 participants). \r\n • Decision of the judges will be final and will not be subjected to any further discussion \r\n • Registration fee is Rs 200 per team. \r\n • Open for all branches. \r\n • Spot entries are allowed. \r\n • Any act against the spirit of the event will lead to disqualification of the team.",
  "fees": "Entry Fee :     &#8377;200",
@@ -821,11 +836,11 @@
  "coordinators": "Aayushi Mukhija :   +91-7023733082\r\nAman Bansal :   +91-7689045659\r\nBharti Naraniya :   +91-9352703037\r\nMukul bhardwaj :   +91-9414317133\r\nUttam kumar :   +91-7728040678\r\nVivek",
  "class": "col-sm-3 col-xs-6"
 },{
- "id": "248",
+ "id": "249",
  "category": "2",
  "name": "Combatant War Tech REN-17",
  "type": "4",
- "title": "Combatant",
+ "title": "Combatant war",
  "about": "The idea and concept that come here are simply awesome. Great platform for a bit fun and a bit play with tones of knowledge that you take away. This event will consist of two rounds. First one is objective questions round and second one is designing and testing of circuit on breadboard using various components.",
  "rules": "1. Maximum number of participants in a team is 3. \r\n 2. Bring your college Id cards and receipt of participation on event day. \r\n 3. Mobile phones and calculators are not allowed during the event. \r\n 4. The teams will get 30 minutes for objective paper. \r\n 5. The topics of the objective paper will be from basic electrical, aptitude and related streams. \r\n 6. Person from the different colleges may be in the same team, but one person may not be a part of two teams in the same event. \r\n 7. The decision of the judges will be final and no arguments will be entertained.",
  "fees": "Entry Fee :     &#8377;200",
@@ -833,13 +848,13 @@
  "venue": "<b>Date: </b> 11th March, 2017\r\n<b>Time: </b>  12:30AM to 3:30PM\r\n<b>Venue: </b>PE Lab ( EE Department , B Block)",
  "prize": "1st Prize :     &#8377;1200\r\n2nd Prize :     &#8377;800 ",
  "coordinators": "Aamir Sadik khan :   +91-9024366147\r\n Aditya Sharma :   +91-9571603402\r\n Arun Gahlot :   +91-8114466747\r\n Chandraveer Singh Rathore :   +91-8955721733",
- "class": "col-sm-3 col-xs-6"
+ "class": "col-sm-12 col-xs-6"
 },{
- "id": "249",
+ "id": "250",
  "name": "embryo cs",
  "category": "2",
  "type": "1",
- "title": "embryo",
+ "title": "embryo cs",
  "about": "EMBRYO - A National level paper presentation contest where different Scientific &amp; Technical researches ignited with innovative ideas meet under the same shed. A mode of enhancing the doors to explore different technologies flavored with the stage skills of individual giving them an opportunity to think and helps in bringing out professionalism. So, gather your research, proliferate your energy and get ready for EMBRYO-2K17.",
  "rules":"1. First stage involves submitting paper(IEEE format) of about 500 words at embryo2k17@gmail.com before 26 th February. Entries shortlisted will be called to present their paper in RENAISSANCE’17 at JECRC campus on 8 th March. \r\n 2. Maximum 2 students per team are allowed to present a paper, both member must be present at the event. \r\n 3. The decision of judges will be final and binding. \r\n A. Presentation should be in .ppt or .pdf format. \r\n B. Time for one presentation will be 5-7 minute, one buzzer will rung after 5 minute to remind of time and the participant have to conclude the presentation in a total of 7 minutes. \r\n C. The papers will be judged on the basis of their innovation, in depth knowledge of the field and presentation skills.",
  "fees": "Entry Fee :     &#8377;200",
@@ -906,7 +921,7 @@
 			"title": "bootstrapping",
 			"about": "As someone truly said, “Dance is the hidden language of the soul”. Dancing can alleviate one from stress and troubles and is a delight for the dancers as well as the audience. One can express oneself through dance in a way which is not possible otherwise.\r\nIt would indeed be a pleasure as well honor for us to have your college dance team as a part of the group dance competition, BOOTSTRAPPING and more importantly a part of the fest.",
 			"rules": "<ol><li>Max 2 teams per college are allowed and each participant shall bring his/her valid original college ID card on the day.</li><li>The min. no. of participants should be 5 (on stage) and maximum is 20. [on stage – min(5) max(15)]</li><li>Time limit will be between 7+1 minutes.</li><li>Pre-recorded music should be brought in a CD/DVD as well as in pen drive in .cda AND .mp3 format only (Other formats may not be supported on the computer – use them at your own risk).</li><li>The teams should bring their own portable music system for practice.</li><li>Individuality & originality of the dance is encouraged.</li><li>Dancers are not restricted from performing any move but they must be aware that it is their own responsibility to ensure that they do not perform moves that could injure themselves or others.</li><li>Obscenity of any kind is not allowed and will lead to immediate disqualification.</li><li>Use of only stage is allowed.</li><li>The use of fireworks, colours,fire and water acts are not allowed.</li><li>There is no restrictions on theme.</li><li>All participants in a group should belong to the same technical or management institution.</li><li>The accommodation for the team outside of Jaipur will be free.</li><li>Decision of the judges and the organizing committee would be final on any issue.</li></ol>",
-			"fees": "Entry Fee :     &#8377;1,600 (For teams, 5-20 members)",
+			"fees": "Entry Fee :     &#8377;1,800 (For teams, 5-20 members)",
 			"thumbnail": "icon/bootstrapping.png",
 			"venue": "<b>Date: </b>    9th March, 2017\r\n<b>Time: </b>    7:00 PM to 10:00 PM\r\n<b>Venue: </b>    Central Lawn",
 			"prize": "1st Prize :    INR 22,000 (INR 16000 cash + gift vouchers worth INR 6000)\r\n2nd Prize :    INR 12,000 (INR 8000 cash + gift vouchers worth INR 4000) ",
