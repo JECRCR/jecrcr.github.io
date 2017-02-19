@@ -280,8 +280,7 @@ renApp.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
         ;
 });
 
-renApp.
-('renService', function($http) {
+renApp.factory('renService', function($http) {
     var url = "../events.json";
     var promise;
     var myService = {
