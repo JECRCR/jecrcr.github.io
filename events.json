@@ -400,7 +400,7 @@
 			"venue": "<b>Date: </b>    20th March, 2016\r\n<b>Time: </b>    1:00 PM to 3:00 PM\r\n<b>Venue: </b>   B-301 & ER",
 			"prize": "1st Prize :     &#8377;2000\r\n2nd Prize :     &#8377;1200",
 			"coordinators": "Rakesh Kumar Upadhyay :   +91-7610002112\r\nNishant Kumar :   +91-7728909489\r\nAniket Kumar :   +91-8302465264\r\nSudhir Kumar :   +91-8559883095",
-			"class": "col-sm-4 col-xs-6"
+			"class": "col-sm-3 col-xs-6"
 		}, {
 			"id": "214",
 			"name": "COMBATANT ece",
@@ -456,7 +456,7 @@
 			"venue": "<b>Date: </b>    9th March, 2017\r\n<b>Time: </b>    9:30 AM to 3:30 PM\r\n<b>Venue: </b>   B-301 & ER",
 			"prize": "1st Prize :   &#8377;3000\r\n2nd Prize :   &#8377;2000",
 			"coordinators": "Prashant Jha :   +91-9799953278\r\nRavi Ranjan Pathak :   +91-7062424606\r\nPrachi Khandelwal :   +91-8739969517\r\nAbhimanyu :   +91-8385052586\r\nShambhavi :   +91-7240689577\r\nKunal Soni :   +91-8955936536",
-			"class": "col-sm-3 margin-events3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}, {
 			"id": "222",
 			"name": "Reverse Engineering mechanical",
@@ -499,7 +499,7 @@
 			"venue": "<b>Date: </b>    11th March, 2017\r\n<b>Time: </b>    3:30 PM to 6:30 PM\r\n<b>Venue: </b>    C Block",
 			"prize": "1st Prize :     &#8377;1500\r\n2nd Prize :     &#8377;800",
 			"coordinators": "Sukanya Sharma:   +91-9119301141\r\nPrabhad Saraswat :   +91-7297926655",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}, {
 			"id": "225",
 			"name": "Dexterity- “Bridge O Mania",
@@ -513,7 +513,7 @@
 			"venue": "<b>Date: </b>    8th March, 2017\r\n<b>Time: </b>    11:00 AM to 2:30 PM\r\n<b>Venue: </b>    Basket Ball Court",
 			"prize": "1st Prize :     &#8377;3000\r\n2nd Prize :     &#8377;2000",
 			"coordinators": "Hansraj Togara:   +91-9001687626\r\nMohit Sharma :   +91-8385947312",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}, {
 			"id": "226",
 			"name": "Manthan",
@@ -527,7 +527,7 @@
 			"venue": "<b>Date: </b>    9th March, 2017\r\n<b>Time: </b>    12:30 PM to 4:30 PM\r\n<b>Venue: </b>    C Block - CG 06",
 			"prize": "1st Prize :     &#8377;2000\r\n2nd Prize :     &#8377;1000",
 			"coordinators": "Himanshu:   +91-9649379551\r\nJasveer :   +91-8696784154",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}, {
 			"id": "227",
 			"name": "Pradarshini - How Creative You Are",
@@ -541,7 +541,7 @@
 			"venue": "<b>Date: </b>    10th March, 2017\r\n<b>Time: </b>    9:30 AM to 1:30 PM\r\n<b>Venue: </b>    MD (CE LAB)",
 			"prize": "1st Prize :     &#8377;1000\r\n2nd Prize :     &#8377;800",
 			"coordinators": "Poorna:   +91-7597925257\r\nRadhika:   +91-7062622845",
-			"class": "col-sm-6 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}, {
 			"id": "228",
 			"name": "ROBO SOCCER",
@@ -555,7 +555,7 @@
 			"venue": "<b>Date: </b>    March, 2017\r\n<b>Time: </b>    9:30 AM to 1:30 PM\r\n<b>Venue: </b>   ",
 			"prize": "1st Prize :     &#8377;5000\r\n2nd Prize :     &#8377;3000",
 			"coordinators": "RISHABH ANAND :   +91-9660792263\r\nMAYANK GUPTA :   +91-8426094295",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 
 		}, {
 			"id": "229",
@@ -570,7 +570,7 @@
 			"venue": "<b>Date: </b>  8th March, 2017\r\n<b>Time: </b>    1:30 PM to 4:30 PM\r\n<b>Venue: GH LAWN</b>   ",
 			"prize": "1st Prize :     &#8377;5000\r\n2nd Prize :     &#8377;3000",
 			"coordinators": "Dipanshu Sharma :   +91-9772750018\r\nDushyant Marothia :   +91-7742434323\r\nGarvit Chugh :   +91-9772758587\r\nManav Sharma :   +91-9828373549\r\nNikhil Goyal :   +91-9549378353\r\nAarushi Singh :   +91-9828014663",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}, {
 			"id": "230",
 			"name": "Srajan - AutoCAD",
@@ -584,7 +584,7 @@
 			"venue": "<b>Date: </b>  8th March, 2017\r\n<b>Time: </b>    2:00 PM to 4:00 PM\r\n<b>Venue: Cp- 18 C Blocks</b>   ",
 			"prize": "1st Prize :     &#8377;1500\r\n2nd Prize :     &#8377;800",
 			"coordinators": "Chandan Chandravanshi :   +91-703589862\r\nDurgesh Kumar  :   +91-9829992126\r\nAshish Singh :   +91-9785578585",
-			"class": "col-sm-6 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}, {
 			"id": "231",
 			"name": "Zenith - Reach Towards Sky",
@@ -598,7 +598,7 @@
 			"venue": "<b>Date: </b>  9th March, 2017\r\n<b>Time: </b>    9:30 AM to 12:30 PM\r\n<b>Venue: In Front Of C Block</b>   ",
 			"prize": "1st Prize :     &#8377;2000\r\n2nd Prize :     &#8377;1500",
 			"coordinators": "Neha Akhter :   +91-9610663606\r\nAhsan Ullah :   +91-9690766389\r\nVikram Sharma :   +91-9928510318",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		},  {
 			"id": "233",
 			"name": "Technical Hack",
@@ -612,7 +612,7 @@
 			"venue": "<b>Date: </b>  11th March, 2017\r\n<b>Time: </b>    9:30 AM to 11:30 PM\r\n<b>Venue: </b>CAD LAB B-BLOCK GROUND FLOOR (BG-09)   ",
 			"prize": "1st Prize :     &#8377;2000\r\n2nd Prize :     &#8377;1500",
 			"coordinators": "AISHWARYA SHARMA :   +91-7891504055\r\nADITYA SHARMA :   +91-9413288087\r\nAMIT KUMAR :   +91-7073319621\r\nANUSHKA AGARWA :   +91-9024726376",
-			"class": "col-sm-3 col-xs-6"
+			"class": "col-sm-4 col-xs-6"
 		}, {
 			"id": "234",
 			"name": "Meditation",
@@ -764,7 +764,7 @@
  "venue": "<b>Date: </b> 9th March, 2017\r\n<b>Time: </b>   12:30AM to 4:30PM\r\n<b>Venue: </b>LT, CAD LAB",
  "prize": "1st Prize :     &#8377;2500\r\n2nd Prize :     &#8377;1500 ",
  "coordinators": "\r\nHarshil Jain :   +91-8094592266 \r\nManmeet Kaur :   +91-7073587937 \r\nArpit Singhal :   +91-8426040666 \r\nAjay Agarwal :   +91-7727989894 \r\nAneesh Ansari :   +91-9455108610",
- "class": "col-sm-3 col-xs-6"
+ "class": "col-sm-4 col-xs-6"
 },{
  "id": "244",
  "name": "Techno InBuzz",
@@ -778,7 +778,7 @@
  "venue": "<b>Date: </b> 10th March, 2017\r\n<b>Time: </b>   9:30AM to 11:30PM\r\n<b>Venue: </b>B-Block Foyer",
  "prize": "1st Prize :     &#8377;3000\r\n2nd Prize :     &#8377;2000 ",
  "coordinators": "Aditya Gautam :   +91-8764249905 \r\nAshish John :   +91-9414422690 \r\nAditya Vardhan :   +91-9462963842 \r\nAnkit Sankhla :   +91-9636733796 \r\nAshish Agarwal :   +91-8560813164 \r\nAyush Jain :   +91-9462178437",
- "class": "col-sm-3 col-xs-6"
+ "class": "col-sm-4 col-xs-6"
 },{
  "id": "245",
  "name": "embryo ee",
@@ -820,7 +820,7 @@
  "venue": "<b>Date: </b> 11th March, 2017\r\n<b>Time: </b>  9:30AM to 12:30PM\r\n<b>Venue: </b>PE Lab , B- Block",
  "prize": "1st Prize :     &#8377;2100\r\n2nd Prize :     &#8377;1100 ",
  "coordinators": "Romit Malav :   +91-9460954765\r\nPrakash Bijarniya :   +91-8003017483\r\nSandeep Pareek :   +91-7597589351\r\n Navjot singh :   +91-8003044197\r\nAnju Shukla :   +91-7062829517\r\nNeeraj Singla :   +91-8764375636",
- "class": "col-sm-3 col-xs-6"
+ "class": "col-sm-3 margin-events3 col-xs-6"
 },{
  "id": "248",
  "category": "2",
@@ -848,7 +848,7 @@
  "venue": "<b>Date: </b> 11th March, 2017\r\n<b>Time: </b>  12:30AM to 3:30PM\r\n<b>Venue: </b>PE Lab ( EE Department , B Block)",
  "prize": "1st Prize :     &#8377;1200\r\n2nd Prize :     &#8377;800 ",
  "coordinators": "Aamir Sadik khan :   +91-9024366147\r\n Aditya Sharma :   +91-9571603402\r\n Arun Gahlot :   +91-8114466747\r\n Chandraveer Singh Rathore :   +91-8955721733",
- "class": "col-sm-12 col-xs-6"
+ "class": "col-sm-4 col-xs-6"
 },{
  "id": "250",
  "name": "embryo cs",
@@ -862,7 +862,7 @@
  "venue": "<b>Date: </b> 8th March, 2017\r\n<b>Time: </b>  11:0AM to 2:00PM\r\n<b>Venue: </b>CS-401,C-Block",
  "prize": "1st Prize :     &#8377;3000\r\n2nd Prize :     &#8377;2000 ",
  "coordinators": "Priyanshu Gupta – 8239919466 \r\n Aman Agrawal – 8946912785 \r\n Akshay Jain – 9983543400",
- "class": "col-sm-3 col-xs-6"
+ "class": "col-sm-4 col-xs-6"
 }
 
 	]
