@@ -884,7 +884,7 @@
 			"venue": "<b>Date: </b>    8th March, 2017\r\n<b>Time: </b>    7:00 PM to 10:00 PM\r\n<b>Venue: </b>    Central Lawn",
 			"prize": "1st Prize :   Worth &#8377; 28000 (including &#8377; 20000 cash)\r\n2nd Prize :    Worth &#8377;10000 (including &#8377;6000 cash)",
 			"coordinators": "Mehak Pandita :   +91-7568736232\r\n Email :   mpandita996@gmail.com",
-			"class": "col-sm-5ths col-xs-6"
+			"class": "col-sm-3 col-xs-6"
 		}, {
 			"id": "302",
 			"name": "NUKKAD NATAK",
@@ -898,7 +898,7 @@
 			"venue": "<b>Date: </b>    10th March, 2017\r\n<b>Time: </b>    03:00 PM to 06:00 PM\r\n<b>Venue: </b>    A Block",
 			"prize": "1st Prize :     &#8377;12,000 +  &#8377;3,000 coupons\r\n2nd Prize :     &#8377;5,500 +  &#8377;1,500 coupons",
 			"coordinators": "Divisha Sharma :   +91-9414418748\r\nAditya Johri :   +91-9602636770\r\nUmangini Panwar :   +91-7340300217\r\nShreya Singh :   +91-8107317388",
-			"class": "col-sm-5ths col-xs-6"
+			"class": "col-sm-3 col-xs-6"
 		}, {
 			"id": "303",
 			"name": "ANUPRAS",
@@ -912,7 +912,7 @@
 			"venue": "<b>Date: </b>    10th March, 2017\r\n<b>Time: </b>    11:00 AM to 2:00 PM\r\n<b>Venue: </b> A-block Auditorium",
 			"prize": "1st Prize :    &#8377 7000/ ( &#8377 3500- cash + &#8377 3500- worth coupons)\r\n2nd Prize :   &#8377 4500( &#8377 2000- cash  + &#8377 2500 worth coupons)",
 			"coordinators": "Akshat Trivedi\t:   +91-8764116853\r\nKishan Mangal :   +91-9694605289\r\nGaurav Gupta :   +91-8764088661",
-			"class": "col-sm-5ths col-xs-6"
+			"class": "col-sm-3 col-xs-6"
 		}, {
 			"id": "304",
 			"name": "BOOTSTRAPPING",
@@ -925,8 +925,8 @@
 			"thumbnail": "icon/bootstrapping.png",
 			"venue": "<b>Date: </b>    9th March, 2017\r\n<b>Time: </b>    7:00 PM to 10:00 PM\r\n<b>Venue: </b>    Central Lawn",
 			"prize": "1st Prize :    INR 22,000 (INR 16000 cash + gift vouchers worth INR 6000)\r\n2nd Prize :    INR 12,000 (INR 8000 cash + gift vouchers worth INR 4000) ",
-			"coordinators": "Monika Gwalani  :   +91-7790893061\r\nShivani Soni  :   +91-8764029764\r\nArpit Dadhich  :   +91-7725969141\r\nIshanvi Modi :   +91-8764330206",
-			"class": "col-sm-5ths col-xs-6"
+			"coordinators": "Monika Gwalani  :   +91-7790893061\r\nShivani Soni  :   +91-8764029764\r\nArpit Dadhich  :   +91-7725969141\r\nIshanvi Modi :   +91-8764029764",
+			"class": "col-sm-3 col-xs-6"
 		}, {
 			"id": "305",
 			"name": "RAGA NIGHT",
@@ -940,7 +940,7 @@
 			"venue": "<b>Date: </b>    8th March, 2016\r\n<b>Time: </b>    4:15 PM to 6:30 PM\r\n<b>Venue: </b>    Central Lawn",
 			"prize": "1st Prize :  ₹6000+4000(Kinds)\r\n2nd Prize :  ₹3000+3000(Kinds)",
 			"coordinators": "Kapil Pandey:   +91-8233141967\r\nJanhavi Agarwal :   +91-7221834576\r\nSapna Gohrani :   +91-9413994477",
-			"class": "col-sm-5ths col-xs-6"
+			"class": "col-sm-3 col-xs-6"
 		}, {
 			"id": "306",
 			"name": "Footloose",
@@ -954,7 +954,7 @@
 			"venue": "<b>Date: </b>    11th March, 2017\r\n<b>Time: </b>    5:00 PM to 07:30 PM\r\n<b>Venue: </b>    Quadrangle A-Block",
 			"prize": "1st Prize :- ₹4,000 + vouchers worth ₹2000\r\n2nd Prize :- ₹2,500 + vouchers worth ₹1500\r\n3rd Prize :-₹1,500 + vouchers worth ₹1000\r\n\r\nThe rest 7 participants from the top 10 will get vouchers worth 500 each.",
 			"coordinators": "Sarthak Behl :   +91-8854888441\r\nMeghna Vaishnav :   +91-9950215425\r\nAnkit Dwivedi :   +91-7742607119",
-			"class": "col-sm-4 col-xs-6"
+			"class": "col-sm-3 col-xs-6"
 		}, {
 			"id": "307",
 			"name": "ROCK' ATHON",
@@ -968,7 +968,7 @@
 			"venue": "<b>Date: </b>    9th March, 2017\r\n<b>Time: </b>    4:00 PM to 7:00 PM\r\n<b>Venue: </b>    Central Lawn",
 			"prize": "Prize Money for the winner is Rs. 20000 worth including cash prize of 14000.\r\nThe best artists will be acknowledged and awarded with prizes worth Rs. 1000 each.",
 			"coordinators": " Shubham Saxena :   +919057792993\r\nKanishka Goyal :   +91-7597784231",
-			"class": "col-sm-4 col-xs-6"
+			"class": "col-sm-3 col-xs-6"
 		}, {
 			"id": "308",
 			"name": "Vinyl War",
@@ -982,7 +982,7 @@
 			"venue": "<b>Date: </b>    20th March, 2016\r\n<b>Time: </b>    07:00 PM to 9:00 PM\r\n<b>Venue: </b>  Central Lawn",
 			"prize": "First Prize: 15000/- ( 10000/- cash INR + 6000/- worth coupons) \r\n Second Prize: 9000/- ( 5000/- cash INR + 3500/- worth coupons)",
 			"coordinators": "Dixank Dwivedi :   +91-9509249899\r\nVishal Jain\r\nSuryanshi Adaniya\r\n Surbhi shriwastav\r\nArpit Gupta",
-			"class": "col-sm-4 col-xs-6"
+			"class": "col-sm-3 col-xs-6"
 		}]
 	},
 	"4": {
