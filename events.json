@@ -443,7 +443,7 @@
 			"venue": "<b>Date: </b>    11th March, 2017\r\n<b>Time: </b>    9:30 AM to 4:30 PM\r\n<b>Venue: </b>  C 401 ",
 			"prize": "1st Prize :     &#8377;10,000\r\n5 Consolation prizes worth &#8377;3000/-",
 			"coordinators": "Anisha Goyal :   +91-9784016561\r\nRonak Patni :   +91-7597344484\r\nShubham Khandelwal :   +91-8290395377\r\nAnjali Agarwal :   +91-7727900245S\r\nSamarth Tholia :   +91-7568088929\r\nShubham Serva :   +91-9024886356",
-			"class": "col-sm-4 col-xs-6"
+			"class": "col-sm-3 col-xs-6"
 		}, {
 			"id": "224",
 			"name": "Best Out Of Waste",
@@ -750,7 +750,7 @@
  "venue": "<b>Date: </b> 8th March, 2017\r\n<b>Time: </b>  11:0AM to 4:00PM\r\n<b>Venue: </b>Conference hall (A block)",
  "prize": "1st Prize :     &#8377;1100\r\n2nd Prize :     &#8377;750 ",
  "coordinators": "Akshita Mangal :   +91-9460441766\r\nHarshit Jain :   +91-8233437773\r\nAnurag Garg :   +91-8058454802\r\nShubham Agrawal :   +91-7619726022\r\nNeha Gour :   +91-9001247068\r\nAyush Bhatnagar :   +91-9571067121\r\nNanika Gee Padha :   +91-9610974442",
- "class": "col-sm-3 col-xs-6"
+ "class": "col-sm-4 col-xs-6"
 },{
  "id": "246",
  "name": "Electro Quizzard",
@@ -764,7 +764,7 @@
  "venue": "<b>Date: </b> 9th March, 2017\r\n<b>Time: </b>  12:0AM to 4:30PM\r\n<b>Venue: </b>EE Cad Lab, CP-15 (B-Block)",
  "prize": "1st Prize :     &#8377;1100\r\n2nd Prize :     &#8377;700 ",
  "coordinators": "Him Shikhar :   +91-7062709998 \r\nTushar Jain :   +91-8561970403&gt; \r\nVipul Jain :   +91-8502082322&gt; \r\nTanuj sukhpadia :   +91-8058950867",
- "class": "col-sm-3 col-xs-6"
+ "class": "col-sm-4 col-xs-6"
 },{
  "id": "247",
  "category": "2",
@@ -778,7 +778,7 @@
  "venue": "<b>Date: </b> 11th March, 2017\r\n<b>Time: </b>  9:30AM to 12:30PM\r\n<b>Venue: </b>PE Lab , B- Block",
  "prize": "1st Prize :     &#8377;2100\r\n2nd Prize :     &#8377;1100 ",
  "coordinators": "Romit Malav :   +91-9460954765\r\nPrakash Bijarniya :   +91-8003017483\r\nSandeep Pareek :   +91-7597589351\r\n Navjot singh :   +91-8003044197\r\nAnju Shukla :   +91-7062829517\r\nNeeraj Singla :   +91-8764375636",
- "class": "col-sm-3 margin-events3 col-xs-6"
+ "class": "col-sm-4 margin-events3 col-xs-6"
 },{
  "id": "248",
  "category": "2",
