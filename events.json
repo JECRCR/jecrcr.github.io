@@ -247,19 +247,19 @@
 			"prize": "1st Prize :     &#8377;Rs. 5,000/- cash prize.\r\n10 Consolation prizes of Rs. 500/- each.",
 			"coordinators": "Ayush Garg :   +91-7597 140740\r\nKapil Khandelwal :   +91-8766 101160\r\nMohit Jain :   +91-7073 590355\r\nDaksha Humad :   +91-7877 822824",
 			"class": "col-sm-3 col-xs-6"
-		}, {
+		},{
 			"id": "202",
 			"name": "Subito",
 			"category": "2",
 			"type": "1",
 			"title": "subito",
 			"about": "An event based on the theme based web, mobile app development. Participants have to prepare the app and have to show case their app in the front of panel of judges.",
-			"rules": "<ol><li>Maximum 3 team members are allowed per team .Solo participation is also valid.</li><li>A theme will be provided, and you have to build an app according to that theme. Theme will announced later.</li><li>The event will be of 8 hour’s duration.</li><li>Teams will be provided with refreshments twice during the event.</li><li>Participating team can choose any platform out of these- desktop app, web app, Website or mobile app. </li><li>On the main day, they have to create the app or website under the event time .They may bring their own laptops if not they can also work on college provided system. </li><li>They will be given a problem, challenge, either in the form of an additional module to whatever they have made. </li><li>During the event, questions may be asked to them regarding their application. </li><li>Internet access will be provided.</li></ol>\r\n<b>Judgement criteria (read all points carefully)</b>\r\n<ol><li>Any programming language can be used.</li><li>Uniqueness of idea .Innovation and creativity will be a major factor in decision.</li><li>Clarity of concepts about programming. Person having good concepts will be preferred.</li><li>Level of programming (Clarity in code, easy to understand. Proper usage of syntax and validations, security features. GOOD CODED C SOFTWARE>>BAD CODED E COMMERCE WEBSITE)</li><li>User Interface and simplicity i.e. ease of use.</li><li>Implementation and usage of developed app. The developed application should be useful and commercially viable. </li><li>The successful completion of challenges given by the judges can be used as a tiebreaker. </li></ol>",
-			"fees": "Entry Fee :     &#8377;350 per team",
+                        "rules":"1. Maximum 2 team members are allowed per team .Solo \r\n participation is also valid. \r\n 2. A theme will be provided, and you have to build an app according to that theme. Theme will announced later. \r\n 3. The event will be of 7 hour’s duration. \r\n 4. Teams will be provided with refreshments during the event. \r\n 5. Participating team can choose any platform out of these- Web or App Development.\r\n 6. On the main day, they have to create the app or website under the event time .They may bring their own laptops if not they can also work on college provided system. \r\n 7. They will be given a problem, challenge. \r\n 8. During the event, questions may be asked to them regarding \r\n their application. \r\n 9. Internet access will be provided. <b>Judgement criteria (read all points carefully)</b> \r\n 1. Any programming language can be used. \r\n 2. Uniqueness of idea .Innovation and creativity will be a major factor in decision. \r\n 3. Clarity of concepts about programming. Person having good concepts will be preferred. \r\n 4. Level of programming (Clarity in code, easy to understand. Proper usage of syntax and validations, security features. GOOD CODED C SOFTWARE&gt;&gt;BAD CODED E COMMERCE WEBSITE) \r\n 5. User Interface and simplicity i.e. ease of use. \r\n 6. Implementation and usage of developed app. The developed application should be useful and commercially viable. \r\n 7. The successful completion of challenges given by the judges can be used as a tiebreaker.",
+			"fees": "Entry Fee :     &#8377;200 per team",
 			"thumbnail": "quanta/subito.png",
-			"venue": "<b>Date: </b>    20th March, 2016\r\n<b>Time: </b>    9:30 AM to 5:30 PM\r\n<b>Venue: </b>    C-Block CP 18",
-			"prize": "1st Prize :     &#8377;3000\r\n2nd Prize :     &#8377;1500",
-			"coordinators": "Karan Chaparwal : +91-9024777047\r\nAnkita Gupta :   +91-9782396315\r\nNikita Jain :   +91-8946943495\r\nGarima :   +91-9351510846",
+			"venue": "<b>Date: </b>    10th March, 2017\r\n<b>Time: </b>    9:30 AM to 4:30 PM\r\n<b>Venue: </b>    A-Block IBM Lab",
+			"prize": "1st Prize :     &#8377;2500\r\n2nd Prize :     &#8377;1500",
+			"coordinators": "Aman Jain :   +91-8233298222 \r\n Keshav Modi :   +91-9414628611 \r\n Prakhar Khandelwal :   91-7976592903 \r\n Yash Vijay :   +91-8559991181 \r\n Vaibhav :   +91-9460277965",
 			"class": "col-sm-3 col-xs-6"
 		}, {
 			"id": "203",
