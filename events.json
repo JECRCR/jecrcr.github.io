@@ -332,6 +332,21 @@
 			"coordinators": "Mohit Pareek :   +91-9782941104\r\nRahul Gupta :   +91-8561844204\r\nGovind Vyas :   +91-9610488491\r\nSatyam Jain :   +91-7737436129\r\nGagan Jindal:   +91-9602085058",
 			"class": "col-sm-4 col-xs-6"
 		}, {
+			 "id": "249",
+			 "category": "2",
+			 "name": "Combatant War Tech REN-17",
+			 "type": "4",
+			 "title": "Combatant war",
+			 "about": "The idea and concept that come here are simply awesome. Great platform for a bit fun and a bit play with tones of knowledge that you take away. This event will consist of two rounds. First one is objective questions round and second one is designing and testing of circuit on breadboard using various components.",
+			 "rules": "1. Maximum number of participants in a team is 3. \r\n 2. Bring your college Id cards and receipt of participation on event day. \r\n 3. Mobile phones and calculators are not allowed during the event. \r\n 4. The teams will get 30 minutes for objective paper. \r\n 5. The topics of the objective paper will be from basic electrical, aptitude and related streams. \r\n 6. Person from the different colleges may be in the same team, but one person may not be a part of two teams in the same event. \r\n 7. The decision of the judges will be final and no arguments will be entertained.",
+			 "fees": "Entry Fee :     &#8377;200",
+			 "thumbnail": "quanta/combatant.png",
+			 "venue": "<b>Date: </b> 11th March, 2017\r\n<b>Time: </b>  12:30AM to 3:30PM\r\n<b>Venue: </b>PE Lab ( EE Department , B Block)",
+			 "prize": "1st Prize :     &#8377;1200\r\n2nd Prize :     &#8377;800 ",
+			 "coordinators": "Aamir Sadik khan :   +91-9024366147\r\n Aditya Sharma :   +91-9571603402\r\n Arun Gahlot :   +91-8114466747\r\n Chandraveer Singh Rathore :   +91-8955721733",
+			 "class": "col-sm-4 col-xs-6"
+			},
+			   {
 			"id": "210",
 			"name": "FORMULA ZERO",
 			"category": "2",
@@ -793,20 +808,6 @@
  "prize": "1st Prize :     &#8377;2100\r\n2nd Prize :     &#8377;1600 ",
  "coordinators": "Aayushi Mukhija :   +91-7023733082\r\nAman Bansal :   +91-7689045659\r\nBharti Naraniya :   +91-9352703037\r\nMukul bhardwaj :   +91-9414317133\r\nUttam kumar :   +91-7728040678\r\nVivek",
  "class": "col-sm-3 col-xs-6"
-},{
- "id": "249",
- "category": "2",
- "name": "Combatant War Tech REN-17",
- "type": "4",
- "title": "Combatant war",
- "about": "The idea and concept that come here are simply awesome. Great platform for a bit fun and a bit play with tones of knowledge that you take away. This event will consist of two rounds. First one is objective questions round and second one is designing and testing of circuit on breadboard using various components.",
- "rules": "1. Maximum number of participants in a team is 3. \r\n 2. Bring your college Id cards and receipt of participation on event day. \r\n 3. Mobile phones and calculators are not allowed during the event. \r\n 4. The teams will get 30 minutes for objective paper. \r\n 5. The topics of the objective paper will be from basic electrical, aptitude and related streams. \r\n 6. Person from the different colleges may be in the same team, but one person may not be a part of two teams in the same event. \r\n 7. The decision of the judges will be final and no arguments will be entertained.",
- "fees": "Entry Fee :     &#8377;200",
- "thumbnail": "quanta/combatant.png",
- "venue": "<b>Date: </b> 11th March, 2017\r\n<b>Time: </b>  12:30AM to 3:30PM\r\n<b>Venue: </b>PE Lab ( EE Department , B Block)",
- "prize": "1st Prize :     &#8377;1200\r\n2nd Prize :     &#8377;800 ",
- "coordinators": "Aamir Sadik khan :   +91-9024366147\r\n Aditya Sharma :   +91-9571603402\r\n Arun Gahlot :   +91-8114466747\r\n Chandraveer Singh Rathore :   +91-8955721733",
- "class": "col-sm-4 col-xs-6"
 },{
  "id": "250",
  "name": "embryo cs",
