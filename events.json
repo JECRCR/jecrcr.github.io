@@ -239,13 +239,13 @@
 			"category": "2",
 			"type": "1",
 			"title": "just-c",
-			"about": "JUST C is an event based on C programming language. Questions of error output and C programs will be its ingredients. \r\nParticipants are required to be in a team of 2 members.\r\n\r\nAn online competition will also be organized that will give the participants direct entry to the second round. For more info, check event’s <a href=\"https://www.facebook.com/renaissance.justc\" target=\"_blank\">Facebook page</a>",
-			"rules": "Two rounds of the event will be conducted.\r\n\r\n<b>Round 1:</b>\r\nIn this task each team have to solve MCQ’s. Time duration is of 45 minutes.\r\nFor each correct answer 3 points will be awarded and negative 1 point for each incorrect answer. However, no marks will be deducted for not attempting the question.\r\nQualified teams will be eligible for next round.\r\n\r\n<b>Round 2:</b>\r\nTeams are required to code C programs on provided computer system within given time duration.\r\nTeam completing task in minimum time will be awarded.\r\nCompetition is planned to be organized on an online competitive platform service.\r\nDecision of judges will be final.",
+			"about": "Just C is an event based on C programming language. It will provide you a platform to test and enhance your programming skills. It will be conducted by HackerEarth (an online competitive platform). For more info, check event’s <a href=\"https://www.facebook.com/renaissance.justc\" target=\"_blank\">Facebook page</a>",
+			"rules": "Two rounds will be conducted.\r\n\r\n<b>Round 1</b> \r\n 1. Each participant has to participate individually. \r\n 2. Each participant has to solve multiple choice questions. \r\n 3. Time duration will be of 45 min. \r\n 4. Only the shortlisted candidates of this round will be eligible for Round 2, which is the final round. \r\n<b> Round 2</b> \r\n1. This round will consist of coding questions ONLY. \r\n2. Candidates are required to program ONLY in C language. No other language will be entertained. \r\n3. Candidates completing task in minimum time will be awarded. \r\n4. Decision of the judges will be final.",
 			"fees": "Entry Fee :     &#8377;100 per candidate.",
 			"thumbnail": "quanta/just-c.png",
 			"venue": "<b>Date: </b>    10th March, 2017\r\n<b>Time: </b>    9:30 AM to 3:30 PM\r\n<b>Venue: </b>   CP1 to CP8, Block A",
 			"prize": "1st Prize :     &#8377;Rs. 5,000/- cash prize.\r\n10 Consolation prizes of Rs. 500/- each.",
-			"coordinators": "Ayush Garg :   +91-7597 140740\r\nKapil Khandelwal :   +91-8766 101160\r\nMohit Jain :   +91-7073 590355\r\nDaksha Humad :   +91-7877 822824",
+			"coordinators": "Ayush Garg :   +91-7597140740\r\nKapil Khandelwal :   +91-8766101160\r\nMohit Jain :   +91-7073590355\r\nDaksha Humad :   +91-7877822824",
 			"class": "col-sm-3 col-xs-6"
 		},{
 			"id": "202",
