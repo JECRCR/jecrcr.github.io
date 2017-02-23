@@ -261,7 +261,23 @@
 			"prize": "1st Prize :     &#8377;2500\r\n2nd Prize :     &#8377;1500",
 			"coordinators": "Atul Modi :   +91-9460822240 \r\nPushpendra Singh :   +91-9828882078 \r\n Keshav Modi :   +91-9414628611 \r\n Aman Jain :   +91-8233298222 \r\n Prakhar Khandelwal :   91-7976592903",
 			"class": "col-sm-3 col-xs-6"
-		}, {
+		}, 
+		{
+			"id": "252",
+			"name": "Catch The Phrase",
+			"category": "2",
+			"type": "1",
+			"title": "catch-the-phrase",
+			"about": "An intriguing quiz that will test your rudimentary technical knowledge and enthrall you throughout with exciting and innovative rounds.",
+			"rules":"Round 1- Jumbled words!\r\n1.) Participants will be given certain number ofjumbled words related to technical and non-technical field which has to be solved in limited time.\r\n2.) It will be a pen and paper test.\r\n3.) Marks will be allotted on the basis of correct answers and few teams will qualify for the next and final round of the game.\r\nRound 2- The Taboo!\r\n1.) The objective of the game is for one player to have their partners guess the word on the players card without using the word itself. That word will be the forbidden word known as the taboo word.\r\n2.) Participants, if fail to guess, can pass and move on to the next word.\r\n3.) Winner of the game will be decided on the basis of maximum correct answers in specific time.",
+			"fees": "Entry Fee :     &#8377;150",
+			"thumbnail": "quanta/let-me-speak.png",
+			"venue": "<b>Date: </b>    9th March, 2017\r\n<b>Time: </b>    9:30 AM to 12:00 PM\r\n<b>Venue: </b>  Venue: C- 401",
+			"prize": "1st Prize :   &#8377;3000\r\n2nd Prize :   &#8377;1000",
+			"coordinators": "Nikita Gaur :   +91-7597394087 \r\n Himani Sharma :   +91-8440956575",
+			"class": "col-sm-3 col-xs-6"
+		},
+		{
 			"id": "203",
 			"name": "JAVA LETS",
 			"category": "2",
@@ -599,7 +615,7 @@
 			"venue": "<b>Date: </b>  9th and 10th March, 2017\r\n<b>Time: </b>    9:30 AM to 12:30 PM\r\n<b>Venue: </b>Wisdom hall, Spiritual Research Cell, Near BH-1, JECRC",
 			"prize": "Two lucky winners will get opportunity of Karadascan &amp; Aura Scanning.",
 			"coordinators": "Gaurav Trivedi \r\nRishika Agarwal \r\nArush Maski \r\nAkash Damotiya \r\nRitika Safaya",
-			"class": "col-sm-4 col-xs-6"
+			"class": "col-sm-3 col-xs-6"
 		} ,
 {
  "id": "235",
@@ -821,7 +837,7 @@
  "venue": "<b>Date: </b> 8th March, 2017\r\n<b>Time: </b>  11:0AM to 4:00PM\r\n<b>Venue: </b>CS-401,C-Block",
  "prize": "1st Prize :     &#8377;3000\r\n2nd Prize :     &#8377;2000 ",
  "coordinators": "Priyanshu Gupta – 8239919466 \r\n Ishmeet Kaur – 8058468569 \r\n Aman Agrawal – 8946912785 \r\n Akshay Jain – 9983543400",
- "class": "col-sm-4 col-xs-6"
+ "class": "col-sm-3 col-xs-6"
 },{
 	"id": "251",
 	"name": "Reverse Engineering CS",
@@ -835,9 +851,8 @@
 	"venue": "<b>Date: </b>    9th March, 2017\r\n<b>Time: </b>    9:30 AM to 3:30 PM\r\n<b>Venue: </b>  CP5 , A block",
 	"prize": "1st Prize :   &#8377;5000\r\nConsolation prizes",
 	"coordinators": "Ramashish Tomar :   +91-8005889345 \r\n Utkarsh Mundra :   +91-8764397750 \r\n Astha Koul :   +91-8003746646.",
-	"class": "col-sm-4 col-xs-6"
+	"class": "col-sm-3 col-xs-6"
 }
-
 	]
 	},
 	"3": {
