@@ -261,7 +261,7 @@
 			"prize": "1st Prize :     &#8377;2500\r\n2nd Prize :     &#8377;1500",
 			"coordinators": "Atul Modi :   +91-9460822240 \r\nPushpendra Singh :   +91-9828882078 \r\n Keshav Modi :   +91-9414628611 \r\n Aman Jain :   +91-8233298222 \r\n Prakhar Khandelwal :   91-7976592903",
 			"class": "col-sm-3 col-xs-6"
-		}, 
+		},
 		{
 			"id": "252",
 			"name": "Catch The Phrase",
@@ -274,7 +274,7 @@
 			"thumbnail": "quanta/let-me-speak.png",
 			"venue": "<b>Date: </b>    9th March, 2017\r\n<b>Time: </b>    9:30 AM to 12:00 PM\r\n<b>Venue: </b>  Venue: C- 401",
 			"prize": "1st Prize :   &#8377;3000\r\n2nd Prize :   &#8377;1000",
-			"coordinators": "Nikita Gaur :   +91-7597394087 \r\n Himani Sharma :   +91-8440956575\r\n Amit Agarwal :   +91-8094556013",
+			"coordinators": "Nikita Gaur :   +91-7597394087 \r\n Himani Sharma :   +91-8440956575\r\nLokesh Soni :   +91-9829571189\r\nAsmita Goswami :   +91-7297905935\r\n Amit Agarwal :   +91-8094556013",
 			"class": "col-sm-3 col-xs-6"
 		},
 		{
@@ -289,7 +289,7 @@
 			"thumbnail": "quanta/java-lets.png",
 			"venue": "<b>Date: </b>    11th March, 2017\r\n<b>Time: </b>   12:30 NOON to 2:30 PM\r\n<b>Venue:</b>    IBM Lab",
 			"prize": "1st Prize :     &#8377;3000\r\n2nd Prize :     &#8377;2000\r\n3rd Prize :     &#8377;1000",
-			"coordinators": "Saurabh Modi :   +91-9509088668\r\nAbhishek Pandey :   +91-7597867068\r\nAbhishek Sarawag :   +91-9610616042\r\nPranav Dua :   +91-8739958037",
+			"coordinators": "Saurabh Modi :   +91-9509088668\r\nAditya Gurjar :   +91-9928981600\r\nAbhishek Pandey :   +91-7597867068\r\nAbhishek Sarawag :   +91-9610616042\r\nPranav Dua :   +91-8739958037\r\nAnkur Jain :   +91-8003207444",
 			"class": "col-sm-3 col-xs-6"
 		},{
 			"id": "204",
@@ -836,7 +836,7 @@
  "thumbnail": "quanta/embryo.png",
  "venue": "<b>Date: </b> 8th March, 2017\r\n<b>Time: </b>  11:0AM to 4:00PM\r\n<b>Venue: </b>CS-401,C-Block",
  "prize": "1st Prize :     &#8377;3000\r\n2nd Prize :     &#8377;2000 ",
- "coordinators": "Priyanshu Gupta – 8239919466 \r\n Ishmeet Kaur – 8058468569 \r\n Aman Agrawal – 8946912785 \r\n Akshay Jain – 9983543400",
+ "coordinators": "Kamakhya Bansal – 7413029001 \r\nPriyanshu Gupta – 8239919466 \r\n Ishmeet Kaur – 8058468569 \r\n Aman Agrawal – 8946912785 \r\n Akshay Jain – 9983543400",
  "class": "col-sm-3 col-xs-6"
 },{
 	"id": "251",
@@ -1022,4 +1022,3 @@
 		}]
 	}
 }
-
