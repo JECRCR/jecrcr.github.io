@@ -79,6 +79,10 @@ renApp.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
 
                      '4': [{n: 'Surabhi Soni', m: 'surabhi252605@gmail.com',img:'anand.jpg',p:'+91-8764323635'},
                          {n: 'Yashdeep Bhatnagar', m: 'yashdeep.bhatnagar03@gmail.com',img:'deeksha.jpg',p:'+91-8107417995'}
+                     ],
+
+                     '7': [{n: 'Palak Jain', m: '26jain.palak@gmail.com',img:'palak.jpg',p:'+91-8952998077'},
+                         {n: 'Suhail alam', m: 'ramhot94@gmail.com',img:'ram.JPG',p:'+91-9587945835'}
                      ]
 
                 };
